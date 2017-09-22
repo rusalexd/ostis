@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/merge/CMakeFiles/merge.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/CMakeFiles/merge.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/CMakeFiles/merge.dir/rule
 .PHONY : sc-kpm/merge/CMakeFiles/merge.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ merge: sc-kpm/merge/CMakeFiles/merge.dir/rule
 
 # fast build rule for target.
 merge/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/build
 .PHONY : merge/fast
 
 agents/merge_set.o: agents/merge_set.c.o
@@ -175,7 +175,7 @@ agents/merge_set.o: agents/merge_set.c.o
 
 # target to build an object file
 agents/merge_set.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o
 .PHONY : agents/merge_set.c.o
 
 agents/merge_set.i: agents/merge_set.c.i
@@ -184,7 +184,7 @@ agents/merge_set.i: agents/merge_set.c.i
 
 # target to preprocess a source file
 agents/merge_set.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.i
 .PHONY : agents/merge_set.c.i
 
 agents/merge_set.s: agents/merge_set.c.s
@@ -193,7 +193,7 @@ agents/merge_set.s: agents/merge_set.c.s
 
 # target to generate assembly for a file
 agents/merge_set.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.s
 .PHONY : agents/merge_set.c.s
 
 merge.o: merge.c.o
@@ -202,7 +202,7 @@ merge.o: merge.c.o
 
 # target to build an object file
 merge.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o
 .PHONY : merge.c.o
 
 merge.i: merge.c.i
@@ -211,7 +211,7 @@ merge.i: merge.c.i
 
 # target to preprocess a source file
 merge.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge.c.i
 .PHONY : merge.c.i
 
 merge.s: merge.c.s
@@ -220,7 +220,7 @@ merge.s: merge.c.s
 
 # target to generate assembly for a file
 merge.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge.c.s
 .PHONY : merge.c.s
 
 merge_keynodes.o: merge_keynodes.c.o
@@ -229,7 +229,7 @@ merge_keynodes.o: merge_keynodes.c.o
 
 # target to build an object file
 merge_keynodes.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o
 .PHONY : merge_keynodes.c.o
 
 merge_keynodes.i: merge_keynodes.c.i
@@ -238,7 +238,7 @@ merge_keynodes.i: merge_keynodes.c.i
 
 # target to preprocess a source file
 merge_keynodes.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.i
 .PHONY : merge_keynodes.c.i
 
 merge_keynodes.s: merge_keynodes.c.s
@@ -247,7 +247,7 @@ merge_keynodes.s: merge_keynodes.c.s
 
 # target to generate assembly for a file
 merge_keynodes.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.s
 .PHONY : merge_keynodes.c.s
 
 merge_utils.o: merge_utils.c.o
@@ -256,7 +256,7 @@ merge_utils.o: merge_utils.c.o
 
 # target to build an object file
 merge_utils.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o
 .PHONY : merge_utils.c.o
 
 merge_utils.i: merge_utils.c.i
@@ -265,7 +265,7 @@ merge_utils.i: merge_utils.c.i
 
 # target to preprocess a source file
 merge_utils.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.i
 .PHONY : merge_utils.c.i
 
 merge_utils.s: merge_utils.c.s
@@ -274,7 +274,7 @@ merge_utils.s: merge_utils.c.s
 
 # target to generate assembly for a file
 merge_utils.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.s
 .PHONY : merge_utils.c.s
 
 # Help Target
@@ -313,6 +313,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

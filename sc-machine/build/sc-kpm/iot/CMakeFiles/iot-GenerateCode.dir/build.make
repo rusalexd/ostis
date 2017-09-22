@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Utility rule file for iot-GenerateCode.
 
@@ -57,8 +57,8 @@ sc-kpm/iot/CMakeFiles/iot-GenerateCode: sc-kpm/iot/iot.gen_cache.missed
 
 
 sc-kpm/iot/iot.gen_cache.missed:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating iot.gen_cache.missed"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && ../../../bin/sc-code-generator --target iot --source /home/rusale/DV/ostis/sc-machine/sc-kpm/iot --output /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/iot_gen --build_dir /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot --flags '-I/home/rusale/DV/ostis/sc-machine/thirdparty;-I/home/rusale/DV/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/home/rusale/DV/ostis/sc-machine/sc-kpm/iot;-I/home/rusale/DV/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/home/rusale/DV/ostis/sc-machine/thirdparty;-I/home/rusale/DV/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/home/rusale/DV/ostis/sc-machine/sc-kpm/iot;-I/home/rusale/DV/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;'
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating iot.gen_cache.missed"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && ../../../bin/sc-code-generator --target iot --source /root/ostis/sc-machine/sc-kpm/iot --output /root/ostis/sc-machine/build/sc-kpm/iot/iot_gen --build_dir /root/ostis/sc-machine/build/sc-kpm/iot --flags '-I/root/ostis/sc-machine/thirdparty;-I/root/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/root/ostis/sc-machine/sc-kpm/iot;-I/root/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/root/ostis/sc-machine/thirdparty;-I/root/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/root/ostis/sc-machine/sc-kpm/iot;-I/root/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;'
 
 iot-GenerateCode: sc-kpm/iot/CMakeFiles/iot-GenerateCode
 iot-GenerateCode: sc-kpm/iot/iot.gen_cache.missed
@@ -72,10 +72,10 @@ sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build: iot-GenerateCode
 .PHONY : sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build
 
 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && $(CMAKE_COMMAND) -P CMakeFiles/iot-GenerateCode.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && $(CMAKE_COMMAND) -P CMakeFiles/iot-GenerateCode.dir/cmake_clean.cmake
 .PHONY : sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/clean
 
 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/iot /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/iot /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/iot /root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/depend
 

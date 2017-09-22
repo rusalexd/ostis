@@ -29,8 +29,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.cpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.o
  ../sc-memory/cpp/sc_addr.hpp
  ../sc-memory/cpp/sc_debug.hpp
@@ -59,8 +59,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test_wrap.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test_wrap.cpp
 sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.o
  ../sc-memory/cpp/generated/sc_agent.generated.hpp
  ../sc-memory/cpp/kpm/sc_agent.hpp
@@ -92,10 +92,10 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_codegen.cpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_codegen.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -202,8 +202,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_common.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_common.cpp
 sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.o
  ../sc-memory/cpp/sc_addr.hpp
  ../sc-memory/cpp/sc_debug.hpp
@@ -233,8 +233,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_iterators.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_iterators.cpp
 sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.o
  ../sc-memory/cpp/generated/sc_agent.generated.hpp
  ../sc-memory/cpp/kpm/sc_agent.hpp
@@ -267,9 +267,9 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.cpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -373,8 +373,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.cpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
  sc-memory/test/test_wrap_gen/test_sc_object.generated.hpp
 sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.o
  ../sc-memory/cpp/sc_addr.hpp
@@ -405,8 +405,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_streams.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_streams.cpp
 sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.o
  ../sc-memory/cpp/sc_addr.hpp
  ../sc-memory/cpp/sc_debug.hpp
@@ -436,8 +436,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_struct.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_struct.cpp
 sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.o
  ../sc-memory/cpp/sc_addr.hpp
  ../sc-memory/cpp/sc_debug.hpp
@@ -467,8 +467,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_templates.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_templates.cpp
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -574,8 +574,8 @@ sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_wait.cpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+ /root/ostis/sc-machine/sc-memory/test/wrap/units/test_wait.cpp
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h

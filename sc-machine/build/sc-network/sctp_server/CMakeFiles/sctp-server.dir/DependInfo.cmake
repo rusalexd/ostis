@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/main.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o"
+  "/root/ostis/sc-machine/sc-network/sctp_server/main.cpp" "/root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o"
+  "/root/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp" "/root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o"
+  "/root/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp" "/root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o"
+  "/root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp" "/root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o"
+  "/root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp" "/root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o"
+  "/root/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp" "/root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o"
+  "/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp" "/root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,7 +38,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include tools/builder/CMakeFiles/sc-builder.dir/depend.make
@@ -58,8 +58,8 @@ include tools/builder/CMakeFiles/sc-builder.dir/progress.make
 include tools/builder/CMakeFiles/sc-builder.dir/flags.make
 
 ../tools/builder/src/parser/scsLexer.c: ../tools/builder/grammar/scs.g
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../tools/builder/src/parser/scsLexer.c, ../../../tools/builder/src/parser/scsLexer.h, ../../../tools/builder/src/parser/scsParser.c, ../../../tools/builder/src/parser/scsParser.h"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/java -jar /home/rusale/DV/ostis/sc-machine/thirdparty/antlr/antlr-3.2.jar /home/rusale/DV/ostis/sc-machine/tools/builder/grammar/scs.g -fo /home/rusale/DV/ostis/sc-machine/tools/builder/src/parser
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../tools/builder/src/parser/scsLexer.c, ../../../tools/builder/src/parser/scsLexer.h, ../../../tools/builder/src/parser/scsParser.c, ../../../tools/builder/src/parser/scsParser.h"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/java -jar /root/ostis/sc-machine/thirdparty/antlr/antlr-3.2.jar /root/ostis/sc-machine/tools/builder/grammar/scs.g -fo /root/ostis/sc-machine/tools/builder/src/parser
 
 ../tools/builder/src/parser/scsLexer.h: ../tools/builder/src/parser/scsLexer.c
 	@$(CMAKE_COMMAND) -E touch_nocreate ../tools/builder/src/parser/scsLexer.h
@@ -72,16 +72,16 @@ include tools/builder/CMakeFiles/sc-builder.dir/flags.make
 
 tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o: ../tools/builder/src/gwf_translator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/gwf_translator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o -c /root/ostis/sc-machine/tools/builder/src/gwf_translator.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/gwf_translator.cpp > CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/gwf_translator.cpp > CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/gwf_translator.cpp -o CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/gwf_translator.cpp -o CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o.requires:
 
@@ -96,16 +96,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o.provides.build:
 
 tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o: ../tools/builder/src/tinyxml/tinyxml2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o -c /root/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp > CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp > CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp -o CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp -o CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o.requires:
 
@@ -120,16 +120,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o.provides.buil
 
 tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o: ../tools/builder/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/main.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/main.cpp.o -c /root/ostis/sc-machine/tools/builder/src/main.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/main.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/main.cpp > CMakeFiles/sc-builder.dir/src/main.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/main.cpp > CMakeFiles/sc-builder.dir/src/main.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/main.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/main.cpp -o CMakeFiles/sc-builder.dir/src/main.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/main.cpp -o CMakeFiles/sc-builder.dir/src/main.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o.requires:
 
@@ -144,16 +144,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o.provides.build: tools/bui
 
 tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o: ../tools/builder/src/exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/exception.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/exception.cpp.o -c /root/ostis/sc-machine/tools/builder/src/exception.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/exception.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.cpp > CMakeFiles/sc-builder.dir/src/exception.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/exception.cpp > CMakeFiles/sc-builder.dir/src/exception.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/exception.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.cpp -o CMakeFiles/sc-builder.dir/src/exception.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/exception.cpp -o CMakeFiles/sc-builder.dir/src/exception.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o.requires:
 
@@ -168,16 +168,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o.provides.build: tool
 
 tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o: ../tools/builder/src/scs_translator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/scs_translator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o -c /root/ostis/sc-machine/tools/builder/src/scs_translator.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/scs_translator.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/scs_translator.cpp > CMakeFiles/sc-builder.dir/src/scs_translator.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/scs_translator.cpp > CMakeFiles/sc-builder.dir/src/scs_translator.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/scs_translator.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/scs_translator.cpp -o CMakeFiles/sc-builder.dir/src/scs_translator.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/scs_translator.cpp -o CMakeFiles/sc-builder.dir/src/scs_translator.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o.requires:
 
@@ -192,16 +192,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o.provides.build:
 
 tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o: ../tools/builder/src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/utils.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/utils.cpp.o -c /root/ostis/sc-machine/tools/builder/src/utils.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/utils.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.cpp > CMakeFiles/sc-builder.dir/src/utils.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/utils.cpp > CMakeFiles/sc-builder.dir/src/utils.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/utils.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.cpp -o CMakeFiles/sc-builder.dir/src/utils.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/utils.cpp -o CMakeFiles/sc-builder.dir/src/utils.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o.requires:
 
@@ -216,16 +216,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o.provides.build: tools/bu
 
 tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o: ../tools/builder/src/builder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/builder.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/builder.cpp.o -c /root/ostis/sc-machine/tools/builder/src/builder.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/builder.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/builder.cpp > CMakeFiles/sc-builder.dir/src/builder.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/builder.cpp > CMakeFiles/sc-builder.dir/src/builder.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/builder.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/builder.cpp -o CMakeFiles/sc-builder.dir/src/builder.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/builder.cpp -o CMakeFiles/sc-builder.dir/src/builder.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o.requires:
 
@@ -240,16 +240,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o.provides.build: tools/
 
 tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o: ../tools/builder/src/version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/version.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/version.cpp.o -c /root/ostis/sc-machine/tools/builder/src/version.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/version.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/version.cpp > CMakeFiles/sc-builder.dir/src/version.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/version.cpp > CMakeFiles/sc-builder.dir/src/version.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/version.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/version.cpp -o CMakeFiles/sc-builder.dir/src/version.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/version.cpp -o CMakeFiles/sc-builder.dir/src/version.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o.requires:
 
@@ -264,16 +264,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o.provides.build: tools/
 
 tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o: ../tools/builder/src/translator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/translator.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/translator.cpp.o -c /root/ostis/sc-machine/tools/builder/src/translator.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/translator.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.cpp > CMakeFiles/sc-builder.dir/src/translator.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/translator.cpp > CMakeFiles/sc-builder.dir/src/translator.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/translator.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.cpp -o CMakeFiles/sc-builder.dir/src/translator.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/translator.cpp -o CMakeFiles/sc-builder.dir/src/translator.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o.requires:
 
@@ -288,16 +288,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o.provides.build: too
 
 tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o: ../tools/builder/src/base64/base64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/base64/base64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o -c /root/ostis/sc-machine/tools/builder/src/base64/base64.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/base64/base64.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/base64/base64.cpp > CMakeFiles/sc-builder.dir/src/base64/base64.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/base64/base64.cpp > CMakeFiles/sc-builder.dir/src/base64/base64.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/base64/base64.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/base64/base64.cpp -o CMakeFiles/sc-builder.dir/src/base64/base64.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/base64/base64.cpp -o CMakeFiles/sc-builder.dir/src/base64/base64.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o.requires:
 
@@ -312,16 +312,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o.provides.build: 
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o: ../tools/builder/src/parseutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/parseutils.cpp.o -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-builder.dir/src/parseutils.cpp.o -c /root/ostis/sc-machine/tools/builder/src/parseutils.cpp
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-builder.dir/src/parseutils.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.cpp > CMakeFiles/sc-builder.dir/src/parseutils.cpp.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/parseutils.cpp > CMakeFiles/sc-builder.dir/src/parseutils.cpp.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-builder.dir/src/parseutils.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.cpp -o CMakeFiles/sc-builder.dir/src/parseutils.cpp.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/parseutils.cpp -o CMakeFiles/sc-builder.dir/src/parseutils.cpp.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o.requires:
 
@@ -336,16 +336,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o.provides.build: too
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o: ../tools/builder/src/parser/scsLexer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o   -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o   -c /root/ostis/sc-machine/tools/builder/src/parser/scsLexer.c
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.c > CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/parser/scsLexer.c > CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.c -o CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/parser/scsLexer.c -o CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o.requires:
 
@@ -360,16 +360,16 @@ tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o.provides.build: 
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o: tools/builder/CMakeFiles/sc-builder.dir/flags.make
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o: ../tools/builder/src/parser/scsParser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o   -c /home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o"
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o   -c /root/ostis/sc-machine/tools/builder/src/parser/scsParser.c
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-builder.dir/src/parser/scsParser.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.c > CMakeFiles/sc-builder.dir/src/parser/scsParser.c.i
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/tools/builder/src/parser/scsParser.c > CMakeFiles/sc-builder.dir/src/parser/scsParser.c.i
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-builder.dir/src/parser/scsParser.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.c -o CMakeFiles/sc-builder.dir/src/parser/scsParser.c.s
+	cd /root/ostis/sc-machine/build/tools/builder && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/tools/builder/src/parser/scsParser.c -o CMakeFiles/sc-builder.dir/src/parser/scsParser.c.s
 
 tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o.requires:
 
@@ -417,8 +417,8 @@ sc__builder_EXTERNAL_OBJECTS =
 ../bin/sc-builder: tools/builder/CMakeFiles/sc-builder.dir/build.make
 ../bin/sc-builder: ../bin/libsc-memory.so
 ../bin/sc-builder: tools/builder/CMakeFiles/sc-builder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ../../../bin/sc-builder"
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-builder.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable ../../../bin/sc-builder"
+	cd /root/ostis/sc-machine/build/tools/builder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-builder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/builder/CMakeFiles/sc-builder.dir/build: ../bin/sc-builder
@@ -442,13 +442,13 @@ tools/builder/CMakeFiles/sc-builder.dir/requires: tools/builder/CMakeFiles/sc-bu
 .PHONY : tools/builder/CMakeFiles/sc-builder.dir/requires
 
 tools/builder/CMakeFiles/sc-builder.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && $(CMAKE_COMMAND) -P CMakeFiles/sc-builder.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/tools/builder && $(CMAKE_COMMAND) -P CMakeFiles/sc-builder.dir/cmake_clean.cmake
 .PHONY : tools/builder/CMakeFiles/sc-builder.dir/clean
 
 tools/builder/CMakeFiles/sc-builder.dir/depend: ../tools/builder/src/parser/scsLexer.c
 tools/builder/CMakeFiles/sc-builder.dir/depend: ../tools/builder/src/parser/scsLexer.h
 tools/builder/CMakeFiles/sc-builder.dir/depend: ../tools/builder/src/parser/scsParser.c
 tools/builder/CMakeFiles/sc-builder.dir/depend: ../tools/builder/src/parser/scsParser.h
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/tools/builder /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/tools/builder /home/rusale/DV/ostis/sc-machine/build/tools/builder/CMakeFiles/sc-builder.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/tools/builder /root/ostis/sc-machine/build /root/ostis/sc-machine/build/tools/builder /root/ostis/sc-machine/build/tools/builder/CMakeFiles/sc-builder.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/builder/CMakeFiles/sc-builder.dir/depend
 

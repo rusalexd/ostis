@@ -20,7 +20,7 @@ sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c
+ /root/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -112,22 +112,22 @@ sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/agents/merge_set.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_agents.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/merge/agents/merge_set.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge.c
+ /root/ostis/sc-machine/sc-kpm/merge/merge.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge_agents.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.h
 sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o
  ../sc-memory/sc-store/sc_defines.h
  ../sc-memory/sc-store/sc_stream.h
  ../sc-memory/sc-store/sc_types.h
  ../sc-memory/sc_helper.h
  ../sc-memory/sc_memory.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c
+ /root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -220,11 +220,11 @@ sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_defines.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_utils.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_utils.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge_defines.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/merge/merge_utils.c
+ /root/ostis/sc-machine/sc-kpm/merge/merge_utils.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h

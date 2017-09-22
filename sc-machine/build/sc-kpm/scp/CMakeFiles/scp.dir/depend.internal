@@ -22,11 +22,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_debugger.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_debugger.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_debugger.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_debugger.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -124,17 +124,17 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_creator.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_process_creator.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -232,10 +232,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -334,10 +334,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -429,10 +429,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -448,10 +448,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -467,10 +467,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -486,10 +486,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -506,20 +506,20 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -611,9 +611,9 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -629,9 +629,9 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -647,10 +647,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -666,10 +666,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -685,10 +685,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -704,9 +704,9 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -722,10 +722,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -741,9 +741,9 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -759,11 +759,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -779,8 +779,8 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -796,8 +796,8 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -896,12 +896,12 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1000,11 +1000,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1103,10 +1103,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1204,12 +1204,12 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_debugger.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_debugger.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1307,12 +1307,12 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_debugger.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_debugger.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1410,11 +1410,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1512,11 +1512,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_creator.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_process_creator.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1614,11 +1614,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c
+ /root/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -1710,9 +1710,9 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -1729,8 +1729,8 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.c
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -1747,9 +1747,9 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -1765,11 +1765,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -1785,11 +1785,11 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
+ /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h

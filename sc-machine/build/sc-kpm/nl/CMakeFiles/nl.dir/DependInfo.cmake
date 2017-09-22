@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp" "/root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/nl/nl.cpp" "/root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp" "/root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp" "/root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp" "/root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp" "/root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -33,9 +33,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

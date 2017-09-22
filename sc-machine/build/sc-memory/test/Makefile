@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-memory/test/CMakeFiles/sc-memory-test.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/sc-memory-test.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/sc-memory-test.dir/rule
 .PHONY : sc-memory/test/CMakeFiles/sc-memory-test.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ sc-memory-test: sc-memory/test/CMakeFiles/sc-memory-test.dir/rule
 
 # fast build rule for target.
 sc-memory-test/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/build
 .PHONY : sc-memory-test/fast
 
 # Convenience name for target.
 sc-memory/test/CMakeFiles/test_wrap.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_wrap.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_wrap.dir/rule
 .PHONY : sc-memory/test/CMakeFiles/test_wrap.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ test_wrap: sc-memory/test/CMakeFiles/test_wrap.dir/rule
 
 # fast build rule for target.
 test_wrap/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/build
 .PHONY : test_wrap/fast
 
 # Convenience name for target.
 sc-memory/test/CMakeFiles/test_threading.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_threading.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_threading.dir/rule
 .PHONY : sc-memory/test/CMakeFiles/test_threading.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ test_threading: sc-memory/test/CMakeFiles/test_threading.dir/rule
 
 # fast build rule for target.
 test_threading/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/build
 .PHONY : test_threading/fast
 
 # Convenience name for target.
 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/rule
 .PHONY : sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ test_wrap-GenerateCode: sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/rul
 
 # fast build rule for target.
 test_wrap-GenerateCode/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build.make sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build.make sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build
 .PHONY : test_wrap-GenerateCode/fast
 
 test.o: test.cpp.o
@@ -220,7 +220,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/test.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -229,7 +229,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/test.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -238,7 +238,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/test.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 test_threading.o: test_threading.cpp.o
@@ -247,7 +247,7 @@ test_threading.o: test_threading.cpp.o
 
 # target to build an object file
 test_threading.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/test_threading.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/test_threading.cpp.o
 .PHONY : test_threading.cpp.o
 
 test_threading.i: test_threading.cpp.i
@@ -256,7 +256,7 @@ test_threading.i: test_threading.cpp.i
 
 # target to preprocess a source file
 test_threading.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/test_threading.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/test_threading.cpp.i
 .PHONY : test_threading.cpp.i
 
 test_threading.s: test_threading.cpp.s
@@ -265,7 +265,7 @@ test_threading.s: test_threading.cpp.s
 
 # target to generate assembly for a file
 test_threading.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/test_threading.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/test_threading.cpp.s
 .PHONY : test_threading.cpp.s
 
 wrap/test.o: wrap/test.cpp.o
@@ -274,7 +274,7 @@ wrap/test.o: wrap/test.cpp.o
 
 # target to build an object file
 wrap/test.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.o
 .PHONY : wrap/test.cpp.o
 
 wrap/test.i: wrap/test.cpp.i
@@ -283,7 +283,7 @@ wrap/test.i: wrap/test.cpp.i
 
 # target to preprocess a source file
 wrap/test.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.i
 .PHONY : wrap/test.cpp.i
 
 wrap/test.s: wrap/test.cpp.s
@@ -292,7 +292,7 @@ wrap/test.s: wrap/test.cpp.s
 
 # target to generate assembly for a file
 wrap/test.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.s
 .PHONY : wrap/test.cpp.s
 
 wrap/test_wrap.o: wrap/test_wrap.cpp.o
@@ -301,7 +301,7 @@ wrap/test_wrap.o: wrap/test_wrap.cpp.o
 
 # target to build an object file
 wrap/test_wrap.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.o
 .PHONY : wrap/test_wrap.cpp.o
 
 wrap/test_wrap.i: wrap/test_wrap.cpp.i
@@ -310,7 +310,7 @@ wrap/test_wrap.i: wrap/test_wrap.cpp.i
 
 # target to preprocess a source file
 wrap/test_wrap.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.i
 .PHONY : wrap/test_wrap.cpp.i
 
 wrap/test_wrap.s: wrap/test_wrap.cpp.s
@@ -319,7 +319,7 @@ wrap/test_wrap.s: wrap/test_wrap.cpp.s
 
 # target to generate assembly for a file
 wrap/test_wrap.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.s
 .PHONY : wrap/test_wrap.cpp.s
 
 wrap/units/test_codegen.o: wrap/units/test_codegen.cpp.o
@@ -328,7 +328,7 @@ wrap/units/test_codegen.o: wrap/units/test_codegen.cpp.o
 
 # target to build an object file
 wrap/units/test_codegen.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.o
 .PHONY : wrap/units/test_codegen.cpp.o
 
 wrap/units/test_codegen.i: wrap/units/test_codegen.cpp.i
@@ -337,7 +337,7 @@ wrap/units/test_codegen.i: wrap/units/test_codegen.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_codegen.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.i
 .PHONY : wrap/units/test_codegen.cpp.i
 
 wrap/units/test_codegen.s: wrap/units/test_codegen.cpp.s
@@ -346,7 +346,7 @@ wrap/units/test_codegen.s: wrap/units/test_codegen.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_codegen.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.s
 .PHONY : wrap/units/test_codegen.cpp.s
 
 wrap/units/test_common.o: wrap/units/test_common.cpp.o
@@ -355,7 +355,7 @@ wrap/units/test_common.o: wrap/units/test_common.cpp.o
 
 # target to build an object file
 wrap/units/test_common.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.o
 .PHONY : wrap/units/test_common.cpp.o
 
 wrap/units/test_common.i: wrap/units/test_common.cpp.i
@@ -364,7 +364,7 @@ wrap/units/test_common.i: wrap/units/test_common.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_common.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.i
 .PHONY : wrap/units/test_common.cpp.i
 
 wrap/units/test_common.s: wrap/units/test_common.cpp.s
@@ -373,7 +373,7 @@ wrap/units/test_common.s: wrap/units/test_common.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_common.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.s
 .PHONY : wrap/units/test_common.cpp.s
 
 wrap/units/test_iterators.o: wrap/units/test_iterators.cpp.o
@@ -382,7 +382,7 @@ wrap/units/test_iterators.o: wrap/units/test_iterators.cpp.o
 
 # target to build an object file
 wrap/units/test_iterators.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.o
 .PHONY : wrap/units/test_iterators.cpp.o
 
 wrap/units/test_iterators.i: wrap/units/test_iterators.cpp.i
@@ -391,7 +391,7 @@ wrap/units/test_iterators.i: wrap/units/test_iterators.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_iterators.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.i
 .PHONY : wrap/units/test_iterators.cpp.i
 
 wrap/units/test_iterators.s: wrap/units/test_iterators.cpp.s
@@ -400,7 +400,7 @@ wrap/units/test_iterators.s: wrap/units/test_iterators.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_iterators.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.s
 .PHONY : wrap/units/test_iterators.cpp.s
 
 wrap/units/test_sc_agent.o: wrap/units/test_sc_agent.cpp.o
@@ -409,7 +409,7 @@ wrap/units/test_sc_agent.o: wrap/units/test_sc_agent.cpp.o
 
 # target to build an object file
 wrap/units/test_sc_agent.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.o
 .PHONY : wrap/units/test_sc_agent.cpp.o
 
 wrap/units/test_sc_agent.i: wrap/units/test_sc_agent.cpp.i
@@ -418,7 +418,7 @@ wrap/units/test_sc_agent.i: wrap/units/test_sc_agent.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_sc_agent.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.i
 .PHONY : wrap/units/test_sc_agent.cpp.i
 
 wrap/units/test_sc_agent.s: wrap/units/test_sc_agent.cpp.s
@@ -427,7 +427,7 @@ wrap/units/test_sc_agent.s: wrap/units/test_sc_agent.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_sc_agent.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.s
 .PHONY : wrap/units/test_sc_agent.cpp.s
 
 wrap/units/test_sc_object.o: wrap/units/test_sc_object.cpp.o
@@ -436,7 +436,7 @@ wrap/units/test_sc_object.o: wrap/units/test_sc_object.cpp.o
 
 # target to build an object file
 wrap/units/test_sc_object.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.o
 .PHONY : wrap/units/test_sc_object.cpp.o
 
 wrap/units/test_sc_object.i: wrap/units/test_sc_object.cpp.i
@@ -445,7 +445,7 @@ wrap/units/test_sc_object.i: wrap/units/test_sc_object.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_sc_object.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.i
 .PHONY : wrap/units/test_sc_object.cpp.i
 
 wrap/units/test_sc_object.s: wrap/units/test_sc_object.cpp.s
@@ -454,7 +454,7 @@ wrap/units/test_sc_object.s: wrap/units/test_sc_object.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_sc_object.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.s
 .PHONY : wrap/units/test_sc_object.cpp.s
 
 wrap/units/test_streams.o: wrap/units/test_streams.cpp.o
@@ -463,7 +463,7 @@ wrap/units/test_streams.o: wrap/units/test_streams.cpp.o
 
 # target to build an object file
 wrap/units/test_streams.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.o
 .PHONY : wrap/units/test_streams.cpp.o
 
 wrap/units/test_streams.i: wrap/units/test_streams.cpp.i
@@ -472,7 +472,7 @@ wrap/units/test_streams.i: wrap/units/test_streams.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_streams.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.i
 .PHONY : wrap/units/test_streams.cpp.i
 
 wrap/units/test_streams.s: wrap/units/test_streams.cpp.s
@@ -481,7 +481,7 @@ wrap/units/test_streams.s: wrap/units/test_streams.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_streams.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.s
 .PHONY : wrap/units/test_streams.cpp.s
 
 wrap/units/test_struct.o: wrap/units/test_struct.cpp.o
@@ -490,7 +490,7 @@ wrap/units/test_struct.o: wrap/units/test_struct.cpp.o
 
 # target to build an object file
 wrap/units/test_struct.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.o
 .PHONY : wrap/units/test_struct.cpp.o
 
 wrap/units/test_struct.i: wrap/units/test_struct.cpp.i
@@ -499,7 +499,7 @@ wrap/units/test_struct.i: wrap/units/test_struct.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_struct.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.i
 .PHONY : wrap/units/test_struct.cpp.i
 
 wrap/units/test_struct.s: wrap/units/test_struct.cpp.s
@@ -508,7 +508,7 @@ wrap/units/test_struct.s: wrap/units/test_struct.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_struct.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.s
 .PHONY : wrap/units/test_struct.cpp.s
 
 wrap/units/test_templates.o: wrap/units/test_templates.cpp.o
@@ -517,7 +517,7 @@ wrap/units/test_templates.o: wrap/units/test_templates.cpp.o
 
 # target to build an object file
 wrap/units/test_templates.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.o
 .PHONY : wrap/units/test_templates.cpp.o
 
 wrap/units/test_templates.i: wrap/units/test_templates.cpp.i
@@ -526,7 +526,7 @@ wrap/units/test_templates.i: wrap/units/test_templates.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_templates.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.i
 .PHONY : wrap/units/test_templates.cpp.i
 
 wrap/units/test_templates.s: wrap/units/test_templates.cpp.s
@@ -535,7 +535,7 @@ wrap/units/test_templates.s: wrap/units/test_templates.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_templates.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.s
 .PHONY : wrap/units/test_templates.cpp.s
 
 wrap/units/test_wait.o: wrap/units/test_wait.cpp.o
@@ -544,7 +544,7 @@ wrap/units/test_wait.o: wrap/units/test_wait.cpp.o
 
 # target to build an object file
 wrap/units/test_wait.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.o
 .PHONY : wrap/units/test_wait.cpp.o
 
 wrap/units/test_wait.i: wrap/units/test_wait.cpp.i
@@ -553,7 +553,7 @@ wrap/units/test_wait.i: wrap/units/test_wait.cpp.i
 
 # target to preprocess a source file
 wrap/units/test_wait.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.i
 .PHONY : wrap/units/test_wait.cpp.i
 
 wrap/units/test_wait.s: wrap/units/test_wait.cpp.s
@@ -562,7 +562,7 @@ wrap/units/test_wait.s: wrap/units/test_wait.cpp.s
 
 # target to generate assembly for a file
 wrap/units/test_wait.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.s
 .PHONY : wrap/units/test_wait.cpp.s
 
 # Help Target
@@ -631,6 +631,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

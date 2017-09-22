@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-memory/CMakeFiles/sc-memory.dir/depend.make
@@ -59,16 +59,16 @@ include sc-memory/CMakeFiles/sc-memory.dir/flags.make
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.o: ../sc-memory/sc_memory_ext.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_memory_ext.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory_ext.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_memory_ext.c.o   -c /root/ostis/sc-machine/sc-memory/sc_memory_ext.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc_memory_ext.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory_ext.c > CMakeFiles/sc-memory.dir/sc_memory_ext.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc_memory_ext.c > CMakeFiles/sc-memory.dir/sc_memory_ext.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc_memory_ext.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory_ext.c -o CMakeFiles/sc-memory.dir/sc_memory_ext.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc_memory_ext.c -o CMakeFiles/sc-memory.dir/sc_memory_ext.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.o.requires:
 
@@ -83,16 +83,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc_memory_ext.c.o.provides.build: sc-memory/C
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.o: ../sc-memory/sc_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_helper.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_helper.c.o   -c /root/ostis/sc-machine/sc-memory/sc_helper.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc_helper.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc_helper.c > CMakeFiles/sc-memory.dir/sc_helper.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc_helper.c > CMakeFiles/sc-memory.dir/sc_helper.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc_helper.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc_helper.c -o CMakeFiles/sc-memory.dir/sc_helper.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc_helper.c -o CMakeFiles/sc-memory.dir/sc_helper.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.o.requires:
 
@@ -107,16 +107,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc_helper.c.o.provides.build: sc-memory/CMake
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.o: ../sc-memory/sc_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_memory.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_memory.c.o   -c /root/ostis/sc-machine/sc-memory/sc_memory.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc_memory.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory.c > CMakeFiles/sc-memory.dir/sc_memory.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc_memory.c > CMakeFiles/sc-memory.dir/sc_memory.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc_memory.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory.c -o CMakeFiles/sc-memory.dir/sc_memory.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc_memory.c -o CMakeFiles/sc-memory.dir/sc_memory.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.o.requires:
 
@@ -131,16 +131,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc_memory.c.o.provides.build: sc-memory/CMake
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o: ../sc-memory/sc-store/sc_iterator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator.c > CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator.c > CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator.c -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator.c -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o.requires:
 
@@ -155,16 +155,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator.c.o.provides.build: sc-m
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o: ../sc-memory/sc-store/sc_fs_storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_fs_storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_fs_storage.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_fs_storage.c > CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_fs_storage.c > CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_fs_storage.c -o CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_fs_storage.c -o CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o.requires:
 
@@ -179,16 +179,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fs_storage.c.o.provides.build: sc
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o: ../sc-memory/sc-store/sc_stream_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream_memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_stream_memory.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream_memory.c > CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_stream_memory.c > CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream_memory.c -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_stream_memory.c -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o.requires:
 
@@ -203,16 +203,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_memory.c.o.provides.build:
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o: ../sc-memory/sc-store/sc_storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_storage.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_storage.c > CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_storage.c > CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_storage.c -o CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_storage.c -o CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o.requires:
 
@@ -227,16 +227,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_storage.c.o.provides.build: sc-me
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o: ../sc-memory/sc-store/sc_element.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_element.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_element.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_element.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_element.c > CMakeFiles/sc-memory.dir/sc-store/sc_element.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_element.c > CMakeFiles/sc-memory.dir/sc-store/sc_element.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_element.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_element.c -o CMakeFiles/sc-memory.dir/sc-store/sc_element.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_element.c -o CMakeFiles/sc-memory.dir/sc-store/sc_element.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o.requires:
 
@@ -251,16 +251,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_element.c.o.provides.build: sc-me
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o: ../sc-memory/sc-store/sc_fm_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_fm_engine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_fm_engine.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_fm_engine.c > CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_fm_engine.c > CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_fm_engine.c -o CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_fm_engine.c -o CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o.requires:
 
@@ -275,16 +275,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_fm_engine.c.o.provides.build: sc-
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o: ../sc-memory/sc-store/sc_iterator3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator3.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator3.c > CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator3.c > CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator3.c -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator3.c -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o.requires:
 
@@ -299,16 +299,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator3.c.o.provides.build: sc-
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o: ../sc-memory/sc-store/sc_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_event.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_event.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_event.c > CMakeFiles/sc-memory.dir/sc-store/sc_event.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_event.c > CMakeFiles/sc-memory.dir/sc-store/sc_event.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_event.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_event.c -o CMakeFiles/sc-memory.dir/sc-store/sc_event.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_event.c -o CMakeFiles/sc-memory.dir/sc-store/sc_event.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o.requires:
 
@@ -323,16 +323,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event.c.o.provides.build: sc-memo
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o: ../sc-memory/sc-store/sc_stream_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_stream_file.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream_file.c > CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_stream_file.c > CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream_file.c -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_stream_file.c -o CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o.requires:
 
@@ -347,16 +347,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream_file.c.o.provides.build: s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o: ../sc-memory/sc-store/sc_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_config.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_config.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_config.c > CMakeFiles/sc-memory.dir/sc-store/sc_config.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_config.c > CMakeFiles/sc-memory.dir/sc-store/sc_config.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_config.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_config.c -o CMakeFiles/sc-memory.dir/sc-store/sc_config.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_config.c -o CMakeFiles/sc-memory.dir/sc-store/sc_config.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o.requires:
 
@@ -371,16 +371,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_config.c.o.provides.build: sc-mem
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o: ../sc-memory/sc-store/sc_stream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_stream.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream.c > CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_stream.c > CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_stream.c -o CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_stream.c -o CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o.requires:
 
@@ -395,16 +395,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_stream.c.o.provides.build: sc-mem
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o: ../sc-memory/sc-store/sc_segment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_segment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_segment.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_segment.c > CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_segment.c > CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_segment.c -o CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_segment.c -o CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o.requires:
 
@@ -419,16 +419,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_segment.c.o.provides.build: sc-me
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o: ../sc-memory/sc-store/sc_iterator5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator5.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator5.c > CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator5.c > CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_iterator5.c -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_iterator5.c -o CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o.requires:
 
@@ -443,16 +443,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_iterator5.c.o.provides.build: sc-
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o: ../sc-memory/sc-store/sc_link_helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_link_helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_link_helpers.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_link_helpers.c > CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_link_helpers.c > CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_link_helpers.c -o CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_link_helpers.c -o CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o.requires:
 
@@ -467,16 +467,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_link_helpers.c.o.provides.build: 
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o: ../sc-memory/sc-store/sc_event/sc_event_queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_event/sc_event_queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o   -c /root/ostis/sc-machine/sc-memory/sc-store/sc_event/sc_event_queue.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_event/sc_event_queue.c > CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc-store/sc_event/sc_event_queue.c > CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc-store/sc_event/sc_event_queue.c -o CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc-store/sc_event/sc_event_queue.c -o CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o.requires:
 
@@ -491,16 +491,16 @@ sc-memory/CMakeFiles/sc-memory.dir/sc-store/sc_event/sc_event_queue.c.o.provides
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.o: sc-memory/CMakeFiles/sc-memory.dir/flags.make
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.o: ../sc-memory/sc_memory_version.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_memory_version.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory_version.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.o"
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-memory.dir/sc_memory_version.c.o   -c /root/ostis/sc-machine/sc-memory/sc_memory_version.c
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-memory.dir/sc_memory_version.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory_version.c > CMakeFiles/sc-memory.dir/sc_memory_version.c.i
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-memory/sc_memory_version.c > CMakeFiles/sc-memory.dir/sc_memory_version.c.i
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-memory.dir/sc_memory_version.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/sc_memory_version.c -o CMakeFiles/sc-memory.dir/sc_memory_version.c.s
+	cd /root/ostis/sc-machine/build/sc-memory && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-memory/sc_memory_version.c -o CMakeFiles/sc-memory.dir/sc_memory_version.c.s
 
 sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.o.requires:
 
@@ -559,8 +559,8 @@ sc__memory_EXTERNAL_OBJECTS =
 ../bin/libsc-memory.so: sc-memory/CMakeFiles/sc-memory.dir/sc_memory_version.c.o
 ../bin/libsc-memory.so: sc-memory/CMakeFiles/sc-memory.dir/build.make
 ../bin/libsc-memory.so: sc-memory/CMakeFiles/sc-memory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C shared library ../../bin/libsc-memory.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-memory.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C shared library ../../bin/libsc-memory.so"
+	cd /root/ostis/sc-machine/build/sc-memory && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-memory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-memory/CMakeFiles/sc-memory.dir/build: ../bin/libsc-memory.so
@@ -590,10 +590,10 @@ sc-memory/CMakeFiles/sc-memory.dir/requires: sc-memory/CMakeFiles/sc-memory.dir/
 .PHONY : sc-memory/CMakeFiles/sc-memory.dir/requires
 
 sc-memory/CMakeFiles/sc-memory.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory && $(CMAKE_COMMAND) -P CMakeFiles/sc-memory.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-memory && $(CMAKE_COMMAND) -P CMakeFiles/sc-memory.dir/cmake_clean.cmake
 .PHONY : sc-memory/CMakeFiles/sc-memory.dir/clean
 
 sc-memory/CMakeFiles/sc-memory.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-memory /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-memory /home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-memory /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-memory /root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-memory/CMakeFiles/sc-memory.dir/depend
 

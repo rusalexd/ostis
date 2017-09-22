@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-fm/sc_fm_redis/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/rule
 .PHONY : sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ sc-fm-redis: sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/rule
 
 # fast build rule for target.
 sc-fm-redis/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build
 .PHONY : sc-fm-redis/fast
 
 sc_fm_redis.o: sc_fm_redis.c.o
@@ -175,7 +175,7 @@ sc_fm_redis.o: sc_fm_redis.c.o
 
 # target to build an object file
 sc_fm_redis.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o
 .PHONY : sc_fm_redis.c.o
 
 sc_fm_redis.i: sc_fm_redis.c.i
@@ -184,7 +184,7 @@ sc_fm_redis.i: sc_fm_redis.c.i
 
 # target to preprocess a source file
 sc_fm_redis.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.i
 .PHONY : sc_fm_redis.c.i
 
 sc_fm_redis.s: sc_fm_redis.c.s
@@ -193,7 +193,7 @@ sc_fm_redis.s: sc_fm_redis.c.s
 
 # target to generate assembly for a file
 sc_fm_redis.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.s
 .PHONY : sc_fm_redis.c.s
 
 sc_fm_redis_config.o: sc_fm_redis_config.c.o
@@ -202,7 +202,7 @@ sc_fm_redis_config.o: sc_fm_redis_config.c.o
 
 # target to build an object file
 sc_fm_redis_config.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o
 .PHONY : sc_fm_redis_config.c.o
 
 sc_fm_redis_config.i: sc_fm_redis_config.c.i
@@ -211,7 +211,7 @@ sc_fm_redis_config.i: sc_fm_redis_config.c.i
 
 # target to preprocess a source file
 sc_fm_redis_config.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.i
 .PHONY : sc_fm_redis_config.c.i
 
 sc_fm_redis_config.s: sc_fm_redis_config.c.s
@@ -220,7 +220,7 @@ sc_fm_redis_config.s: sc_fm_redis_config.c.s
 
 # target to generate assembly for a file
 sc_fm_redis_config.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.s
 .PHONY : sc_fm_redis_config.c.s
 
 sc_stream_redis.o: sc_stream_redis.c.o
@@ -229,7 +229,7 @@ sc_stream_redis.o: sc_stream_redis.c.o
 
 # target to build an object file
 sc_stream_redis.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o
 .PHONY : sc_stream_redis.c.o
 
 sc_stream_redis.i: sc_stream_redis.c.i
@@ -238,7 +238,7 @@ sc_stream_redis.i: sc_stream_redis.c.i
 
 # target to preprocess a source file
 sc_stream_redis.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.i
 .PHONY : sc_stream_redis.c.i
 
 sc_stream_redis.s: sc_stream_redis.c.s
@@ -247,7 +247,7 @@ sc_stream_redis.s: sc_stream_redis.c.s
 
 # target to generate assembly for a file
 sc_stream_redis.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.s
 .PHONY : sc_stream_redis.c.s
 
 # Help Target
@@ -283,6 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

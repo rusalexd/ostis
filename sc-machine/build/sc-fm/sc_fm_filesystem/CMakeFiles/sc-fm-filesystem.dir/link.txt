@@ -1,1 +1,1 @@
-/usr/bin/cc  -fPIC    -shared -Wl,-soname,libsc-fm-filesystem.so -o ../../../bin/libsc-fm-filesystem.so CMakeFiles/sc-fm-filesystem.dir/sc_fm_filesystem.c.o ../../../bin/libsc-memory.so -lglib-2.0 -lgmodule-2.0 -lglib-2.0 -lgmodule-2.0 -Wl,-rpath,/home/rusale/DV/ostis/sc-machine/bin 
+/usr/bin/cc  -fPIC    -shared -Wl,-soname,libsc-fm-filesystem.so -o ../../../bin/libsc-fm-filesystem.so CMakeFiles/sc-fm-filesystem.dir/sc_fm_filesystem.c.o ../../../bin/libsc-memory.so -lglib-2.0 -lgmodule-2.0 -lglib-2.0 -lgmodule-2.0 -Wl,-rpath,/root/ostis/sc-machine/bin 

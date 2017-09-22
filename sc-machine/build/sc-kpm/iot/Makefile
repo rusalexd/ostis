@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/iot/CMakeFiles/iot.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/CMakeFiles/iot.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/CMakeFiles/iot.dir/rule
 .PHONY : sc-kpm/iot/CMakeFiles/iot.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ iot: sc-kpm/iot/CMakeFiles/iot.dir/rule
 
 # fast build rule for target.
 iot/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/build
 .PHONY : iot/fast
 
 # Convenience name for target.
 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/rule
 .PHONY : sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ iot-GenerateCode: sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/rule
 
 # fast build rule for target.
 iot-GenerateCode/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build.make sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build.make sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build
 .PHONY : iot-GenerateCode/fast
 
 iot.o: iot.cpp.o
@@ -190,7 +190,7 @@ iot.o: iot.cpp.o
 
 # target to build an object file
 iot.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o
 .PHONY : iot.cpp.o
 
 iot.i: iot.cpp.i
@@ -199,7 +199,7 @@ iot.i: iot.cpp.i
 
 # target to preprocess a source file
 iot.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.i
 .PHONY : iot.cpp.i
 
 iot.s: iot.cpp.s
@@ -208,7 +208,7 @@ iot.s: iot.cpp.s
 
 # target to generate assembly for a file
 iot.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.s
 .PHONY : iot.cpp.s
 
 iotAbout.o: iotAbout.cpp.o
@@ -217,7 +217,7 @@ iotAbout.o: iotAbout.cpp.o
 
 # target to build an object file
 iotAbout.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o
 .PHONY : iotAbout.cpp.o
 
 iotAbout.i: iotAbout.cpp.i
@@ -226,7 +226,7 @@ iotAbout.i: iotAbout.cpp.i
 
 # target to preprocess a source file
 iotAbout.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.i
 .PHONY : iotAbout.cpp.i
 
 iotAbout.s: iotAbout.cpp.s
@@ -235,7 +235,7 @@ iotAbout.s: iotAbout.cpp.s
 
 # target to generate assembly for a file
 iotAbout.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.s
 .PHONY : iotAbout.cpp.s
 
 iotActions.o: iotActions.cpp.o
@@ -244,7 +244,7 @@ iotActions.o: iotActions.cpp.o
 
 # target to build an object file
 iotActions.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o
 .PHONY : iotActions.cpp.o
 
 iotActions.i: iotActions.cpp.i
@@ -253,7 +253,7 @@ iotActions.i: iotActions.cpp.i
 
 # target to preprocess a source file
 iotActions.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.i
 .PHONY : iotActions.cpp.i
 
 iotActions.s: iotActions.cpp.s
@@ -262,7 +262,7 @@ iotActions.s: iotActions.cpp.s
 
 # target to generate assembly for a file
 iotActions.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.s
 .PHONY : iotActions.cpp.s
 
 iotCommands.o: iotCommands.cpp.o
@@ -271,7 +271,7 @@ iotCommands.o: iotCommands.cpp.o
 
 # target to build an object file
 iotCommands.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o
 .PHONY : iotCommands.cpp.o
 
 iotCommands.i: iotCommands.cpp.i
@@ -280,7 +280,7 @@ iotCommands.i: iotCommands.cpp.i
 
 # target to preprocess a source file
 iotCommands.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.i
 .PHONY : iotCommands.cpp.i
 
 iotCommands.s: iotCommands.cpp.s
@@ -289,7 +289,7 @@ iotCommands.s: iotCommands.cpp.s
 
 # target to generate assembly for a file
 iotCommands.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.s
 .PHONY : iotCommands.cpp.s
 
 iotContent.o: iotContent.cpp.o
@@ -298,7 +298,7 @@ iotContent.o: iotContent.cpp.o
 
 # target to build an object file
 iotContent.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o
 .PHONY : iotContent.cpp.o
 
 iotContent.i: iotContent.cpp.i
@@ -307,7 +307,7 @@ iotContent.i: iotContent.cpp.i
 
 # target to preprocess a source file
 iotContent.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.i
 .PHONY : iotContent.cpp.i
 
 iotContent.s: iotContent.cpp.s
@@ -316,7 +316,7 @@ iotContent.s: iotContent.cpp.s
 
 # target to generate assembly for a file
 iotContent.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.s
 .PHONY : iotContent.cpp.s
 
 iotEnergy.o: iotEnergy.cpp.o
@@ -325,7 +325,7 @@ iotEnergy.o: iotEnergy.cpp.o
 
 # target to build an object file
 iotEnergy.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o
 .PHONY : iotEnergy.cpp.o
 
 iotEnergy.i: iotEnergy.cpp.i
@@ -334,7 +334,7 @@ iotEnergy.i: iotEnergy.cpp.i
 
 # target to preprocess a source file
 iotEnergy.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.i
 .PHONY : iotEnergy.cpp.i
 
 iotEnergy.s: iotEnergy.cpp.s
@@ -343,7 +343,7 @@ iotEnergy.s: iotEnergy.cpp.s
 
 # target to generate assembly for a file
 iotEnergy.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.s
 .PHONY : iotEnergy.cpp.s
 
 iotKeynodes.o: iotKeynodes.cpp.o
@@ -352,7 +352,7 @@ iotKeynodes.o: iotKeynodes.cpp.o
 
 # target to build an object file
 iotKeynodes.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o
 .PHONY : iotKeynodes.cpp.o
 
 iotKeynodes.i: iotKeynodes.cpp.i
@@ -361,7 +361,7 @@ iotKeynodes.i: iotKeynodes.cpp.i
 
 # target to preprocess a source file
 iotKeynodes.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.i
 .PHONY : iotKeynodes.cpp.i
 
 iotKeynodes.s: iotKeynodes.cpp.s
@@ -370,7 +370,7 @@ iotKeynodes.s: iotKeynodes.cpp.s
 
 # target to generate assembly for a file
 iotKeynodes.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.s
 .PHONY : iotKeynodes.cpp.s
 
 iotSpeech.o: iotSpeech.cpp.o
@@ -379,7 +379,7 @@ iotSpeech.o: iotSpeech.cpp.o
 
 # target to build an object file
 iotSpeech.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o
 .PHONY : iotSpeech.cpp.o
 
 iotSpeech.i: iotSpeech.cpp.i
@@ -388,7 +388,7 @@ iotSpeech.i: iotSpeech.cpp.i
 
 # target to preprocess a source file
 iotSpeech.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.i
 .PHONY : iotSpeech.cpp.i
 
 iotSpeech.s: iotSpeech.cpp.s
@@ -397,7 +397,7 @@ iotSpeech.s: iotSpeech.cpp.s
 
 # target to generate assembly for a file
 iotSpeech.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.s
 .PHONY : iotSpeech.cpp.s
 
 iotTV.o: iotTV.cpp.o
@@ -406,7 +406,7 @@ iotTV.o: iotTV.cpp.o
 
 # target to build an object file
 iotTV.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o
 .PHONY : iotTV.cpp.o
 
 iotTV.i: iotTV.cpp.i
@@ -415,7 +415,7 @@ iotTV.i: iotTV.cpp.i
 
 # target to preprocess a source file
 iotTV.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.i
 .PHONY : iotTV.cpp.i
 
 iotTV.s: iotTV.cpp.s
@@ -424,7 +424,7 @@ iotTV.s: iotTV.cpp.s
 
 # target to generate assembly for a file
 iotTV.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.s
 .PHONY : iotTV.cpp.s
 
 iotUtils.o: iotUtils.cpp.o
@@ -433,7 +433,7 @@ iotUtils.o: iotUtils.cpp.o
 
 # target to build an object file
 iotUtils.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o
 .PHONY : iotUtils.cpp.o
 
 iotUtils.i: iotUtils.cpp.i
@@ -442,7 +442,7 @@ iotUtils.i: iotUtils.cpp.i
 
 # target to preprocess a source file
 iotUtils.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.i
 .PHONY : iotUtils.cpp.i
 
 iotUtils.s: iotUtils.cpp.s
@@ -451,7 +451,7 @@ iotUtils.s: iotUtils.cpp.s
 
 # target to generate assembly for a file
 iotUtils.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.s
 .PHONY : iotUtils.cpp.s
 
 # Help Target
@@ -509,6 +509,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

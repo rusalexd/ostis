@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_utils.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o"
+  "/root/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c" "/root/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o"
+  "/root/ostis/sc-machine/sc-kpm/merge/merge.c" "/root/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o"
+  "/root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c" "/root/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o"
+  "/root/ostis/sc-machine/sc-kpm/merge/merge_utils.c" "/root/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -30,8 +30,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

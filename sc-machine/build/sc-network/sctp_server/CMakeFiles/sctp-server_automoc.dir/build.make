@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Utility rule file for sctp-server_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
 include sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/progress.make
 
 sc-network/sctp_server/CMakeFiles/sctp-server_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target sctp-server"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/cmake -E cmake_autogen /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target sctp-server"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/cmake -E cmake_autogen /root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/ ""
 
 sctp-server_automoc: sc-network/sctp_server/CMakeFiles/sctp-server_automoc
 sctp-server_automoc: sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build.make
@@ -68,10 +68,10 @@ sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build: sctp-server_aut
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build
 
 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && $(CMAKE_COMMAND) -P CMakeFiles/sctp-server_automoc.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && $(CMAKE_COMMAND) -P CMakeFiles/sctp-server_automoc.dir/cmake_clean.cmake
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/clean
 
 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-network/sctp_server /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-network/sctp_server /root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/depend
 

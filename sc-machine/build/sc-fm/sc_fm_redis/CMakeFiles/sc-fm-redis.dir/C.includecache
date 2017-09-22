@@ -46,61 +46,61 @@ sc-store/sc_types.h
 sc-store/sc_stream.h
 ../sc-memory/sc-store/sc_stream.h
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c
 sc_fm_redis.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.h
 sc_fm_engine_private.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_engine_private.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_engine_private.h
 sc_stream_redis.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.h
 sc_fm_redis_config.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.h
 ../sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_memory.h
+/root/ostis/sc-machine/sc-fm/sc_memory.h
 glib.h
 -
 memory.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.h
 sc_fm_redis_types.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
 hiredis/hiredis.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c
 sc_fm_redis_config.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.h
 glib.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.h
 sc_fm_redis_types.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
 sc_config.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_config.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_config.h
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
 sc-memory/sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc-memory/sc_memory.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc-memory/sc_memory.h
 WinSock2.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c
 sc_stream_redis.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.h
 sc_stream_private.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_private.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_private.h
 sc_fm_redis.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.h
 glib.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.h
 sc_fm_redis_types.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_types.h
 sc_stream.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream.h
+/root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream.h
 hiredis/hiredis.h
 -
 glib.h

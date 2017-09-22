@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/utils/CMakeFiles/utils.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/CMakeFiles/utils.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/CMakeFiles/utils.dir/rule
 .PHONY : sc-kpm/utils/CMakeFiles/utils.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ utils: sc-kpm/utils/CMakeFiles/utils.dir/rule
 
 # fast build rule for target.
 utils/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/build
 .PHONY : utils/fast
 
 utils.o: utils.c.o
@@ -175,7 +175,7 @@ utils.o: utils.c.o
 
 # target to build an object file
 utils.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o
 .PHONY : utils.c.o
 
 utils.i: utils.c.i
@@ -184,7 +184,7 @@ utils.i: utils.c.i
 
 # target to preprocess a source file
 utils.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils.c.i
 .PHONY : utils.c.i
 
 utils.s: utils.c.s
@@ -193,7 +193,7 @@ utils.s: utils.c.s
 
 # target to generate assembly for a file
 utils.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils.c.s
 .PHONY : utils.c.s
 
 utils_collect_identifiers.o: utils_collect_identifiers.c.o
@@ -202,7 +202,7 @@ utils_collect_identifiers.o: utils_collect_identifiers.c.o
 
 # target to build an object file
 utils_collect_identifiers.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o
 .PHONY : utils_collect_identifiers.c.o
 
 utils_collect_identifiers.i: utils_collect_identifiers.c.i
@@ -211,7 +211,7 @@ utils_collect_identifiers.i: utils_collect_identifiers.c.i
 
 # target to preprocess a source file
 utils_collect_identifiers.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.i
 .PHONY : utils_collect_identifiers.c.i
 
 utils_collect_identifiers.s: utils_collect_identifiers.c.s
@@ -220,7 +220,7 @@ utils_collect_identifiers.s: utils_collect_identifiers.c.s
 
 # target to generate assembly for a file
 utils_collect_identifiers.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.s
 .PHONY : utils_collect_identifiers.c.s
 
 utils_garbage_deletion.o: utils_garbage_deletion.c.o
@@ -229,7 +229,7 @@ utils_garbage_deletion.o: utils_garbage_deletion.c.o
 
 # target to build an object file
 utils_garbage_deletion.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o
 .PHONY : utils_garbage_deletion.c.o
 
 utils_garbage_deletion.i: utils_garbage_deletion.c.i
@@ -238,7 +238,7 @@ utils_garbage_deletion.i: utils_garbage_deletion.c.i
 
 # target to preprocess a source file
 utils_garbage_deletion.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.i
 .PHONY : utils_garbage_deletion.c.i
 
 utils_garbage_deletion.s: utils_garbage_deletion.c.s
@@ -247,7 +247,7 @@ utils_garbage_deletion.s: utils_garbage_deletion.c.s
 
 # target to generate assembly for a file
 utils_garbage_deletion.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.s
 .PHONY : utils_garbage_deletion.c.s
 
 utils_keynodes.o: utils_keynodes.c.o
@@ -256,7 +256,7 @@ utils_keynodes.o: utils_keynodes.c.o
 
 # target to build an object file
 utils_keynodes.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o
 .PHONY : utils_keynodes.c.o
 
 utils_keynodes.i: utils_keynodes.c.i
@@ -265,7 +265,7 @@ utils_keynodes.i: utils_keynodes.c.i
 
 # target to preprocess a source file
 utils_keynodes.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.i
 .PHONY : utils_keynodes.c.i
 
 utils_keynodes.s: utils_keynodes.c.s
@@ -274,7 +274,7 @@ utils_keynodes.s: utils_keynodes.c.s
 
 # target to generate assembly for a file
 utils_keynodes.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.s
 .PHONY : utils_keynodes.c.s
 
 # Help Target
@@ -313,6 +313,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

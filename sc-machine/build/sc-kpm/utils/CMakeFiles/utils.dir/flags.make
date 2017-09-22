@@ -6,5 +6,5 @@ C_FLAGS = -fPIC
 
 C_DEFINES = -DSC_KPM_COMMON_SELF_BUILD -DSC_PLATFORM_UNIX -Dutils_EXPORTS
 
-C_INCLUDES = -I/home/rusale/DV/ostis/sc-machine/thirdparty -I/home/rusale/DV/ostis/sc-machine -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/rusale/DV/ostis/sc-machine/sc-kpm/utils -I/home/rusale/DV/ostis/sc-machine/sc-memory 
+C_INCLUDES = -I/root/ostis/sc-machine/thirdparty -I/root/ostis/sc-machine -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/root/ostis/sc-machine/sc-kpm/utils -I/root/ostis/sc-machine/sc-memory 
 

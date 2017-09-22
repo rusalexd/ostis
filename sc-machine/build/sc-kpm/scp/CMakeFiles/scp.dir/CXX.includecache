@@ -94,29 +94,29 @@ sc-store/sc_config.h
 sc-store/sc_types.h
 ../sc-memory/sc-store/sc_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 sc_system_gen.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
 stdio.h
 -
 iostream
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 sc_system_operators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_helper.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_helper.h
 sc_system_operators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
 stdio.h
 -
 iostream
@@ -126,65 +126,65 @@ set
 algorithm
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 map
 -
 vector
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_helper.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_helper.h
 sc_system_search.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
 stdio.h
 -
 iostream
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 sc_system_operators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp
 sc_system_gen.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 scp_sys_gen.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
 ../scp_types.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.h
 ../scp_types.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp
 sc_system_search.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.h
 glib.h
 -
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_memory_headers.h
 scp_sys_search.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
 ../scp_types.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.h
 ../scp_types.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/scp/scp_lib/sc_memory_headers.h
 
 /usr/include/glib-2.0/glib.h
 glib/galloca.h

@@ -32,23 +32,23 @@ sc-store/sc_types.h
 sc-store/sc_stream.h
 ../sc-memory/sc-store/sc_stream.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+/root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_memory.h
+/root/ostis/sc-machine/sc-kpm/common/sc_memory.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.c
+/root/ostis/sc-machine/sc-kpm/common/sc_keynodes.c
 sc_keynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+/root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
 glib.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+/root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_helper.h
+/root/ostis/sc-machine/sc-kpm/common/sc_helper.h
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_memory.h
+/root/ostis/sc-machine/sc-kpm/common/sc_memory.h
 sc_common_types.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+/root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
 
 /usr/include/glib-2.0/glib.h
 glib/galloca.h

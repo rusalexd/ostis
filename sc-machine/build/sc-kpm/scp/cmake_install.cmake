@@ -1,4 +1,4 @@
-# Install script for directory: /home/rusale/DV/ostis/sc-machine/sc-kpm/scp
+# Install script for directory: /root/ostis/sc-machine/sc-kpm/scp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

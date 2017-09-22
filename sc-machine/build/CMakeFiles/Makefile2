@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Directory level rules for directory sc-memory
@@ -89,7 +89,7 @@ sc-memory/preinstall: sc-memory/test/preinstall
 sc-memory/CMakeFiles/sc-memory.dir/all:
 	$(MAKE) -f sc-memory/CMakeFiles/sc-memory.dir/build.make sc-memory/CMakeFiles/sc-memory.dir/depend
 	$(MAKE) -f sc-memory/CMakeFiles/sc-memory.dir/build.make sc-memory/CMakeFiles/sc-memory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44 "Built target sc-memory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44 "Built target sc-memory"
 .PHONY : sc-memory/CMakeFiles/sc-memory.dir/all
 
 # Include target in all.
@@ -99,9 +99,9 @@ all: sc-memory/CMakeFiles/sc-memory.dir/all
 
 # Build rule for subdir invocation for target.
 sc-memory/CMakeFiles/sc-memory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 sc-memory/CMakeFiles/sc-memory.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-memory/CMakeFiles/sc-memory.dir/rule
 
 # Convenience name for target.
@@ -147,7 +147,7 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/all: sc-memory/cpp/CMakeFiles/sc-memo
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/all: tools/codegen/CMakeFiles/sc-code-generator.dir/all
 	$(MAKE) -f sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/build.make sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/depend
 	$(MAKE) -f sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/build.make sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53 "Built target sc-memory-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53 "Built target sc-memory-cpp"
 .PHONY : sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/all
 
 # Include target in all.
@@ -157,9 +157,9 @@ all: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/all
 
 # Build rule for subdir invocation for target.
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/rule
 
 # Convenience name for target.
@@ -184,14 +184,14 @@ clean: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/clean
 sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/all: tools/codegen/CMakeFiles/sc-code-generator.dir/all
 	$(MAKE) -f sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/build.make sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/depend
 	$(MAKE) -f sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/build.make sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=54 "Built target sc-memory-cpp-GenerateCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=54 "Built target sc-memory-cpp-GenerateCode"
 .PHONY : sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/all
 
 # Build rule for subdir invocation for target.
 sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-memory/cpp/CMakeFiles/sc-memory-cpp-GenerateCode.dir/rule
 
 # Convenience name for target.
@@ -239,7 +239,7 @@ sc-memory/test/preinstall:
 sc-memory/test/CMakeFiles/sc-memory-test.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 	$(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/depend
 	$(MAKE) -f sc-memory/test/CMakeFiles/sc-memory-test.dir/build.make sc-memory/test/CMakeFiles/sc-memory-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=55 "Built target sc-memory-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=55 "Built target sc-memory-test"
 .PHONY : sc-memory/test/CMakeFiles/sc-memory-test.dir/all
 
 # Include target in all.
@@ -249,9 +249,9 @@ all: sc-memory/test/CMakeFiles/sc-memory-test.dir/all
 
 # Build rule for subdir invocation for target.
 sc-memory/test/CMakeFiles/sc-memory-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/sc-memory-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-memory/test/CMakeFiles/sc-memory-test.dir/rule
 
 # Convenience name for target.
@@ -278,7 +278,7 @@ sc-memory/test/CMakeFiles/test_wrap.dir/all: sc-memory/cpp/CMakeFiles/sc-memory-
 sc-memory/test/CMakeFiles/test_wrap.dir/all: sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/all
 	$(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/depend
 	$(MAKE) -f sc-memory/test/CMakeFiles/test_wrap.dir/build.make sc-memory/test/CMakeFiles/test_wrap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=86,87,88,89,90,91 "Built target test_wrap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=86,87,88,89,90,91 "Built target test_wrap"
 .PHONY : sc-memory/test/CMakeFiles/test_wrap.dir/all
 
 # Include target in all.
@@ -288,9 +288,9 @@ all: sc-memory/test/CMakeFiles/test_wrap.dir/all
 
 # Build rule for subdir invocation for target.
 sc-memory/test/CMakeFiles/test_wrap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_wrap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-memory/test/CMakeFiles/test_wrap.dir/rule
 
 # Convenience name for target.
@@ -315,7 +315,7 @@ clean: sc-memory/test/CMakeFiles/test_wrap.dir/clean
 sc-memory/test/CMakeFiles/test_threading.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 	$(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/depend
 	$(MAKE) -f sc-memory/test/CMakeFiles/test_threading.dir/build.make sc-memory/test/CMakeFiles/test_threading.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=85 "Built target test_threading"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=85 "Built target test_threading"
 .PHONY : sc-memory/test/CMakeFiles/test_threading.dir/all
 
 # Include target in all.
@@ -325,9 +325,9 @@ all: sc-memory/test/CMakeFiles/test_threading.dir/all
 
 # Build rule for subdir invocation for target.
 sc-memory/test/CMakeFiles/test_threading.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_threading.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-memory/test/CMakeFiles/test_threading.dir/rule
 
 # Convenience name for target.
@@ -352,14 +352,14 @@ clean: sc-memory/test/CMakeFiles/test_threading.dir/clean
 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/all: tools/codegen/CMakeFiles/sc-code-generator.dir/all
 	$(MAKE) -f sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build.make sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/depend
 	$(MAKE) -f sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build.make sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target test_wrap-GenerateCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target test_wrap-GenerateCode"
 .PHONY : sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/all
 
 # Build rule for subdir invocation for target.
 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/rule
 
 # Convenience name for target.
@@ -423,7 +423,7 @@ sc-fm/sc_fm_filesystem/preinstall:
 sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 	$(MAKE) -f sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/build.make sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/depend
 	$(MAKE) -f sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/build.make sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=30 "Built target sc-fm-filesystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=30 "Built target sc-fm-filesystem"
 .PHONY : sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/all
 
 # Include target in all.
@@ -433,9 +433,9 @@ all: sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/all
 
 # Build rule for subdir invocation for target.
 sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/rule
 
 # Convenience name for target.
@@ -478,7 +478,7 @@ sc-fm/sc_fm_redis/preinstall:
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 	$(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/depend
 	$(MAKE) -f sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=31,32 "Built target sc-fm-redis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=31,32 "Built target sc-fm-redis"
 .PHONY : sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/all
 
 # Include target in all.
@@ -488,9 +488,9 @@ all: sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/all
 
 # Build rule for subdir invocation for target.
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/rule
 
 # Convenience name for target.
@@ -572,7 +572,7 @@ sc-kpm/common/preinstall:
 sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 	$(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/depend
 	$(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=33,34 "Built target sc-kpm-common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=33,34 "Built target sc-kpm-common"
 .PHONY : sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
 
 # Include target in all.
@@ -582,9 +582,9 @@ all: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/common/CMakeFiles/sc-kpm-common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/common/CMakeFiles/sc-kpm-common.dir/rule
 
 # Convenience name for target.
@@ -631,7 +631,7 @@ sc-kpm/nl/CMakeFiles/nl.dir/all: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
 sc-kpm/nl/CMakeFiles/nl.dir/all: sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/all
 	$(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/depend
 	$(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=9,10,11,12 "Built target nl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=9,10,11,12 "Built target nl"
 .PHONY : sc-kpm/nl/CMakeFiles/nl.dir/all
 
 # Include target in all.
@@ -641,9 +641,9 @@ all: sc-kpm/nl/CMakeFiles/nl.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/nl/CMakeFiles/nl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/CMakeFiles/nl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/nl/CMakeFiles/nl.dir/rule
 
 # Convenience name for target.
@@ -668,14 +668,14 @@ clean: sc-kpm/nl/CMakeFiles/nl.dir/clean
 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/all: tools/codegen/CMakeFiles/sc-code-generator.dir/all
 	$(MAKE) -f sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build.make sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/depend
 	$(MAKE) -f sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build.make sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target nl-GenerateCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target nl-GenerateCode"
 .PHONY : sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/rule
 
 # Convenience name for target.
@@ -722,7 +722,7 @@ sc-kpm/iot/CMakeFiles/iot.dir/all: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/al
 sc-kpm/iot/CMakeFiles/iot.dir/all: sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/all
 	$(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/depend
 	$(MAKE) -f sc-kpm/iot/CMakeFiles/iot.dir/build.make sc-kpm/iot/CMakeFiles/iot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target iot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target iot"
 .PHONY : sc-kpm/iot/CMakeFiles/iot.dir/all
 
 # Include target in all.
@@ -732,9 +732,9 @@ all: sc-kpm/iot/CMakeFiles/iot.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/iot/CMakeFiles/iot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/CMakeFiles/iot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/iot/CMakeFiles/iot.dir/rule
 
 # Convenience name for target.
@@ -759,14 +759,14 @@ clean: sc-kpm/iot/CMakeFiles/iot.dir/clean
 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/all: tools/codegen/CMakeFiles/sc-code-generator.dir/all
 	$(MAKE) -f sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build.make sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/depend
 	$(MAKE) -f sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build.make sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=6 "Built target iot-GenerateCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=6 "Built target iot-GenerateCode"
 .PHONY : sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/iot/CMakeFiles/iot-GenerateCode.dir/rule
 
 # Convenience name for target.
@@ -810,7 +810,7 @@ sc-kpm/ui/CMakeFiles/ui.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 sc-kpm/ui/CMakeFiles/ui.dir/all: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
 	$(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/depend
 	$(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=92,93,94,95,96,97 "Built target ui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=92,93,94,95,96,97 "Built target ui"
 .PHONY : sc-kpm/ui/CMakeFiles/ui.dir/all
 
 # Include target in all.
@@ -820,9 +820,9 @@ all: sc-kpm/ui/CMakeFiles/ui.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/ui/CMakeFiles/ui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/CMakeFiles/ui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/ui/CMakeFiles/ui.dir/rule
 
 # Convenience name for target.
@@ -866,7 +866,7 @@ sc-kpm/search/CMakeFiles/search.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 sc-kpm/search/CMakeFiles/search.dir/all: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
 	$(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/depend
 	$(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=80,81,82,83,84 "Built target search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=80,81,82,83,84 "Built target search"
 .PHONY : sc-kpm/search/CMakeFiles/search.dir/all
 
 # Include target in all.
@@ -876,9 +876,9 @@ all: sc-kpm/search/CMakeFiles/search.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/search/CMakeFiles/search.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/CMakeFiles/search.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/search/CMakeFiles/search.dir/rule
 
 # Convenience name for target.
@@ -922,7 +922,7 @@ sc-kpm/merge/CMakeFiles/merge.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 sc-kpm/merge/CMakeFiles/merge.dir/all: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
 	$(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/depend
 	$(MAKE) -f sc-kpm/merge/CMakeFiles/merge.dir/build.make sc-kpm/merge/CMakeFiles/merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=7,8 "Built target merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=7,8 "Built target merge"
 .PHONY : sc-kpm/merge/CMakeFiles/merge.dir/all
 
 # Include target in all.
@@ -932,9 +932,9 @@ all: sc-kpm/merge/CMakeFiles/merge.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/merge/CMakeFiles/merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/merge/CMakeFiles/merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/merge/CMakeFiles/merge.dir/rule
 
 # Convenience name for target.
@@ -978,7 +978,7 @@ sc-kpm/utils/CMakeFiles/utils.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 sc-kpm/utils/CMakeFiles/utils.dir/all: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/all
 	$(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/depend
 	$(MAKE) -f sc-kpm/utils/CMakeFiles/utils.dir/build.make sc-kpm/utils/CMakeFiles/utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=98,99,100 "Built target utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=98,99,100 "Built target utils"
 .PHONY : sc-kpm/utils/CMakeFiles/utils.dir/all
 
 # Include target in all.
@@ -988,9 +988,9 @@ all: sc-kpm/utils/CMakeFiles/utils.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/utils/CMakeFiles/utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/utils/CMakeFiles/utils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/utils/CMakeFiles/utils.dir/rule
 
 # Convenience name for target.
@@ -1033,7 +1033,7 @@ sc-kpm/scp/preinstall:
 sc-kpm/scp/CMakeFiles/scp.dir/all: sc-memory/CMakeFiles/sc-memory.dir/all
 	$(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/depend
 	$(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target scp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target scp"
 .PHONY : sc-kpm/scp/CMakeFiles/scp.dir/all
 
 # Include target in all.
@@ -1043,9 +1043,9 @@ all: sc-kpm/scp/CMakeFiles/scp.dir/all
 
 # Build rule for subdir invocation for target.
 sc-kpm/scp/CMakeFiles/scp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/CMakeFiles/scp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-kpm/scp/CMakeFiles/scp.dir/rule
 
 # Convenience name for target.
@@ -1111,7 +1111,7 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/all: sc-memory/CMakeFiles/sc-m
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/all: sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/all
 	$(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/depend
 	$(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=76,77,78,79 "Built target sctp-server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=76,77,78,79 "Built target sctp-server"
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server.dir/all
 
 # Include target in all.
@@ -1121,9 +1121,9 @@ all: sc-network/sctp_server/CMakeFiles/sctp-server.dir/all
 
 # Build rule for subdir invocation for target.
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/CMakeFiles/sctp-server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server.dir/rule
 
 # Convenience name for target.
@@ -1148,14 +1148,14 @@ clean: sc-network/sctp_server/CMakeFiles/sctp-server.dir/clean
 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/all:
 	$(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/depend
 	$(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target sctp-server_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target sctp-server_automoc"
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/rule
 
 # Convenience name for target.
@@ -1201,7 +1201,7 @@ sc-network/sctp_client/CMakeFiles/sctp-client.dir/all: sc-memory/cpp/CMakeFiles/
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/all: sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/all
 	$(MAKE) -f sc-network/sctp_client/CMakeFiles/sctp-client.dir/build.make sc-network/sctp_client/CMakeFiles/sctp-client.dir/depend
 	$(MAKE) -f sc-network/sctp_client/CMakeFiles/sctp-client.dir/build.make sc-network/sctp_client/CMakeFiles/sctp-client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=73,74 "Built target sctp-client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=73,74 "Built target sctp-client"
 .PHONY : sc-network/sctp_client/CMakeFiles/sctp-client.dir/all
 
 # Include target in all.
@@ -1211,9 +1211,9 @@ all: sc-network/sctp_client/CMakeFiles/sctp-client.dir/all
 
 # Build rule for subdir invocation for target.
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_client/CMakeFiles/sctp-client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-network/sctp_client/CMakeFiles/sctp-client.dir/rule
 
 # Convenience name for target.
@@ -1238,14 +1238,14 @@ clean: sc-network/sctp_client/CMakeFiles/sctp-client.dir/clean
 sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/all:
 	$(MAKE) -f sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/build.make sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/depend
 	$(MAKE) -f sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/build.make sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=75 "Built target sctp-client_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=75 "Built target sctp-client_automoc"
 .PHONY : sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : sc-network/sctp_client/CMakeFiles/sctp-client_automoc.dir/rule
 
 # Convenience name for target.
@@ -1311,7 +1311,7 @@ tools/builder/preinstall:
 tools/builder/CMakeFiles/GenerateParser.dir/all:
 	$(MAKE) -f tools/builder/CMakeFiles/GenerateParser.dir/build.make tools/builder/CMakeFiles/GenerateParser.dir/depend
 	$(MAKE) -f tools/builder/CMakeFiles/GenerateParser.dir/build.make tools/builder/CMakeFiles/GenerateParser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target GenerateParser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num= "Built target GenerateParser"
 .PHONY : tools/builder/CMakeFiles/GenerateParser.dir/all
 
 # Include target in all.
@@ -1321,9 +1321,9 @@ all: tools/builder/CMakeFiles/GenerateParser.dir/all
 
 # Build rule for subdir invocation for target.
 tools/builder/CMakeFiles/GenerateParser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 tools/builder/CMakeFiles/GenerateParser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : tools/builder/CMakeFiles/GenerateParser.dir/rule
 
 # Convenience name for target.
@@ -1349,7 +1349,7 @@ tools/builder/CMakeFiles/sc-builder.dir/all: sc-memory/CMakeFiles/sc-memory.dir/
 tools/builder/CMakeFiles/sc-builder.dir/all: tools/builder/CMakeFiles/GenerateParser.dir/all
 	$(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/depend
 	$(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20 "Built target sc-builder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20 "Built target sc-builder"
 .PHONY : tools/builder/CMakeFiles/sc-builder.dir/all
 
 # Include target in all.
@@ -1359,9 +1359,9 @@ all: tools/builder/CMakeFiles/sc-builder.dir/all
 
 # Build rule for subdir invocation for target.
 tools/builder/CMakeFiles/sc-builder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 tools/builder/CMakeFiles/sc-builder.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : tools/builder/CMakeFiles/sc-builder.dir/rule
 
 # Convenience name for target.
@@ -1404,7 +1404,7 @@ tools/codegen/preinstall:
 tools/codegen/CMakeFiles/sc-code-generator.dir/all:
 	$(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/depend
 	$(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29 "Built target sc-code-generator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29 "Built target sc-code-generator"
 .PHONY : tools/codegen/CMakeFiles/sc-code-generator.dir/all
 
 # Include target in all.
@@ -1414,9 +1414,9 @@ all: tools/codegen/CMakeFiles/sc-code-generator.dir/all
 
 # Build rule for subdir invocation for target.
 tools/codegen/CMakeFiles/sc-code-generator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 tools/codegen/CMakeFiles/sc-code-generator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : tools/codegen/CMakeFiles/sc-code-generator.dir/rule
 
 # Convenience name for target.

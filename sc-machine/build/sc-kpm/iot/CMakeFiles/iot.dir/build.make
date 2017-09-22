@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-kpm/iot/CMakeFiles/iot.dir/depend.make
@@ -59,16 +59,16 @@ include sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 
 sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o: ../sc-kpm/iot/iot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iot.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iot.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iot.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iot.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iot.cpp > CMakeFiles/iot.dir/iot.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iot.cpp > CMakeFiles/iot.dir/iot.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iot.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iot.cpp -o CMakeFiles/iot.dir/iot.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iot.cpp -o CMakeFiles/iot.dir/iot.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o.requires:
 
@@ -83,16 +83,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o.provides.build: sc-kpm/iot/CMakeFiles/io
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o: ../sc-kpm/iot/iotActions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotActions.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotActions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotActions.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotActions.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotActions.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotActions.cpp > CMakeFiles/iot.dir/iotActions.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotActions.cpp > CMakeFiles/iot.dir/iotActions.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotActions.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotActions.cpp -o CMakeFiles/iot.dir/iotActions.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotActions.cpp -o CMakeFiles/iot.dir/iotActions.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o.requires:
 
@@ -107,16 +107,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o.provides.build: sc-kpm/iot/CMakeF
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o: ../sc-kpm/iot/iotEnergy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotEnergy.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotEnergy.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotEnergy.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp > CMakeFiles/iot.dir/iotEnergy.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp > CMakeFiles/iot.dir/iotEnergy.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotEnergy.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp -o CMakeFiles/iot.dir/iotEnergy.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp -o CMakeFiles/iot.dir/iotEnergy.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o.requires:
 
@@ -131,16 +131,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o.provides.build: sc-kpm/iot/CMakeFi
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o: ../sc-kpm/iot/iotKeynodes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotKeynodes.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotKeynodes.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotKeynodes.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp > CMakeFiles/iot.dir/iotKeynodes.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp > CMakeFiles/iot.dir/iotKeynodes.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotKeynodes.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp -o CMakeFiles/iot.dir/iotKeynodes.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp -o CMakeFiles/iot.dir/iotKeynodes.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o.requires:
 
@@ -155,16 +155,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o.provides.build: sc-kpm/iot/CMake
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o: ../sc-kpm/iot/iotCommands.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotCommands.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotCommands.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotCommands.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp > CMakeFiles/iot.dir/iotCommands.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp > CMakeFiles/iot.dir/iotCommands.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotCommands.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp -o CMakeFiles/iot.dir/iotCommands.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp -o CMakeFiles/iot.dir/iotCommands.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o.requires:
 
@@ -179,16 +179,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o.provides.build: sc-kpm/iot/CMake
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o: ../sc-kpm/iot/iotContent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotContent.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotContent.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotContent.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotContent.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.cpp > CMakeFiles/iot.dir/iotContent.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotContent.cpp > CMakeFiles/iot.dir/iotContent.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotContent.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.cpp -o CMakeFiles/iot.dir/iotContent.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotContent.cpp -o CMakeFiles/iot.dir/iotContent.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o.requires:
 
@@ -203,16 +203,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o.provides.build: sc-kpm/iot/CMakeF
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o: ../sc-kpm/iot/iotUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotUtils.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotUtils.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotUtils.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp > CMakeFiles/iot.dir/iotUtils.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp > CMakeFiles/iot.dir/iotUtils.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotUtils.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp -o CMakeFiles/iot.dir/iotUtils.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp -o CMakeFiles/iot.dir/iotUtils.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o.requires:
 
@@ -227,16 +227,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o.provides.build: sc-kpm/iot/CMakeFil
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o: ../sc-kpm/iot/iotAbout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotAbout.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotAbout.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotAbout.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp > CMakeFiles/iot.dir/iotAbout.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp > CMakeFiles/iot.dir/iotAbout.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotAbout.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp -o CMakeFiles/iot.dir/iotAbout.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp -o CMakeFiles/iot.dir/iotAbout.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o.requires:
 
@@ -251,16 +251,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o.provides.build: sc-kpm/iot/CMakeFil
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o: ../sc-kpm/iot/iotSpeech.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotSpeech.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotSpeech.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotSpeech.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp > CMakeFiles/iot.dir/iotSpeech.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp > CMakeFiles/iot.dir/iotSpeech.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotSpeech.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp -o CMakeFiles/iot.dir/iotSpeech.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp -o CMakeFiles/iot.dir/iotSpeech.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o.requires:
 
@@ -275,16 +275,16 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o.provides.build: sc-kpm/iot/CMakeFi
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o: sc-kpm/iot/CMakeFiles/iot.dir/flags.make
 sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o: ../sc-kpm/iot/iotTV.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotTV.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot.dir/iotTV.cpp.o -c /root/ostis/sc-machine/sc-kpm/iot/iotTV.cpp
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot.dir/iotTV.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.cpp > CMakeFiles/iot.dir/iotTV.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/iot/iotTV.cpp > CMakeFiles/iot.dir/iotTV.cpp.i
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot.dir/iotTV.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.cpp -o CMakeFiles/iot.dir/iotTV.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/iot/iotTV.cpp -o CMakeFiles/iot.dir/iotTV.cpp.s
 
 sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o.requires:
 
@@ -328,8 +328,8 @@ iot_EXTERNAL_OBJECTS =
 ../bin/extensions/libiot.so: ../bin/libsc-kpm-common.so
 ../bin/extensions/libiot.so: ../bin/libsc-memory.so
 ../bin/extensions/libiot.so: sc-kpm/iot/CMakeFiles/iot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../../../bin/extensions/libiot.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iot.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../../../bin/extensions/libiot.so"
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-kpm/iot/CMakeFiles/iot.dir/build: ../bin/extensions/libiot.so
@@ -350,10 +350,10 @@ sc-kpm/iot/CMakeFiles/iot.dir/requires: sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.
 .PHONY : sc-kpm/iot/CMakeFiles/iot.dir/requires
 
 sc-kpm/iot/CMakeFiles/iot.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot && $(CMAKE_COMMAND) -P CMakeFiles/iot.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/iot && $(CMAKE_COMMAND) -P CMakeFiles/iot.dir/cmake_clean.cmake
 .PHONY : sc-kpm/iot/CMakeFiles/iot.dir/clean
 
 sc-kpm/iot/CMakeFiles/iot.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/iot /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot /home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/iot /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/iot /root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/iot/CMakeFiles/iot.dir/depend
 

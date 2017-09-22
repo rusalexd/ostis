@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/common/CMakeFiles/sc-kpm-common.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/CMakeFiles/sc-kpm-common.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/common/CMakeFiles/sc-kpm-common.dir/rule
 .PHONY : sc-kpm/common/CMakeFiles/sc-kpm-common.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ sc-kpm-common: sc-kpm/common/CMakeFiles/sc-kpm-common.dir/rule
 
 # fast build rule for target.
 sc-kpm-common/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build
 .PHONY : sc-kpm-common/fast
 
 sc_keynodes.o: sc_keynodes.c.o
@@ -175,7 +175,7 @@ sc_keynodes.o: sc_keynodes.c.o
 
 # target to build an object file
 sc_keynodes.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.o
 .PHONY : sc_keynodes.c.o
 
 sc_keynodes.i: sc_keynodes.c.i
@@ -184,7 +184,7 @@ sc_keynodes.i: sc_keynodes.c.i
 
 # target to preprocess a source file
 sc_keynodes.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.i
 .PHONY : sc_keynodes.c.i
 
 sc_keynodes.s: sc_keynodes.c.s
@@ -193,7 +193,7 @@ sc_keynodes.s: sc_keynodes.c.s
 
 # target to generate assembly for a file
 sc_keynodes.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/common/CMakeFiles/sc-kpm-common.dir/build.make sc-kpm/common/CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.s
 .PHONY : sc_keynodes.c.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

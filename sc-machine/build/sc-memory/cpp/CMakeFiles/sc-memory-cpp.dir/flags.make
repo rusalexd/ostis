@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -Wall -fPIC
 
 CXX_DEFINES = -DSC_MEMORY_SELF_BUILD -DSC_PLATFORM_UNIX -Dsc_memory_cpp_EXPORTS
 
-CXX_INCLUDES = -I/home/rusale/DV/ostis/sc-machine/thirdparty -I/home/rusale/DV/ostis/sc-machine -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/rusale/DV/ostis/sc-machine/sc-memory -I/home/rusale/DV/ostis/sc-machine/sc-memory/cpp/generated 
+CXX_INCLUDES = -I/root/ostis/sc-machine/thirdparty -I/root/ostis/sc-machine -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/root/ostis/sc-machine/sc-memory -I/root/ostis/sc-machine/sc-memory/cpp/generated 
 

@@ -94,69 +94,69 @@ sc-store/sc_config.h
 sc-store/sc_types.h
 ../sc-memory/sc-store/sc_types.h
 
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpClient.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpClient.cpp
 ../../../sc-network/sctp_server/sctpClient.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpCommand.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpCommand.cpp
 ../../../sc-network/sctp_server/sctpCommand.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpServer.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpServer.cpp
 ../../../sc-network/sctp_server/sctpServer.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpStatistic.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpStatistic.cpp
 ../../../sc-network/sctp_server/sctpStatistic.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp
 moc_sctpClient.cpp
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpClient.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpClient.cpp
 moc_sctpCommand.cpp
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpCommand.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpCommand.cpp
 moc_sctpServer.cpp
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpServer.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpServer.cpp
 moc_sctpStatistic.cpp
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpStatistic.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_server/moc_sctpStatistic.cpp
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 sc-memory/sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_memory_headers.h
+/root/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_memory_headers.h
 sc-memory/sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_helper.h
+/root/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_helper.h
 stdint.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/main.cpp
+/root/ostis/sc-machine/sc-network/sctp_server/main.cpp
 QtCore/QCoreApplication
 -
 sctpServer.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp
+/root/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp
 sctpClient.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
 sctpCommand.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
 sctpStatistic.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
 QTcpSocket
 -
 QHostAddress
@@ -164,19 +164,19 @@ QHostAddress
 QDebug
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
 QObject
 -
 QThread
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp
+/root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp
 sctpCommand.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
 sctpStatistic.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
 sctpEventManager.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
 QIODevice
 -
 QDataStream
@@ -192,7 +192,7 @@ limits
 assert.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
 QObject
 -
 QMutex
@@ -202,33 +202,33 @@ QByteArray
 set
 -
 ../sctp_client/sctpTypes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp
+/root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp
 sctpEventManager.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
 sctpCommand.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.h
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
 QObject
 -
 QMutex
 -
 ../sctp_client/sctpTypes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 map
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp
+/root/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp
 sctpServer.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
 sctpClient.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpClient.h
 sctpStatistic.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
 sctpEventManager.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.h
 QSettings
 -
 QDebug
@@ -238,23 +238,23 @@ QThreadPool
 QTimer
 -
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sc_memory.h
+/root/ostis/sc-machine/sc-network/sctp_server/sc_memory.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sc_helper.h
+/root/ostis/sc-machine/sc-network/sctp_server/sc_helper.h
 QNetworkInterface
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpServer.h
 ../sctp_client/sctpTypes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 QTcpServer
 -
 QList
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp
+/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp
 sctpStatistic.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
 QTimer
 -
 QDir
@@ -266,13 +266,13 @@ QDebug
 QMutex
 -
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sc_memory.h
+/root/ostis/sc-machine/sc-network/sctp_server/sc_memory.h
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
+/root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.h
 QObject
 -
 ../sctp_client/sctpTypes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 
 /usr/include/qt5/QtCore/QBuffer
 qbuffer.h

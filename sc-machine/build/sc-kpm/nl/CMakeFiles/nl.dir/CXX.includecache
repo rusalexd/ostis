@@ -474,61 +474,61 @@ nmmintrin.h
 emmintrin.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/hmac.h
+/root/ostis/sc-machine/sc-kpm/nl/hash/hmac.h
 string
 -
 cstring
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp
+/root/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp
 sha256.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.h
+/root/ostis/sc-machine/sc-kpm/nl/hash/sha256.h
 endian.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.h
+/root/ostis/sc-machine/sc-kpm/nl/hash/sha256.h
 string
 -
 stdint.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.cpp
+/root/ostis/sc-machine/sc-kpm/nl/nl.cpp
 nl.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nl.hpp
 nlApiAi.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlApiAi.hpp
 nlIvona.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlIvona.hpp
 nlDialogue.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlDialogue.hpp
 nlKeynodes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nl.hpp
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc_memory.h
+/root/ostis/sc-machine/sc-kpm/nl/sc_memory.h
 sc-memory/cpp/sc_module.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_module.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_module.hpp
 nl.generated.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.generated.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nl.generated.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp
+/root/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp
 nlApiAi.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlApiAi.hpp
 nlApiAiUtils.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAiUtils.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlApiAiUtils.hpp
 sc-memory/cpp/sc_stream.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_stream.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_stream.hpp
 sc-memory/cpp/sc_struct.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_struct.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_struct.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlApiAi.hpp
 sc-memory/cpp/kpm/sc_agent.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/kpm/sc_agent.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/kpm/sc_agent.hpp
 nlApiAi.generated.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.generated.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlApiAi.generated.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAiUtils.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlApiAiUtils.hpp
 iomanip
 -
 curl/curl.h
@@ -540,31 +540,31 @@ rapidjson/stringbuffer.h
 rapidjson/writer.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp
+/root/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp
 sc-memory/cpp/sc_wait.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_wait.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_wait.hpp
 nlDialogue.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlDialogue.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlDialogue.hpp
 sc-memory/cpp/kpm/sc_agent.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/kpm/sc_agent.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/kpm/sc_agent.hpp
 nlKeynodes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
 nlDialogue.generated.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.generated.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlDialogue.generated.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp
+/root/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp
 nlIvona.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlIvona.hpp
 sc-memory/cpp/sc_stream.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_stream.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_stream.hpp
 sc-memory/cpp/sc_struct.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_struct.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_struct.hpp
 hash/hmac.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/hmac.h
+/root/ostis/sc-machine/sc-kpm/nl/hash/hmac.h
 hash/sha256.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.h
+/root/ostis/sc-machine/sc-kpm/nl/hash/sha256.h
 curl/curl.h
 -
 rapidjson/document.h
@@ -576,21 +576,21 @@ rapidjson/writer.h
 iomanip
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlIvona.hpp
 sc-memory/cpp/kpm/sc_agent.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/kpm/sc_agent.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/kpm/sc_agent.hpp
 nlIvona.generated.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.generated.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlIvona.generated.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp
+/root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp
 nlKeynodes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.hpp
 sc-memory/cpp/sc_object.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_object.hpp
+/root/ostis/sc-machine/sc-kpm/nl/sc-memory/cpp/sc_object.hpp
 nlKeynodes.generated.hpp
-/home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.generated.hpp
+/root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.generated.hpp
 
 /usr/include/glib-2.0/glib.h
 glib/galloca.h

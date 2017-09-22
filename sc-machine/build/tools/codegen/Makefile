@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/tools/codegen/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/tools/codegen/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/codegen/CMakeFiles/sc-code-generator.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/CMakeFiles/sc-code-generator.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/codegen/CMakeFiles/sc-code-generator.dir/rule
 .PHONY : tools/codegen/CMakeFiles/sc-code-generator.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ sc-code-generator: tools/codegen/CMakeFiles/sc-code-generator.dir/rule
 
 # fast build rule for target.
 sc-code-generator/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/build
 .PHONY : sc-code-generator/fast
 
 Parser/Cache.o: Parser/Cache.cpp.o
@@ -175,7 +175,7 @@ Parser/Cache.o: Parser/Cache.cpp.o
 
 # target to build an object file
 Parser/Cache.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cache.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cache.cpp.o
 .PHONY : Parser/Cache.cpp.o
 
 Parser/Cache.i: Parser/Cache.cpp.i
@@ -184,7 +184,7 @@ Parser/Cache.i: Parser/Cache.cpp.i
 
 # target to preprocess a source file
 Parser/Cache.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cache.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cache.cpp.i
 .PHONY : Parser/Cache.cpp.i
 
 Parser/Cache.s: Parser/Cache.cpp.s
@@ -193,7 +193,7 @@ Parser/Cache.s: Parser/Cache.cpp.s
 
 # target to generate assembly for a file
 Parser/Cache.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cache.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cache.cpp.s
 .PHONY : Parser/Cache.cpp.s
 
 Parser/Cursor.o: Parser/Cursor.cpp.o
@@ -202,7 +202,7 @@ Parser/Cursor.o: Parser/Cursor.cpp.o
 
 # target to build an object file
 Parser/Cursor.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cursor.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cursor.cpp.o
 .PHONY : Parser/Cursor.cpp.o
 
 Parser/Cursor.i: Parser/Cursor.cpp.i
@@ -211,7 +211,7 @@ Parser/Cursor.i: Parser/Cursor.cpp.i
 
 # target to preprocess a source file
 Parser/Cursor.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cursor.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cursor.cpp.i
 .PHONY : Parser/Cursor.cpp.i
 
 Parser/Cursor.s: Parser/Cursor.cpp.s
@@ -220,7 +220,7 @@ Parser/Cursor.s: Parser/Cursor.cpp.s
 
 # target to generate assembly for a file
 Parser/Cursor.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cursor.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Cursor.cpp.s
 .PHONY : Parser/Cursor.cpp.s
 
 Parser/CursorType.o: Parser/CursorType.cpp.o
@@ -229,7 +229,7 @@ Parser/CursorType.o: Parser/CursorType.cpp.o
 
 # target to build an object file
 Parser/CursorType.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/CursorType.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/CursorType.cpp.o
 .PHONY : Parser/CursorType.cpp.o
 
 Parser/CursorType.i: Parser/CursorType.cpp.i
@@ -238,7 +238,7 @@ Parser/CursorType.i: Parser/CursorType.cpp.i
 
 # target to preprocess a source file
 Parser/CursorType.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/CursorType.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/CursorType.cpp.i
 .PHONY : Parser/CursorType.cpp.i
 
 Parser/CursorType.s: Parser/CursorType.cpp.s
@@ -247,7 +247,7 @@ Parser/CursorType.s: Parser/CursorType.cpp.s
 
 # target to generate assembly for a file
 Parser/CursorType.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/CursorType.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/CursorType.cpp.s
 .PHONY : Parser/CursorType.cpp.s
 
 Parser/LanguageTypes/Class.o: Parser/LanguageTypes/Class.cpp.o
@@ -256,7 +256,7 @@ Parser/LanguageTypes/Class.o: Parser/LanguageTypes/Class.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/Class.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Class.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Class.cpp.o
 .PHONY : Parser/LanguageTypes/Class.cpp.o
 
 Parser/LanguageTypes/Class.i: Parser/LanguageTypes/Class.cpp.i
@@ -265,7 +265,7 @@ Parser/LanguageTypes/Class.i: Parser/LanguageTypes/Class.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/Class.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Class.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Class.cpp.i
 .PHONY : Parser/LanguageTypes/Class.cpp.i
 
 Parser/LanguageTypes/Class.s: Parser/LanguageTypes/Class.cpp.s
@@ -274,7 +274,7 @@ Parser/LanguageTypes/Class.s: Parser/LanguageTypes/Class.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/Class.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Class.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Class.cpp.s
 .PHONY : Parser/LanguageTypes/Class.cpp.s
 
 Parser/LanguageTypes/Constructor.o: Parser/LanguageTypes/Constructor.cpp.o
@@ -283,7 +283,7 @@ Parser/LanguageTypes/Constructor.o: Parser/LanguageTypes/Constructor.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/Constructor.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Constructor.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Constructor.cpp.o
 .PHONY : Parser/LanguageTypes/Constructor.cpp.o
 
 Parser/LanguageTypes/Constructor.i: Parser/LanguageTypes/Constructor.cpp.i
@@ -292,7 +292,7 @@ Parser/LanguageTypes/Constructor.i: Parser/LanguageTypes/Constructor.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/Constructor.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Constructor.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Constructor.cpp.i
 .PHONY : Parser/LanguageTypes/Constructor.cpp.i
 
 Parser/LanguageTypes/Constructor.s: Parser/LanguageTypes/Constructor.cpp.s
@@ -301,7 +301,7 @@ Parser/LanguageTypes/Constructor.s: Parser/LanguageTypes/Constructor.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/Constructor.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Constructor.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Constructor.cpp.s
 .PHONY : Parser/LanguageTypes/Constructor.cpp.s
 
 Parser/LanguageTypes/Field.o: Parser/LanguageTypes/Field.cpp.o
@@ -310,7 +310,7 @@ Parser/LanguageTypes/Field.o: Parser/LanguageTypes/Field.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/Field.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Field.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Field.cpp.o
 .PHONY : Parser/LanguageTypes/Field.cpp.o
 
 Parser/LanguageTypes/Field.i: Parser/LanguageTypes/Field.cpp.i
@@ -319,7 +319,7 @@ Parser/LanguageTypes/Field.i: Parser/LanguageTypes/Field.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/Field.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Field.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Field.cpp.i
 .PHONY : Parser/LanguageTypes/Field.cpp.i
 
 Parser/LanguageTypes/Field.s: Parser/LanguageTypes/Field.cpp.s
@@ -328,7 +328,7 @@ Parser/LanguageTypes/Field.s: Parser/LanguageTypes/Field.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/Field.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Field.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Field.cpp.s
 .PHONY : Parser/LanguageTypes/Field.cpp.s
 
 Parser/LanguageTypes/Function.o: Parser/LanguageTypes/Function.cpp.o
@@ -337,7 +337,7 @@ Parser/LanguageTypes/Function.o: Parser/LanguageTypes/Function.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/Function.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Function.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Function.cpp.o
 .PHONY : Parser/LanguageTypes/Function.cpp.o
 
 Parser/LanguageTypes/Function.i: Parser/LanguageTypes/Function.cpp.i
@@ -346,7 +346,7 @@ Parser/LanguageTypes/Function.i: Parser/LanguageTypes/Function.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/Function.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Function.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Function.cpp.i
 .PHONY : Parser/LanguageTypes/Function.cpp.i
 
 Parser/LanguageTypes/Function.s: Parser/LanguageTypes/Function.cpp.s
@@ -355,7 +355,7 @@ Parser/LanguageTypes/Function.s: Parser/LanguageTypes/Function.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/Function.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Function.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Function.cpp.s
 .PHONY : Parser/LanguageTypes/Function.cpp.s
 
 Parser/LanguageTypes/Global.o: Parser/LanguageTypes/Global.cpp.o
@@ -364,7 +364,7 @@ Parser/LanguageTypes/Global.o: Parser/LanguageTypes/Global.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/Global.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Global.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Global.cpp.o
 .PHONY : Parser/LanguageTypes/Global.cpp.o
 
 Parser/LanguageTypes/Global.i: Parser/LanguageTypes/Global.cpp.i
@@ -373,7 +373,7 @@ Parser/LanguageTypes/Global.i: Parser/LanguageTypes/Global.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/Global.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Global.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Global.cpp.i
 .PHONY : Parser/LanguageTypes/Global.cpp.i
 
 Parser/LanguageTypes/Global.s: Parser/LanguageTypes/Global.cpp.s
@@ -382,7 +382,7 @@ Parser/LanguageTypes/Global.s: Parser/LanguageTypes/Global.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/Global.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Global.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Global.cpp.s
 .PHONY : Parser/LanguageTypes/Global.cpp.s
 
 Parser/LanguageTypes/Invokable.o: Parser/LanguageTypes/Invokable.cpp.o
@@ -391,7 +391,7 @@ Parser/LanguageTypes/Invokable.o: Parser/LanguageTypes/Invokable.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/Invokable.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Invokable.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Invokable.cpp.o
 .PHONY : Parser/LanguageTypes/Invokable.cpp.o
 
 Parser/LanguageTypes/Invokable.i: Parser/LanguageTypes/Invokable.cpp.i
@@ -400,7 +400,7 @@ Parser/LanguageTypes/Invokable.i: Parser/LanguageTypes/Invokable.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/Invokable.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Invokable.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Invokable.cpp.i
 .PHONY : Parser/LanguageTypes/Invokable.cpp.i
 
 Parser/LanguageTypes/Invokable.s: Parser/LanguageTypes/Invokable.cpp.s
@@ -409,7 +409,7 @@ Parser/LanguageTypes/Invokable.s: Parser/LanguageTypes/Invokable.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/Invokable.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Invokable.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Invokable.cpp.s
 .PHONY : Parser/LanguageTypes/Invokable.cpp.s
 
 Parser/LanguageTypes/LanguageType.o: Parser/LanguageTypes/LanguageType.cpp.o
@@ -418,7 +418,7 @@ Parser/LanguageTypes/LanguageType.o: Parser/LanguageTypes/LanguageType.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/LanguageType.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/LanguageType.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/LanguageType.cpp.o
 .PHONY : Parser/LanguageTypes/LanguageType.cpp.o
 
 Parser/LanguageTypes/LanguageType.i: Parser/LanguageTypes/LanguageType.cpp.i
@@ -427,7 +427,7 @@ Parser/LanguageTypes/LanguageType.i: Parser/LanguageTypes/LanguageType.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/LanguageType.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/LanguageType.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/LanguageType.cpp.i
 .PHONY : Parser/LanguageTypes/LanguageType.cpp.i
 
 Parser/LanguageTypes/LanguageType.s: Parser/LanguageTypes/LanguageType.cpp.s
@@ -436,7 +436,7 @@ Parser/LanguageTypes/LanguageType.s: Parser/LanguageTypes/LanguageType.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/LanguageType.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/LanguageType.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/LanguageType.cpp.s
 .PHONY : Parser/LanguageTypes/LanguageType.cpp.s
 
 Parser/LanguageTypes/Method.o: Parser/LanguageTypes/Method.cpp.o
@@ -445,7 +445,7 @@ Parser/LanguageTypes/Method.o: Parser/LanguageTypes/Method.cpp.o
 
 # target to build an object file
 Parser/LanguageTypes/Method.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Method.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Method.cpp.o
 .PHONY : Parser/LanguageTypes/Method.cpp.o
 
 Parser/LanguageTypes/Method.i: Parser/LanguageTypes/Method.cpp.i
@@ -454,7 +454,7 @@ Parser/LanguageTypes/Method.i: Parser/LanguageTypes/Method.cpp.i
 
 # target to preprocess a source file
 Parser/LanguageTypes/Method.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Method.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Method.cpp.i
 .PHONY : Parser/LanguageTypes/Method.cpp.i
 
 Parser/LanguageTypes/Method.s: Parser/LanguageTypes/Method.cpp.s
@@ -463,7 +463,7 @@ Parser/LanguageTypes/Method.s: Parser/LanguageTypes/Method.cpp.s
 
 # target to generate assembly for a file
 Parser/LanguageTypes/Method.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Method.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/LanguageTypes/Method.cpp.s
 .PHONY : Parser/LanguageTypes/Method.cpp.s
 
 Parser/MacrosManager.o: Parser/MacrosManager.cpp.o
@@ -472,7 +472,7 @@ Parser/MacrosManager.o: Parser/MacrosManager.cpp.o
 
 # target to build an object file
 Parser/MacrosManager.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MacrosManager.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MacrosManager.cpp.o
 .PHONY : Parser/MacrosManager.cpp.o
 
 Parser/MacrosManager.i: Parser/MacrosManager.cpp.i
@@ -481,7 +481,7 @@ Parser/MacrosManager.i: Parser/MacrosManager.cpp.i
 
 # target to preprocess a source file
 Parser/MacrosManager.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MacrosManager.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MacrosManager.cpp.i
 .PHONY : Parser/MacrosManager.cpp.i
 
 Parser/MacrosManager.s: Parser/MacrosManager.cpp.s
@@ -490,7 +490,7 @@ Parser/MacrosManager.s: Parser/MacrosManager.cpp.s
 
 # target to generate assembly for a file
 Parser/MacrosManager.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MacrosManager.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MacrosManager.cpp.s
 .PHONY : Parser/MacrosManager.cpp.s
 
 Parser/Main.o: Parser/Main.cpp.o
@@ -499,7 +499,7 @@ Parser/Main.o: Parser/Main.cpp.o
 
 # target to build an object file
 Parser/Main.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Main.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Main.cpp.o
 .PHONY : Parser/Main.cpp.o
 
 Parser/Main.i: Parser/Main.cpp.i
@@ -508,7 +508,7 @@ Parser/Main.i: Parser/Main.cpp.i
 
 # target to preprocess a source file
 Parser/Main.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Main.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Main.cpp.i
 .PHONY : Parser/Main.cpp.i
 
 Parser/Main.s: Parser/Main.cpp.s
@@ -517,7 +517,7 @@ Parser/Main.s: Parser/Main.cpp.s
 
 # target to generate assembly for a file
 Parser/Main.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Main.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Main.cpp.s
 .PHONY : Parser/Main.cpp.s
 
 Parser/MetaDataManager.o: Parser/MetaDataManager.cpp.o
@@ -526,7 +526,7 @@ Parser/MetaDataManager.o: Parser/MetaDataManager.cpp.o
 
 # target to build an object file
 Parser/MetaDataManager.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaDataManager.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaDataManager.cpp.o
 .PHONY : Parser/MetaDataManager.cpp.o
 
 Parser/MetaDataManager.i: Parser/MetaDataManager.cpp.i
@@ -535,7 +535,7 @@ Parser/MetaDataManager.i: Parser/MetaDataManager.cpp.i
 
 # target to preprocess a source file
 Parser/MetaDataManager.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaDataManager.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaDataManager.cpp.i
 .PHONY : Parser/MetaDataManager.cpp.i
 
 Parser/MetaDataManager.s: Parser/MetaDataManager.cpp.s
@@ -544,7 +544,7 @@ Parser/MetaDataManager.s: Parser/MetaDataManager.cpp.s
 
 # target to generate assembly for a file
 Parser/MetaDataManager.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaDataManager.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaDataManager.cpp.s
 .PHONY : Parser/MetaDataManager.cpp.s
 
 Parser/MetaUtils.o: Parser/MetaUtils.cpp.o
@@ -553,7 +553,7 @@ Parser/MetaUtils.o: Parser/MetaUtils.cpp.o
 
 # target to build an object file
 Parser/MetaUtils.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaUtils.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaUtils.cpp.o
 .PHONY : Parser/MetaUtils.cpp.o
 
 Parser/MetaUtils.i: Parser/MetaUtils.cpp.i
@@ -562,7 +562,7 @@ Parser/MetaUtils.i: Parser/MetaUtils.cpp.i
 
 # target to preprocess a source file
 Parser/MetaUtils.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaUtils.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaUtils.cpp.i
 .PHONY : Parser/MetaUtils.cpp.i
 
 Parser/MetaUtils.s: Parser/MetaUtils.cpp.s
@@ -571,7 +571,7 @@ Parser/MetaUtils.s: Parser/MetaUtils.cpp.s
 
 # target to generate assembly for a file
 Parser/MetaUtils.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaUtils.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/MetaUtils.cpp.s
 .PHONY : Parser/MetaUtils.cpp.s
 
 Parser/Precompiled.o: Parser/Precompiled.cpp.o
@@ -580,7 +580,7 @@ Parser/Precompiled.o: Parser/Precompiled.cpp.o
 
 # target to build an object file
 Parser/Precompiled.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Precompiled.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Precompiled.cpp.o
 .PHONY : Parser/Precompiled.cpp.o
 
 Parser/Precompiled.i: Parser/Precompiled.cpp.i
@@ -589,7 +589,7 @@ Parser/Precompiled.i: Parser/Precompiled.cpp.i
 
 # target to preprocess a source file
 Parser/Precompiled.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Precompiled.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Precompiled.cpp.i
 .PHONY : Parser/Precompiled.cpp.i
 
 Parser/Precompiled.s: Parser/Precompiled.cpp.s
@@ -598,7 +598,7 @@ Parser/Precompiled.s: Parser/Precompiled.cpp.s
 
 # target to generate assembly for a file
 Parser/Precompiled.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Precompiled.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Precompiled.cpp.s
 .PHONY : Parser/Precompiled.cpp.s
 
 Parser/ReflectionParser.o: Parser/ReflectionParser.cpp.o
@@ -607,7 +607,7 @@ Parser/ReflectionParser.o: Parser/ReflectionParser.cpp.o
 
 # target to build an object file
 Parser/ReflectionParser.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/ReflectionParser.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/ReflectionParser.cpp.o
 .PHONY : Parser/ReflectionParser.cpp.o
 
 Parser/ReflectionParser.i: Parser/ReflectionParser.cpp.i
@@ -616,7 +616,7 @@ Parser/ReflectionParser.i: Parser/ReflectionParser.cpp.i
 
 # target to preprocess a source file
 Parser/ReflectionParser.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/ReflectionParser.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/ReflectionParser.cpp.i
 .PHONY : Parser/ReflectionParser.cpp.i
 
 Parser/ReflectionParser.s: Parser/ReflectionParser.cpp.s
@@ -625,7 +625,7 @@ Parser/ReflectionParser.s: Parser/ReflectionParser.cpp.s
 
 # target to generate assembly for a file
 Parser/ReflectionParser.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/ReflectionParser.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/ReflectionParser.cpp.s
 .PHONY : Parser/ReflectionParser.cpp.s
 
 Parser/Sha256.o: Parser/Sha256.cpp.o
@@ -634,7 +634,7 @@ Parser/Sha256.o: Parser/Sha256.cpp.o
 
 # target to build an object file
 Parser/Sha256.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Sha256.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Sha256.cpp.o
 .PHONY : Parser/Sha256.cpp.o
 
 Parser/Sha256.i: Parser/Sha256.cpp.i
@@ -643,7 +643,7 @@ Parser/Sha256.i: Parser/Sha256.cpp.i
 
 # target to preprocess a source file
 Parser/Sha256.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Sha256.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Sha256.cpp.i
 .PHONY : Parser/Sha256.cpp.i
 
 Parser/Sha256.s: Parser/Sha256.cpp.s
@@ -652,7 +652,7 @@ Parser/Sha256.s: Parser/Sha256.cpp.s
 
 # target to generate assembly for a file
 Parser/Sha256.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Sha256.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/codegen/CMakeFiles/sc-code-generator.dir/build.make tools/codegen/CMakeFiles/sc-code-generator.dir/Parser/Sha256.cpp.s
 .PHONY : Parser/Sha256.cpp.s
 
 # Help Target
@@ -733,6 +733,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

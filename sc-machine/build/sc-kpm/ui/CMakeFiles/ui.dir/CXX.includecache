@@ -144,169 +144,169 @@ sc-store/sc_config.h
 sc-store/sc_types.h
 ../sc-memory/sc-store/sc_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+/root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_memory.h
+/root/ostis/sc-machine/sc-kpm/common/sc_memory.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+/root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_helper.h
+/root/ostis/sc-machine/sc-kpm/common/sc_helper.h
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_memory.h
+/root/ostis/sc-machine/sc-kpm/common/sc_memory.h
 sc_common_types.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+/root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.cpp
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
 uiSc2SCgJsonTranslator.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
 uiTranslators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslators.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslators.h
 uiUtils.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiUtils.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiUtils.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.h
 uiTranslatorFromSc.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.cpp
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
 uiSc2SCnJsonTranslator.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.h
 uiTranslators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslators.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslators.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
 uiUtils.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiUtils.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiUtils.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.h
 uiTranslatorFromSc.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.cpp
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
 uiSc2ScsJsonTranslator.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.h
 uiTranslators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslators.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslators.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
 uiUtils.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiUtils.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiUtils.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.h
 uiTranslatorFromSc.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.cpp
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiPrecompiled.h
 uiTranslatorFromSc.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiKeynodes.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.h
 uiTypes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTypes.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiTypes.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/ui.cpp
+/root/ostis/sc-machine/sc-kpm/ui/ui.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
 ui.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/ui.h
+/root/ostis/sc-machine/sc-kpm/ui/ui.h
 uiTranslators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTranslators.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTranslators.h
 uiCommands.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiCommands.h
+/root/ostis/sc-machine/sc-kpm/ui/uiCommands.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
 glib.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/ui.h
+/root/ostis/sc-machine/sc-kpm/ui/ui.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiCommands.cpp
+/root/ostis/sc-machine/sc-kpm/ui/uiCommands.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
 uiCommands.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiCommands.h
+/root/ostis/sc-machine/sc-kpm/ui/uiCommands.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
 uiDefines.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiDefines.h
+/root/ostis/sc-machine/sc-kpm/ui/uiDefines.h
 stdio.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiCommands.h
+/root/ostis/sc-machine/sc-kpm/ui/uiCommands.h
 sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/sc_memory.h
+/root/ostis/sc-machine/sc-kpm/ui/sc_memory.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiDefines.h
+/root/ostis/sc-machine/sc-kpm/ui/uiDefines.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.cpp
+/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
 ../common/sc_keynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+/root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
 glib.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
 uiTypes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTypes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTypes.h
 ui.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/ui.h
+/root/ostis/sc-machine/sc-kpm/ui/ui.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
 uiUtils.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiUtils.h
+/root/ostis/sc-machine/sc-kpm/ui/uiUtils.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/sc_helper.h
+/root/ostis/sc-machine/sc-kpm/ui/sc_helper.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTranslators.cpp
+/root/ostis/sc-machine/sc-kpm/ui/uiTranslators.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
 uiTranslators.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTranslators.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTranslators.h
 uiKeynodes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.h
 translators/uiSc2ScsJsonTranslator.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.h
 translators/uiSc2SCgJsonTranslator.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.h
 translators/uiSc2SCnJsonTranslator.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.h
+/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTranslators.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTranslators.h
 uiTypes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTypes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTypes.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTypes.cpp
+/root/ostis/sc-machine/sc-kpm/ui/uiTypes.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
 uiTypes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTypes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTypes.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTypes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTypes.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
 string
 -
 sstream
@@ -322,17 +322,17 @@ assert.h
 stdint.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiUtils.cpp
+/root/ostis/sc-machine/sc-kpm/ui/uiUtils.cpp
 uiPrecompiled.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
+/root/ostis/sc-machine/sc-kpm/ui/uiPrecompiled.h
 uiUtils.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiUtils.h
+/root/ostis/sc-machine/sc-kpm/ui/uiUtils.h
 
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiUtils.h
+/root/ostis/sc-machine/sc-kpm/ui/uiUtils.h
 uiTypes.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTypes.h
+/root/ostis/sc-machine/sc-kpm/ui/uiTypes.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
+/root/ostis/sc-machine/sc-kpm/ui/sc_memory_headers.h
 
 /usr/include/glib-2.0/glib.h
 glib/galloca.h

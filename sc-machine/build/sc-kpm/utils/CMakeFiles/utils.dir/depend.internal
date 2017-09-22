@@ -16,11 +16,11 @@ sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils.c
+ /root/ostis/sc-machine/sc-kpm/utils/utils.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.h
 sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -37,10 +37,10 @@ sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c
+ /root/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -132,20 +132,20 @@ sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c
+ /root/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.h
 sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o
  ../sc-memory/sc-store/sc_defines.h
  ../sc-memory/sc-store/sc_stream.h
  ../sc-memory/sc-store/sc_types.h
  ../sc-memory/sc_helper.h
  ../sc-memory/sc_memory.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils.h
+ /root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c
+ /root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h

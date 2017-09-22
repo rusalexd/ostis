@@ -9,7 +9,7 @@ sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/sc_fm_filesystem.c.o
  ../sc-memory/sc-store/sc_stream_file.h
  ../sc-memory/sc-store/sc_types.h
  ../sc-memory/sc_memory.h
- /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_filesystem.c
+ /root/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_filesystem.c
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h

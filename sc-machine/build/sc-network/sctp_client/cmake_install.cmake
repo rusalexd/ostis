@@ -1,4 +1,4 @@
-# Install script for directory: /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client
+# Install script for directory: /root/ostis/sc-machine/sc-network/sctp_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

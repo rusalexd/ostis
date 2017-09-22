@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/depend.make
@@ -59,16 +59,16 @@ include sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/flags.make
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o: sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/flags.make
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o: ../sc-fm/sc_fm_redis/sc_fm_redis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o"
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o   -c /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c > CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.i
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c > CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.i
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.s
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis.c -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.s
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o.requires:
 
@@ -83,16 +83,16 @@ sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis.c.o.provides.build: sc-
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o: sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/flags.make
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o: ../sc-fm/sc_fm_redis/sc_stream_redis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o"
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o   -c /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c > CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.i
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c > CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.i
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c -o CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.s
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_stream_redis.c -o CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.s
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o.requires:
 
@@ -107,16 +107,16 @@ sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_stream_redis.c.o.provides.build:
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o: sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/flags.make
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o: ../sc-fm/sc_fm_redis/sc_fm_redis_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o"
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o   -c /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c > CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.i
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c > CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.i
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.s
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-fm/sc_fm_redis/sc_fm_redis_config.c -o CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.s
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/sc_fm_redis_config.c.o.requires:
 
@@ -144,8 +144,8 @@ sc__fm__redis_EXTERNAL_OBJECTS =
 ../bin/libsc-fm-redis.so: sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build.make
 ../bin/libsc-fm-redis.so: ../bin/libsc-memory.so
 ../bin/libsc-fm-redis.so: sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library ../../../bin/libsc-fm-redis.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-fm-redis.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library ../../../bin/libsc-fm-redis.so"
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-fm-redis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/build: ../bin/libsc-fm-redis.so
@@ -159,10 +159,10 @@ sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/requires: sc-fm/sc_fm_redis/CMakeFi
 .PHONY : sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/requires
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis && $(CMAKE_COMMAND) -P CMakeFiles/sc-fm-redis.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-fm/sc_fm_redis && $(CMAKE_COMMAND) -P CMakeFiles/sc-fm-redis.dir/cmake_clean.cmake
 .PHONY : sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/clean
 
 sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis /home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-fm/sc_fm_redis /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-fm/sc_fm_redis /root/ostis/sc-machine/build/sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-fm/sc_fm_redis/CMakeFiles/sc-fm-redis.dir/depend
 

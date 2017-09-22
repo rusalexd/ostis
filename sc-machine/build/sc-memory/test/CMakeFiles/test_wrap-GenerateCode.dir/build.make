@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Utility rule file for test_wrap-GenerateCode.
 
@@ -57,8 +57,8 @@ sc-memory/test/CMakeFiles/test_wrap-GenerateCode: sc-memory/test/test_wrap.gen_c
 
 
 sc-memory/test/test_wrap.gen_cache.missed:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test_wrap.gen_cache.missed"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/test && ../../../bin/sc-code-generator --target test_wrap --source /home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap --output /home/rusale/DV/ostis/sc-machine/build/sc-memory/test/test_wrap_gen --build_dir /home/rusale/DV/ostis/sc-machine/build/sc-memory/test --flags '-I/home/rusale/DV/ostis/sc-machine/thirdparty;-I/home/rusale/DV/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/home/rusale/DV/ostis/sc-machine/thirdparty;-I/home/rusale/DV/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;'
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test_wrap.gen_cache.missed"
+	cd /root/ostis/sc-machine/build/sc-memory/test && ../../../bin/sc-code-generator --target test_wrap --source /root/ostis/sc-machine/sc-memory/test/wrap --output /root/ostis/sc-machine/build/sc-memory/test/test_wrap_gen --build_dir /root/ostis/sc-machine/build/sc-memory/test --flags '-I/root/ostis/sc-machine/thirdparty;-I/root/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/root/ostis/sc-machine/thirdparty;-I/root/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;'
 
 test_wrap-GenerateCode: sc-memory/test/CMakeFiles/test_wrap-GenerateCode
 test_wrap-GenerateCode: sc-memory/test/test_wrap.gen_cache.missed
@@ -72,10 +72,10 @@ sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build: test_wrap-GenerateCo
 .PHONY : sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/build
 
 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/test && $(CMAKE_COMMAND) -P CMakeFiles/test_wrap-GenerateCode.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-memory/test && $(CMAKE_COMMAND) -P CMakeFiles/test_wrap-GenerateCode.dir/cmake_clean.cmake
 .PHONY : sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/clean
 
 sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-memory/test /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-memory/test /home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-memory/test /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-memory/test /root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-memory/test/CMakeFiles/test_wrap-GenerateCode.dir/depend
 

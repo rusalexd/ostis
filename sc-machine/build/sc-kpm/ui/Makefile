@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/ui/CMakeFiles/ui.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/CMakeFiles/ui.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/ui/CMakeFiles/ui.dir/rule
 .PHONY : sc-kpm/ui/CMakeFiles/ui.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ ui: sc-kpm/ui/CMakeFiles/ui.dir/rule
 
 # fast build rule for target.
 ui/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/build
 .PHONY : ui/fast
 
 translators/uiSc2SCgJsonTranslator.o: translators/uiSc2SCgJsonTranslator.cpp.o
@@ -175,7 +175,7 @@ translators/uiSc2SCgJsonTranslator.o: translators/uiSc2SCgJsonTranslator.cpp.o
 
 # target to build an object file
 translators/uiSc2SCgJsonTranslator.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.o
 .PHONY : translators/uiSc2SCgJsonTranslator.cpp.o
 
 translators/uiSc2SCgJsonTranslator.i: translators/uiSc2SCgJsonTranslator.cpp.i
@@ -184,7 +184,7 @@ translators/uiSc2SCgJsonTranslator.i: translators/uiSc2SCgJsonTranslator.cpp.i
 
 # target to preprocess a source file
 translators/uiSc2SCgJsonTranslator.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.i
 .PHONY : translators/uiSc2SCgJsonTranslator.cpp.i
 
 translators/uiSc2SCgJsonTranslator.s: translators/uiSc2SCgJsonTranslator.cpp.s
@@ -193,7 +193,7 @@ translators/uiSc2SCgJsonTranslator.s: translators/uiSc2SCgJsonTranslator.cpp.s
 
 # target to generate assembly for a file
 translators/uiSc2SCgJsonTranslator.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.s
 .PHONY : translators/uiSc2SCgJsonTranslator.cpp.s
 
 translators/uiSc2SCnJsonTranslator.o: translators/uiSc2SCnJsonTranslator.cpp.o
@@ -202,7 +202,7 @@ translators/uiSc2SCnJsonTranslator.o: translators/uiSc2SCnJsonTranslator.cpp.o
 
 # target to build an object file
 translators/uiSc2SCnJsonTranslator.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.o
 .PHONY : translators/uiSc2SCnJsonTranslator.cpp.o
 
 translators/uiSc2SCnJsonTranslator.i: translators/uiSc2SCnJsonTranslator.cpp.i
@@ -211,7 +211,7 @@ translators/uiSc2SCnJsonTranslator.i: translators/uiSc2SCnJsonTranslator.cpp.i
 
 # target to preprocess a source file
 translators/uiSc2SCnJsonTranslator.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.i
 .PHONY : translators/uiSc2SCnJsonTranslator.cpp.i
 
 translators/uiSc2SCnJsonTranslator.s: translators/uiSc2SCnJsonTranslator.cpp.s
@@ -220,7 +220,7 @@ translators/uiSc2SCnJsonTranslator.s: translators/uiSc2SCnJsonTranslator.cpp.s
 
 # target to generate assembly for a file
 translators/uiSc2SCnJsonTranslator.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.s
 .PHONY : translators/uiSc2SCnJsonTranslator.cpp.s
 
 translators/uiSc2ScsJsonTranslator.o: translators/uiSc2ScsJsonTranslator.cpp.o
@@ -229,7 +229,7 @@ translators/uiSc2ScsJsonTranslator.o: translators/uiSc2ScsJsonTranslator.cpp.o
 
 # target to build an object file
 translators/uiSc2ScsJsonTranslator.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.o
 .PHONY : translators/uiSc2ScsJsonTranslator.cpp.o
 
 translators/uiSc2ScsJsonTranslator.i: translators/uiSc2ScsJsonTranslator.cpp.i
@@ -238,7 +238,7 @@ translators/uiSc2ScsJsonTranslator.i: translators/uiSc2ScsJsonTranslator.cpp.i
 
 # target to preprocess a source file
 translators/uiSc2ScsJsonTranslator.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.i
 .PHONY : translators/uiSc2ScsJsonTranslator.cpp.i
 
 translators/uiSc2ScsJsonTranslator.s: translators/uiSc2ScsJsonTranslator.cpp.s
@@ -247,7 +247,7 @@ translators/uiSc2ScsJsonTranslator.s: translators/uiSc2ScsJsonTranslator.cpp.s
 
 # target to generate assembly for a file
 translators/uiSc2ScsJsonTranslator.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.s
 .PHONY : translators/uiSc2ScsJsonTranslator.cpp.s
 
 translators/uiTranslatorFromSc.o: translators/uiTranslatorFromSc.cpp.o
@@ -256,7 +256,7 @@ translators/uiTranslatorFromSc.o: translators/uiTranslatorFromSc.cpp.o
 
 # target to build an object file
 translators/uiTranslatorFromSc.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.o
 .PHONY : translators/uiTranslatorFromSc.cpp.o
 
 translators/uiTranslatorFromSc.i: translators/uiTranslatorFromSc.cpp.i
@@ -265,7 +265,7 @@ translators/uiTranslatorFromSc.i: translators/uiTranslatorFromSc.cpp.i
 
 # target to preprocess a source file
 translators/uiTranslatorFromSc.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.i
 .PHONY : translators/uiTranslatorFromSc.cpp.i
 
 translators/uiTranslatorFromSc.s: translators/uiTranslatorFromSc.cpp.s
@@ -274,7 +274,7 @@ translators/uiTranslatorFromSc.s: translators/uiTranslatorFromSc.cpp.s
 
 # target to generate assembly for a file
 translators/uiTranslatorFromSc.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.s
 .PHONY : translators/uiTranslatorFromSc.cpp.s
 
 ui.o: ui.cpp.o
@@ -283,7 +283,7 @@ ui.o: ui.cpp.o
 
 # target to build an object file
 ui.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.o
 .PHONY : ui.cpp.o
 
 ui.i: ui.cpp.i
@@ -292,7 +292,7 @@ ui.i: ui.cpp.i
 
 # target to preprocess a source file
 ui.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.i
 .PHONY : ui.cpp.i
 
 ui.s: ui.cpp.s
@@ -301,7 +301,7 @@ ui.s: ui.cpp.s
 
 # target to generate assembly for a file
 ui.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.s
 .PHONY : ui.cpp.s
 
 uiCommands.o: uiCommands.cpp.o
@@ -310,7 +310,7 @@ uiCommands.o: uiCommands.cpp.o
 
 # target to build an object file
 uiCommands.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.o
 .PHONY : uiCommands.cpp.o
 
 uiCommands.i: uiCommands.cpp.i
@@ -319,7 +319,7 @@ uiCommands.i: uiCommands.cpp.i
 
 # target to preprocess a source file
 uiCommands.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.i
 .PHONY : uiCommands.cpp.i
 
 uiCommands.s: uiCommands.cpp.s
@@ -328,7 +328,7 @@ uiCommands.s: uiCommands.cpp.s
 
 # target to generate assembly for a file
 uiCommands.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.s
 .PHONY : uiCommands.cpp.s
 
 uiKeynodes.o: uiKeynodes.cpp.o
@@ -337,7 +337,7 @@ uiKeynodes.o: uiKeynodes.cpp.o
 
 # target to build an object file
 uiKeynodes.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.o
 .PHONY : uiKeynodes.cpp.o
 
 uiKeynodes.i: uiKeynodes.cpp.i
@@ -346,7 +346,7 @@ uiKeynodes.i: uiKeynodes.cpp.i
 
 # target to preprocess a source file
 uiKeynodes.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.i
 .PHONY : uiKeynodes.cpp.i
 
 uiKeynodes.s: uiKeynodes.cpp.s
@@ -355,7 +355,7 @@ uiKeynodes.s: uiKeynodes.cpp.s
 
 # target to generate assembly for a file
 uiKeynodes.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.s
 .PHONY : uiKeynodes.cpp.s
 
 uiTranslators.o: uiTranslators.cpp.o
@@ -364,7 +364,7 @@ uiTranslators.o: uiTranslators.cpp.o
 
 # target to build an object file
 uiTranslators.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.o
 .PHONY : uiTranslators.cpp.o
 
 uiTranslators.i: uiTranslators.cpp.i
@@ -373,7 +373,7 @@ uiTranslators.i: uiTranslators.cpp.i
 
 # target to preprocess a source file
 uiTranslators.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.i
 .PHONY : uiTranslators.cpp.i
 
 uiTranslators.s: uiTranslators.cpp.s
@@ -382,7 +382,7 @@ uiTranslators.s: uiTranslators.cpp.s
 
 # target to generate assembly for a file
 uiTranslators.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.s
 .PHONY : uiTranslators.cpp.s
 
 uiTypes.o: uiTypes.cpp.o
@@ -391,7 +391,7 @@ uiTypes.o: uiTypes.cpp.o
 
 # target to build an object file
 uiTypes.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.o
 .PHONY : uiTypes.cpp.o
 
 uiTypes.i: uiTypes.cpp.i
@@ -400,7 +400,7 @@ uiTypes.i: uiTypes.cpp.i
 
 # target to preprocess a source file
 uiTypes.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.i
 .PHONY : uiTypes.cpp.i
 
 uiTypes.s: uiTypes.cpp.s
@@ -409,7 +409,7 @@ uiTypes.s: uiTypes.cpp.s
 
 # target to generate assembly for a file
 uiTypes.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.s
 .PHONY : uiTypes.cpp.s
 
 uiUtils.o: uiUtils.cpp.o
@@ -418,7 +418,7 @@ uiUtils.o: uiUtils.cpp.o
 
 # target to build an object file
 uiUtils.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.o
 .PHONY : uiUtils.cpp.o
 
 uiUtils.i: uiUtils.cpp.i
@@ -427,7 +427,7 @@ uiUtils.i: uiUtils.cpp.i
 
 # target to preprocess a source file
 uiUtils.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.i
 .PHONY : uiUtils.cpp.i
 
 uiUtils.s: uiUtils.cpp.s
@@ -436,7 +436,7 @@ uiUtils.s: uiUtils.cpp.s
 
 # target to generate assembly for a file
 uiUtils.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/ui/CMakeFiles/ui.dir/build.make sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.s
 .PHONY : uiUtils.cpp.s
 
 # Help Target
@@ -493,6 +493,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

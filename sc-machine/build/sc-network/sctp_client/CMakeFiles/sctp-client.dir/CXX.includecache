@@ -158,47 +158,47 @@ sc-store/sc_config.h
 sc-store/sc_types.h
 ../sc-memory/sc-store/sc_types.h
 
-/home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp
+/root/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp
 sctpClient.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpClient.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpClient.hpp
 sctpTypes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpClient.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpClient.hpp
 sc-memory/cpp/sc_addr.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sc-memory/cpp/sc_addr.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sc-memory/cpp/sc_addr.hpp
 sc-memory/cpp/sc_stream.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sc-memory/cpp/sc_stream.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sc-memory/cpp/sc_stream.hpp
 sc-memory/cpp/sc_utils.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sc-memory/cpp/sc_utils.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sc-memory/cpp/sc_utils.hpp
 sctpTypes.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 sctpISocket.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpISocket.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpISocket.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpISocket.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpISocket.hpp
 cstdint
 -
 string
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpTypes.hpp
 sc-memory/sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_memory_headers.h
+/root/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_memory_headers.h
 sc-memory/sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_helper.h
+/root/ostis/sc-machine/sc-network/sctp_client/sc-memory/sc_helper.h
 stdint.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp
+/root/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp
 glibSocket.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.hpp
 stdlib.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.hpp
 string
 -
 glib.h
@@ -206,7 +206,7 @@ glib.h
 gio/gio.h
 -
 ../sctpISocket.hpp
-/home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpISocket.hpp
+/root/ostis/sc-machine/sc-network/sctp_client/sctpISocket.hpp
 
 /usr/include/glib-2.0/gio/gaction.h
 gio/giotypes.h

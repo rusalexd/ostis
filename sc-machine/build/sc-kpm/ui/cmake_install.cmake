@@ -1,4 +1,4 @@
-# Install script for directory: /home/rusale/DV/ostis/sc-machine/sc-kpm/ui
+# Install script for directory: /root/ostis/sc-machine/sc-kpm/ui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libui.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions" TYPE SHARED_LIBRARY FILES "/home/rusale/DV/ostis/sc-machine/bin/extensions/libui.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions" TYPE SHARED_LIBRARY FILES "/root/ostis/sc-machine/bin/extensions/libui.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libui.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libui.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libui.so"
-         OLD_RPATH "/home/rusale/DV/ostis/sc-machine/bin:"
+         OLD_RPATH "/root/ostis/sc-machine/bin:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libui.so")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/rusale/DV/ostis/sc-machine/sc-kpm/common
+# Install script for directory: /root/ostis/sc-machine/sc-kpm/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libsc-kpm-common.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions" TYPE SHARED_LIBRARY FILES "/home/rusale/DV/ostis/sc-machine/bin/libsc-kpm-common.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions" TYPE SHARED_LIBRARY FILES "/root/ostis/sc-machine/bin/libsc-kpm-common.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libsc-kpm-common.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libsc-kpm-common.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libsc-kpm-common.so"
-         OLD_RPATH "/home/rusale/DV/ostis/sc-machine/bin:"
+         OLD_RPATH "/root/ostis/sc-machine/bin:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sc-memory/extensions/libsc-kpm-common.so")

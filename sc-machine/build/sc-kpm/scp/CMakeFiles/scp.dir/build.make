@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-kpm/scp/CMakeFiles/scp.dir/depend.make
@@ -59,16 +59,16 @@ include sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o: ../sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_gen.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o.requires:
 
@@ -83,16 +83,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o.pro
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o: ../sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_gen.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o.requires:
 
@@ -107,16 +107,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o.p
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o: ../sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_search.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o.requires:
 
@@ -131,16 +131,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o: ../sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/sc_system_operators.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o.requires:
 
@@ -155,16 +155,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o: ../sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp > CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys_search.cpp -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o.requires:
 
@@ -179,16 +179,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o.
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o: ../sc-kpm/scp/scp_lib/scp_types.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_types.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_types.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_types.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c > CMakeFiles/scp.dir/scp_lib/scp_types.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c > CMakeFiles/scp.dir/scp_lib/scp_types.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_types.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c -o CMakeFiles/scp.dir/scp_lib/scp_types.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_types.c -o CMakeFiles/scp.dir/scp_lib/scp_types.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o.requires:
 
@@ -203,16 +203,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o.provides.build: sc-kpm/scp/C
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o: ../sc-kpm/scp/scp_lib/scp_iterator3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c > CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c > CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c -o CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator3.c -o CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o.requires:
 
@@ -227,16 +227,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o: ../sc-kpm/scp/scp_lib/scp_searchSetStr3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c > CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c > CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o.requires:
 
@@ -251,16 +251,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o.provides.build: sc-k
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o: ../sc-kpm/scp/scp_lib/scp_eraseSetStr5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c > CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c > CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o.requires:
 
@@ -275,16 +275,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o.provides.build: sc-kp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o: ../sc-kpm/scp/scp_lib/scp_eraseElStr3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c > CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c > CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o.requires:
 
@@ -299,16 +299,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o.provides.build: sc-kpm
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o: ../sc-kpm/scp/scp_lib/scp_searchElStr3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c > CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c > CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o.requires:
 
@@ -323,16 +323,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o.provides.build: sc-kp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o: ../sc-kpm/scp/scp_lib/scp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_utils.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_utils.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_utils.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c > CMakeFiles/scp.dir/scp_lib/scp_utils.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c > CMakeFiles/scp.dir/scp_lib/scp_utils.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_utils.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c -o CMakeFiles/scp.dir/scp_lib/scp_utils.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_utils.c -o CMakeFiles/scp.dir/scp_lib/scp_utils.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o.requires:
 
@@ -347,16 +347,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o.provides.build: sc-kpm/scp/C
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o: ../sc-kpm/scp/scp_lib/scp_eraseElStr5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c > CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c > CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseElStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o.requires:
 
@@ -371,16 +371,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o.provides.build: sc-kpm
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o: ../sc-kpm/scp/scp_lib/scp_eraseSetStr3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c > CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c > CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_eraseSetStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o.requires:
 
@@ -395,16 +395,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o.provides.build: sc-kp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o: ../sc-kpm/scp/scp_lib/scp_searchElStr5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c > CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c > CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchElStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o.requires:
 
@@ -419,16 +419,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o.provides.build: sc-kp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o: ../sc-kpm/scp/scp_lib/scp_searchSetStr5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c > CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c > CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_searchSetStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o.requires:
 
@@ -443,16 +443,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o.provides.build: sc-k
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o: ../sc-kpm/scp/scp_lib/scp_iterator5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c > CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c > CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c -o CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_iterator5.c -o CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o.requires:
 
@@ -467,16 +467,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o: ../sc-kpm/scp/scp_lib/scp_genElStr5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c > CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c > CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr5.c -o CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o.requires:
 
@@ -491,16 +491,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o: ../sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c > CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c > CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_system_operators/scp_sys.c -o CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o.requires:
 
@@ -515,16 +515,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o.provides.
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o: ../sc-kpm/scp/scp_lib/scp_genElStr3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c > CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c > CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_genElStr3.c -o CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o.requires:
 
@@ -539,16 +539,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o: ../sc-kpm/scp/scp_lib/scp_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_functions.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_lib/scp_functions.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_lib/scp_functions.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c > CMakeFiles/scp.dir/scp_lib/scp_functions.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c > CMakeFiles/scp.dir/scp_lib/scp_functions.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_lib/scp_functions.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c -o CMakeFiles/scp.dir/scp_lib/scp_functions.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_lib/scp_functions.c -o CMakeFiles/scp.dir/scp_lib/scp_functions.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o.requires:
 
@@ -563,16 +563,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o: ../sc-kpm/scp/scp_operator_keynodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_keynodes.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_keynodes.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_operator_keynodes.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c > CMakeFiles/scp.dir/scp_operator_keynodes.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c > CMakeFiles/scp.dir/scp_operator_keynodes.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_operator_keynodes.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c -o CMakeFiles/scp.dir/scp_operator_keynodes.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_operator_keynodes.c -o CMakeFiles/scp.dir/scp_operator_keynodes.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o.requires:
 
@@ -587,16 +587,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o: ../sc-kpm/scp/scp_interpreter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_interpreter.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_interpreter.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_interpreter.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c > CMakeFiles/scp.dir/scp_interpreter.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c > CMakeFiles/scp.dir/scp_interpreter.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_interpreter.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c -o CMakeFiles/scp.dir/scp_interpreter.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter.c -o CMakeFiles/scp.dir/scp_interpreter.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o.requires:
 
@@ -611,16 +611,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o.provides.build: sc-kpm/scp/CMa
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o: ../sc-kpm/scp/scp_process_creator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_process_creator.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_process_creator.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_process_creator.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c > CMakeFiles/scp.dir/scp_process_creator.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c > CMakeFiles/scp.dir/scp_process_creator.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_process_creator.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c -o CMakeFiles/scp.dir/scp_process_creator.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_process_creator.c -o CMakeFiles/scp.dir/scp_process_creator.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o.requires:
 
@@ -635,16 +635,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o.provides.build: sc-kpm/scp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o: ../sc-kpm/scp/scp_debugger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_debugger.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_debugger.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_debugger.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_debugger.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_debugger.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_debugger.c > CMakeFiles/scp.dir/scp_debugger.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_debugger.c > CMakeFiles/scp.dir/scp_debugger.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_debugger.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_debugger.c -o CMakeFiles/scp.dir/scp_debugger.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_debugger.c -o CMakeFiles/scp.dir/scp_debugger.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o.requires:
 
@@ -659,16 +659,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o.provides.build: sc-kpm/scp/CMakeF
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o: ../sc-kpm/scp/scp_operator_syncronizer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_syncronizer.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_syncronizer.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_operator_syncronizer.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c > CMakeFiles/scp.dir/scp_operator_syncronizer.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c > CMakeFiles/scp.dir/scp_operator_syncronizer.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_operator_syncronizer.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c -o CMakeFiles/scp.dir/scp_operator_syncronizer.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_operator_syncronizer.c -o CMakeFiles/scp.dir/scp_operator_syncronizer.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o.requires:
 
@@ -683,16 +683,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o.provides.build: sc-kp
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o: ../sc-kpm/scp/scp_keynodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_keynodes.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_keynodes.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_keynodes.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c > CMakeFiles/scp.dir/scp_keynodes.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c > CMakeFiles/scp.dir/scp_keynodes.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_keynodes.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c -o CMakeFiles/scp.dir/scp_keynodes.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_keynodes.c -o CMakeFiles/scp.dir/scp_keynodes.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o.requires:
 
@@ -707,16 +707,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o.provides.build: sc-kpm/scp/CMakeF
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o: ../sc-kpm/scp/scp_operator_interpreter_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c > CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c > CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c -o CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_functions.c -o CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o.requires:
 
@@ -731,16 +731,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o.provides.bu
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o: ../sc-kpm/scp/scp_operator_interpreter_agents.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c > CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c > CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c -o CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_operator_interpreter_agents.c -o CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o.requires:
 
@@ -755,16 +755,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o.provides.build
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o: ../sc-kpm/scp/scp_process_destroyer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_process_destroyer.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_process_destroyer.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_process_destroyer.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c > CMakeFiles/scp.dir/scp_process_destroyer.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c > CMakeFiles/scp.dir/scp_process_destroyer.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_process_destroyer.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c -o CMakeFiles/scp.dir/scp_process_destroyer.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_process_destroyer.c -o CMakeFiles/scp.dir/scp_process_destroyer.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o.requires:
 
@@ -779,16 +779,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o: ../sc-kpm/scp/scp_procedure_verifier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_procedure_verifier.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_procedure_verifier.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_procedure_verifier.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c > CMakeFiles/scp.dir/scp_procedure_verifier.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c > CMakeFiles/scp.dir/scp_procedure_verifier.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_procedure_verifier.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c -o CMakeFiles/scp.dir/scp_procedure_verifier.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_verifier.c -o CMakeFiles/scp.dir/scp_procedure_verifier.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o.requires:
 
@@ -803,16 +803,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o.provides.build: sc-kpm/
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o: ../sc-kpm/scp/scp_interpreter_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_interpreter_utils.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_interpreter_utils.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_interpreter_utils.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c > CMakeFiles/scp.dir/scp_interpreter_utils.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c > CMakeFiles/scp.dir/scp_interpreter_utils.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_interpreter_utils.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c -o CMakeFiles/scp.dir/scp_interpreter_utils.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_interpreter_utils.c -o CMakeFiles/scp.dir/scp_interpreter_utils.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o.requires:
 
@@ -827,16 +827,16 @@ sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o.provides.build: sc-kpm/s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o: sc-kpm/scp/CMakeFiles/scp.dir/flags.make
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o: ../sc-kpm/scp/scp_procedure_preprocessor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o   -c /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scp.dir/scp_procedure_preprocessor.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c > CMakeFiles/scp.dir/scp_procedure_preprocessor.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c > CMakeFiles/scp.dir/scp_procedure_preprocessor.c.i
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scp.dir/scp_procedure_preprocessor.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c -o CMakeFiles/scp.dir/scp_procedure_preprocessor.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/scp/scp_procedure_preprocessor.c -o CMakeFiles/scp.dir/scp_procedure_preprocessor.c.s
 
 sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o.requires:
 
@@ -924,8 +924,8 @@ scp_EXTERNAL_OBJECTS =
 ../bin/extensions/libscp.so: sc-kpm/scp/CMakeFiles/scp.dir/build.make
 ../bin/extensions/libscp.so: ../bin/libsc-memory.so
 ../bin/extensions/libscp.so: sc-kpm/scp/CMakeFiles/scp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX shared library ../../../bin/extensions/libscp.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX shared library ../../../bin/extensions/libscp.so"
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-kpm/scp/CMakeFiles/scp.dir/build: ../bin/extensions/libscp.so
@@ -969,10 +969,10 @@ sc-kpm/scp/CMakeFiles/scp.dir/requires: sc-kpm/scp/CMakeFiles/scp.dir/scp_proced
 .PHONY : sc-kpm/scp/CMakeFiles/scp.dir/requires
 
 sc-kpm/scp/CMakeFiles/scp.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp && $(CMAKE_COMMAND) -P CMakeFiles/scp.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/scp && $(CMAKE_COMMAND) -P CMakeFiles/scp.dir/cmake_clean.cmake
 .PHONY : sc-kpm/scp/CMakeFiles/scp.dir/clean
 
 sc-kpm/scp/CMakeFiles/scp.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/scp /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp/CMakeFiles/scp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/scp /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/scp /root/ostis/sc-machine/build/sc-kpm/scp/CMakeFiles/scp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/scp/CMakeFiles/scp.dir/depend
 

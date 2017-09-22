@@ -7,9 +7,9 @@ sc-kpm/common/CMakeFiles/sc-kpm-common.dir/sc_keynodes.c.o
  ../sc-memory/sc-store/sc_types.h
  ../sc-memory/sc_helper.h
  ../sc-memory/sc_memory.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_keynodes.c
+ /root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h

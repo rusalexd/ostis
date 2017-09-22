@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_filesystem.c" "/home/rusale/DV/ostis/sc-machine/build/sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/sc_fm_filesystem.c.o"
+  "/root/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_filesystem.c" "/root/ostis/sc-machine/build/sc-fm/sc_fm_filesystem/CMakeFiles/sc-fm-filesystem.dir/sc_fm_filesystem.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

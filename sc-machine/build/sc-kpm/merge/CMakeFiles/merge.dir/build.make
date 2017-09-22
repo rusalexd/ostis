@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-kpm/merge/CMakeFiles/merge.dir/depend.make
@@ -59,16 +59,16 @@ include sc-kpm/merge/CMakeFiles/merge.dir/flags.make
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o: sc-kpm/merge/CMakeFiles/merge.dir/flags.make
 sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o: ../sc-kpm/merge/merge_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/merge_utils.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/merge_utils.c.o   -c /root/ostis/sc-machine/sc-kpm/merge/merge_utils.c
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/merge.dir/merge_utils.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_utils.c > CMakeFiles/merge.dir/merge_utils.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/merge/merge_utils.c > CMakeFiles/merge.dir/merge_utils.c.i
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/merge.dir/merge_utils.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_utils.c -o CMakeFiles/merge.dir/merge_utils.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/merge/merge_utils.c -o CMakeFiles/merge.dir/merge_utils.c.s
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o.requires:
 
@@ -83,16 +83,16 @@ sc-kpm/merge/CMakeFiles/merge.dir/merge_utils.c.o.provides.build: sc-kpm/merge/C
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o: sc-kpm/merge/CMakeFiles/merge.dir/flags.make
 sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o: ../sc-kpm/merge/merge_keynodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/merge_keynodes.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/merge_keynodes.c.o   -c /root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/merge.dir/merge_keynodes.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c > CMakeFiles/merge.dir/merge_keynodes.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c > CMakeFiles/merge.dir/merge_keynodes.c.i
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/merge.dir/merge_keynodes.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c -o CMakeFiles/merge.dir/merge_keynodes.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/merge/merge_keynodes.c -o CMakeFiles/merge.dir/merge_keynodes.c.s
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o.requires:
 
@@ -107,16 +107,16 @@ sc-kpm/merge/CMakeFiles/merge.dir/merge_keynodes.c.o.provides.build: sc-kpm/merg
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o: sc-kpm/merge/CMakeFiles/merge.dir/flags.make
 sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o: ../sc-kpm/merge/merge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/merge.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/merge.c.o   -c /root/ostis/sc-machine/sc-kpm/merge/merge.c
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/merge.dir/merge.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.c > CMakeFiles/merge.dir/merge.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/merge/merge.c > CMakeFiles/merge.dir/merge.c.i
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/merge.dir/merge.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/merge.c -o CMakeFiles/merge.dir/merge.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/merge/merge.c -o CMakeFiles/merge.dir/merge.c.s
 
 sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o.requires:
 
@@ -131,16 +131,16 @@ sc-kpm/merge/CMakeFiles/merge.dir/merge.c.o.provides.build: sc-kpm/merge/CMakeFi
 
 sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o: sc-kpm/merge/CMakeFiles/merge.dir/flags.make
 sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o: ../sc-kpm/merge/agents/merge_set.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/agents/merge_set.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/merge.dir/agents/merge_set.c.o   -c /root/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c
 
 sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/merge.dir/agents/merge_set.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c > CMakeFiles/merge.dir/agents/merge_set.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c > CMakeFiles/merge.dir/agents/merge_set.c.i
 
 sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/merge.dir/agents/merge_set.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c -o CMakeFiles/merge.dir/agents/merge_set.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/merge/agents/merge_set.c -o CMakeFiles/merge.dir/agents/merge_set.c.s
 
 sc-kpm/merge/CMakeFiles/merge.dir/agents/merge_set.c.o.requires:
 
@@ -171,8 +171,8 @@ merge_EXTERNAL_OBJECTS =
 ../bin/extensions/libmerge.so: ../bin/libsc-kpm-common.so
 ../bin/extensions/libmerge.so: ../bin/libsc-memory.so
 ../bin/extensions/libmerge.so: sc-kpm/merge/CMakeFiles/merge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../../../bin/extensions/libmerge.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/merge.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../../../bin/extensions/libmerge.so"
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/merge.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-kpm/merge/CMakeFiles/merge.dir/build: ../bin/extensions/libmerge.so
@@ -187,10 +187,10 @@ sc-kpm/merge/CMakeFiles/merge.dir/requires: sc-kpm/merge/CMakeFiles/merge.dir/ag
 .PHONY : sc-kpm/merge/CMakeFiles/merge.dir/requires
 
 sc-kpm/merge/CMakeFiles/merge.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge && $(CMAKE_COMMAND) -P CMakeFiles/merge.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/merge && $(CMAKE_COMMAND) -P CMakeFiles/merge.dir/cmake_clean.cmake
 .PHONY : sc-kpm/merge/CMakeFiles/merge.dir/clean
 
 sc-kpm/merge/CMakeFiles/merge.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/merge /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge /home/rusale/DV/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/merge /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/merge /root/ostis/sc-machine/build/sc-kpm/merge/CMakeFiles/merge.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/merge/CMakeFiles/merge.dir/depend
 

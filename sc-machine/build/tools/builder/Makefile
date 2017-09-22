@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/tools/builder/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/tools/builder/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/builder/CMakeFiles/GenerateParser.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/CMakeFiles/GenerateParser.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/CMakeFiles/GenerateParser.dir/rule
 .PHONY : tools/builder/CMakeFiles/GenerateParser.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ GenerateParser: tools/builder/CMakeFiles/GenerateParser.dir/rule
 
 # fast build rule for target.
 GenerateParser/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/GenerateParser.dir/build.make tools/builder/CMakeFiles/GenerateParser.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/GenerateParser.dir/build.make tools/builder/CMakeFiles/GenerateParser.dir/build
 .PHONY : GenerateParser/fast
 
 # Convenience name for target.
 tools/builder/CMakeFiles/sc-builder.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/CMakeFiles/sc-builder.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 tools/builder/CMakeFiles/sc-builder.dir/rule
 .PHONY : tools/builder/CMakeFiles/sc-builder.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ sc-builder: tools/builder/CMakeFiles/sc-builder.dir/rule
 
 # fast build rule for target.
 sc-builder/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/build
 .PHONY : sc-builder/fast
 
 src/base64/base64.o: src/base64/base64.cpp.o
@@ -190,7 +190,7 @@ src/base64/base64.o: src/base64/base64.cpp.o
 
 # target to build an object file
 src/base64/base64.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.o
 .PHONY : src/base64/base64.cpp.o
 
 src/base64/base64.i: src/base64/base64.cpp.i
@@ -199,7 +199,7 @@ src/base64/base64.i: src/base64/base64.cpp.i
 
 # target to preprocess a source file
 src/base64/base64.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.i
 .PHONY : src/base64/base64.cpp.i
 
 src/base64/base64.s: src/base64/base64.cpp.s
@@ -208,7 +208,7 @@ src/base64/base64.s: src/base64/base64.cpp.s
 
 # target to generate assembly for a file
 src/base64/base64.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/base64/base64.cpp.s
 .PHONY : src/base64/base64.cpp.s
 
 src/builder.o: src/builder.cpp.o
@@ -217,7 +217,7 @@ src/builder.o: src/builder.cpp.o
 
 # target to build an object file
 src/builder.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.o
 .PHONY : src/builder.cpp.o
 
 src/builder.i: src/builder.cpp.i
@@ -226,7 +226,7 @@ src/builder.i: src/builder.cpp.i
 
 # target to preprocess a source file
 src/builder.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.i
 .PHONY : src/builder.cpp.i
 
 src/builder.s: src/builder.cpp.s
@@ -235,7 +235,7 @@ src/builder.s: src/builder.cpp.s
 
 # target to generate assembly for a file
 src/builder.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/builder.cpp.s
 .PHONY : src/builder.cpp.s
 
 src/exception.o: src/exception.cpp.o
@@ -244,7 +244,7 @@ src/exception.o: src/exception.cpp.o
 
 # target to build an object file
 src/exception.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.o
 .PHONY : src/exception.cpp.o
 
 src/exception.i: src/exception.cpp.i
@@ -253,7 +253,7 @@ src/exception.i: src/exception.cpp.i
 
 # target to preprocess a source file
 src/exception.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.i
 .PHONY : src/exception.cpp.i
 
 src/exception.s: src/exception.cpp.s
@@ -262,7 +262,7 @@ src/exception.s: src/exception.cpp.s
 
 # target to generate assembly for a file
 src/exception.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/exception.cpp.s
 .PHONY : src/exception.cpp.s
 
 src/gwf_translator.o: src/gwf_translator.cpp.o
@@ -271,7 +271,7 @@ src/gwf_translator.o: src/gwf_translator.cpp.o
 
 # target to build an object file
 src/gwf_translator.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.o
 .PHONY : src/gwf_translator.cpp.o
 
 src/gwf_translator.i: src/gwf_translator.cpp.i
@@ -280,7 +280,7 @@ src/gwf_translator.i: src/gwf_translator.cpp.i
 
 # target to preprocess a source file
 src/gwf_translator.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.i
 .PHONY : src/gwf_translator.cpp.i
 
 src/gwf_translator.s: src/gwf_translator.cpp.s
@@ -289,7 +289,7 @@ src/gwf_translator.s: src/gwf_translator.cpp.s
 
 # target to generate assembly for a file
 src/gwf_translator.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/gwf_translator.cpp.s
 .PHONY : src/gwf_translator.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -298,7 +298,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -307,7 +307,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -316,7 +316,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/parser/scsLexer.o: src/parser/scsLexer.c.o
@@ -325,7 +325,7 @@ src/parser/scsLexer.o: src/parser/scsLexer.c.o
 
 # target to build an object file
 src/parser/scsLexer.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.o
 .PHONY : src/parser/scsLexer.c.o
 
 src/parser/scsLexer.i: src/parser/scsLexer.c.i
@@ -334,7 +334,7 @@ src/parser/scsLexer.i: src/parser/scsLexer.c.i
 
 # target to preprocess a source file
 src/parser/scsLexer.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.i
 .PHONY : src/parser/scsLexer.c.i
 
 src/parser/scsLexer.s: src/parser/scsLexer.c.s
@@ -343,7 +343,7 @@ src/parser/scsLexer.s: src/parser/scsLexer.c.s
 
 # target to generate assembly for a file
 src/parser/scsLexer.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsLexer.c.s
 .PHONY : src/parser/scsLexer.c.s
 
 src/parser/scsParser.o: src/parser/scsParser.c.o
@@ -352,7 +352,7 @@ src/parser/scsParser.o: src/parser/scsParser.c.o
 
 # target to build an object file
 src/parser/scsParser.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.o
 .PHONY : src/parser/scsParser.c.o
 
 src/parser/scsParser.i: src/parser/scsParser.c.i
@@ -361,7 +361,7 @@ src/parser/scsParser.i: src/parser/scsParser.c.i
 
 # target to preprocess a source file
 src/parser/scsParser.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.i
 .PHONY : src/parser/scsParser.c.i
 
 src/parser/scsParser.s: src/parser/scsParser.c.s
@@ -370,7 +370,7 @@ src/parser/scsParser.s: src/parser/scsParser.c.s
 
 # target to generate assembly for a file
 src/parser/scsParser.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parser/scsParser.c.s
 .PHONY : src/parser/scsParser.c.s
 
 src/parseutils.o: src/parseutils.cpp.o
@@ -379,7 +379,7 @@ src/parseutils.o: src/parseutils.cpp.o
 
 # target to build an object file
 src/parseutils.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.o
 .PHONY : src/parseutils.cpp.o
 
 src/parseutils.i: src/parseutils.cpp.i
@@ -388,7 +388,7 @@ src/parseutils.i: src/parseutils.cpp.i
 
 # target to preprocess a source file
 src/parseutils.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.i
 .PHONY : src/parseutils.cpp.i
 
 src/parseutils.s: src/parseutils.cpp.s
@@ -397,7 +397,7 @@ src/parseutils.s: src/parseutils.cpp.s
 
 # target to generate assembly for a file
 src/parseutils.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/parseutils.cpp.s
 .PHONY : src/parseutils.cpp.s
 
 src/scs_translator.o: src/scs_translator.cpp.o
@@ -406,7 +406,7 @@ src/scs_translator.o: src/scs_translator.cpp.o
 
 # target to build an object file
 src/scs_translator.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.o
 .PHONY : src/scs_translator.cpp.o
 
 src/scs_translator.i: src/scs_translator.cpp.i
@@ -415,7 +415,7 @@ src/scs_translator.i: src/scs_translator.cpp.i
 
 # target to preprocess a source file
 src/scs_translator.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.i
 .PHONY : src/scs_translator.cpp.i
 
 src/scs_translator.s: src/scs_translator.cpp.s
@@ -424,7 +424,7 @@ src/scs_translator.s: src/scs_translator.cpp.s
 
 # target to generate assembly for a file
 src/scs_translator.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/scs_translator.cpp.s
 .PHONY : src/scs_translator.cpp.s
 
 src/tinyxml/tinyxml2.o: src/tinyxml/tinyxml2.cpp.o
@@ -433,7 +433,7 @@ src/tinyxml/tinyxml2.o: src/tinyxml/tinyxml2.cpp.o
 
 # target to build an object file
 src/tinyxml/tinyxml2.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.o
 .PHONY : src/tinyxml/tinyxml2.cpp.o
 
 src/tinyxml/tinyxml2.i: src/tinyxml/tinyxml2.cpp.i
@@ -442,7 +442,7 @@ src/tinyxml/tinyxml2.i: src/tinyxml/tinyxml2.cpp.i
 
 # target to preprocess a source file
 src/tinyxml/tinyxml2.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.i
 .PHONY : src/tinyxml/tinyxml2.cpp.i
 
 src/tinyxml/tinyxml2.s: src/tinyxml/tinyxml2.cpp.s
@@ -451,7 +451,7 @@ src/tinyxml/tinyxml2.s: src/tinyxml/tinyxml2.cpp.s
 
 # target to generate assembly for a file
 src/tinyxml/tinyxml2.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/tinyxml/tinyxml2.cpp.s
 .PHONY : src/tinyxml/tinyxml2.cpp.s
 
 src/translator.o: src/translator.cpp.o
@@ -460,7 +460,7 @@ src/translator.o: src/translator.cpp.o
 
 # target to build an object file
 src/translator.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.o
 .PHONY : src/translator.cpp.o
 
 src/translator.i: src/translator.cpp.i
@@ -469,7 +469,7 @@ src/translator.i: src/translator.cpp.i
 
 # target to preprocess a source file
 src/translator.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.i
 .PHONY : src/translator.cpp.i
 
 src/translator.s: src/translator.cpp.s
@@ -478,7 +478,7 @@ src/translator.s: src/translator.cpp.s
 
 # target to generate assembly for a file
 src/translator.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/translator.cpp.s
 .PHONY : src/translator.cpp.s
 
 src/utils.o: src/utils.cpp.o
@@ -487,7 +487,7 @@ src/utils.o: src/utils.cpp.o
 
 # target to build an object file
 src/utils.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.o
 .PHONY : src/utils.cpp.o
 
 src/utils.i: src/utils.cpp.i
@@ -496,7 +496,7 @@ src/utils.i: src/utils.cpp.i
 
 # target to preprocess a source file
 src/utils.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -505,7 +505,7 @@ src/utils.s: src/utils.cpp.s
 
 # target to generate assembly for a file
 src/utils.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
 src/version.o: src/version.cpp.o
@@ -514,7 +514,7 @@ src/version.o: src/version.cpp.o
 
 # target to build an object file
 src/version.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.o
 .PHONY : src/version.cpp.o
 
 src/version.i: src/version.cpp.i
@@ -523,7 +523,7 @@ src/version.i: src/version.cpp.i
 
 # target to preprocess a source file
 src/version.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.i
 .PHONY : src/version.cpp.i
 
 src/version.s: src/version.cpp.s
@@ -532,7 +532,7 @@ src/version.s: src/version.cpp.s
 
 # target to generate assembly for a file
 src/version.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f tools/builder/CMakeFiles/sc-builder.dir/build.make tools/builder/CMakeFiles/sc-builder.dir/src/version.cpp.s
 .PHONY : src/version.cpp.s
 
 # Help Target
@@ -599,6 +599,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

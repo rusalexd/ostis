@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-kpm/search/CMakeFiles/search.dir/depend.make
@@ -59,16 +59,16 @@ include sc-kpm/search/CMakeFiles/search.dir/flags.make
 
 sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o: ../sc-kpm/search/search_keynodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/search_keynodes.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_keynodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/search_keynodes.c.o   -c /root/ostis/sc-machine/sc-kpm/search/search_keynodes.c
 
 sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/search_keynodes.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_keynodes.c > CMakeFiles/search.dir/search_keynodes.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/search_keynodes.c > CMakeFiles/search.dir/search_keynodes.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/search_keynodes.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_keynodes.c -o CMakeFiles/search.dir/search_keynodes.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/search_keynodes.c -o CMakeFiles/search.dir/search_keynodes.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o.requires:
 
@@ -83,16 +83,16 @@ sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o.provides.build: sc-kpm/s
 
 sc-kpm/search/CMakeFiles/search.dir/search.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/search.c.o: ../sc-kpm/search/search.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-kpm/search/CMakeFiles/search.dir/search.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/search.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-kpm/search/CMakeFiles/search.dir/search.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/search.c.o   -c /root/ostis/sc-machine/sc-kpm/search/search.c
 
 sc-kpm/search/CMakeFiles/search.dir/search.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/search.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search.c > CMakeFiles/search.dir/search.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/search.c > CMakeFiles/search.dir/search.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/search.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/search.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search.c -o CMakeFiles/search.dir/search.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/search.c -o CMakeFiles/search.dir/search.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/search.c.o.requires:
 
@@ -107,16 +107,16 @@ sc-kpm/search/CMakeFiles/search.dir/search.c.o.provides.build: sc-kpm/search/CMa
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o: ../sc-kpm/search/agents/search_structure.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_structure.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_structure.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_structure.c.o   -c /root/ostis/sc-machine/sc-kpm/search/agents/search_structure.c
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/agents/search_structure.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_structure.c > CMakeFiles/search.dir/agents/search_structure.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/agents/search_structure.c > CMakeFiles/search.dir/agents/search_structure.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/agents/search_structure.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_structure.c -o CMakeFiles/search.dir/agents/search_structure.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/agents/search_structure.c -o CMakeFiles/search.dir/agents/search_structure.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o.requires:
 
@@ -131,16 +131,16 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o.provides.build: 
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o: ../sc-kpm/search/agents/search_semantic_neighborhood.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o   -c /root/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c > CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c > CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c -o CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c -o CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o.requires:
 
@@ -155,16 +155,16 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o.prov
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o: ../sc-kpm/search/agents/search_output_arcs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_output_arcs.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_output_arcs.c.o   -c /root/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/agents/search_output_arcs.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c > CMakeFiles/search.dir/agents/search_output_arcs.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c > CMakeFiles/search.dir/agents/search_output_arcs.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/agents/search_output_arcs.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c -o CMakeFiles/search.dir/agents/search_output_arcs.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c -o CMakeFiles/search.dir/agents/search_output_arcs.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o.requires:
 
@@ -179,16 +179,16 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o.provides.build
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o: ../sc-kpm/search/agents/search_identifiers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_identifiers.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_identifiers.c.o   -c /root/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/agents/search_identifiers.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c > CMakeFiles/search.dir/agents/search_identifiers.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c > CMakeFiles/search.dir/agents/search_identifiers.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/agents/search_identifiers.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c -o CMakeFiles/search.dir/agents/search_identifiers.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c -o CMakeFiles/search.dir/agents/search_identifiers.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o.requires:
 
@@ -203,16 +203,16 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o.provides.build
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o: ../sc-kpm/search/agents/search_input_arcs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_input_arcs.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/agents/search_input_arcs.c.o   -c /root/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/agents/search_input_arcs.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c > CMakeFiles/search.dir/agents/search_input_arcs.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c > CMakeFiles/search.dir/agents/search_input_arcs.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/agents/search_input_arcs.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c -o CMakeFiles/search.dir/agents/search_input_arcs.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c -o CMakeFiles/search.dir/agents/search_input_arcs.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o.requires:
 
@@ -227,16 +227,16 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o.provides.build:
 
 sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o: sc-kpm/search/CMakeFiles/search.dir/flags.make
 sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o: ../sc-kpm/search/search_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/search_utils.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/search.dir/search_utils.c.o   -c /root/ostis/sc-machine/sc-kpm/search/search_utils.c
 
 sc-kpm/search/CMakeFiles/search.dir/search_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/search.dir/search_utils.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_utils.c > CMakeFiles/search.dir/search_utils.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/search/search_utils.c > CMakeFiles/search.dir/search_utils.c.i
 
 sc-kpm/search/CMakeFiles/search.dir/search_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/search.dir/search_utils.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_utils.c -o CMakeFiles/search.dir/search_utils.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/search && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/search/search_utils.c -o CMakeFiles/search.dir/search_utils.c.s
 
 sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o.requires:
 
@@ -275,8 +275,8 @@ search_EXTERNAL_OBJECTS =
 ../bin/extensions/libsearch.so: ../bin/libsc-kpm-common.so
 ../bin/extensions/libsearch.so: ../bin/libsc-memory.so
 ../bin/extensions/libsearch.so: sc-kpm/search/CMakeFiles/search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library ../../../bin/extensions/libsearch.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library ../../../bin/extensions/libsearch.so"
+	cd /root/ostis/sc-machine/build/sc-kpm/search && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-kpm/search/CMakeFiles/search.dir/build: ../bin/extensions/libsearch.so
@@ -295,10 +295,10 @@ sc-kpm/search/CMakeFiles/search.dir/requires: sc-kpm/search/CMakeFiles/search.di
 .PHONY : sc-kpm/search/CMakeFiles/search.dir/requires
 
 sc-kpm/search/CMakeFiles/search.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search && $(CMAKE_COMMAND) -P CMakeFiles/search.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/search && $(CMAKE_COMMAND) -P CMakeFiles/search.dir/cmake_clean.cmake
 .PHONY : sc-kpm/search/CMakeFiles/search.dir/clean
 
 sc-kpm/search/CMakeFiles/search.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/search /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search/CMakeFiles/search.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/search /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/search /root/ostis/sc-machine/build/sc-kpm/search/CMakeFiles/search.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/search/CMakeFiles/search.dir/depend
 

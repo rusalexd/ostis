@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/search/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/search/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/search/CMakeFiles/search.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/CMakeFiles/search.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/search/CMakeFiles/search.dir/rule
 .PHONY : sc-kpm/search/CMakeFiles/search.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ search: sc-kpm/search/CMakeFiles/search.dir/rule
 
 # fast build rule for target.
 search/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/build
 .PHONY : search/fast
 
 agents/search_identifiers.o: agents/search_identifiers.c.o
@@ -175,7 +175,7 @@ agents/search_identifiers.o: agents/search_identifiers.c.o
 
 # target to build an object file
 agents/search_identifiers.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o
 .PHONY : agents/search_identifiers.c.o
 
 agents/search_identifiers.i: agents/search_identifiers.c.i
@@ -184,7 +184,7 @@ agents/search_identifiers.i: agents/search_identifiers.c.i
 
 # target to preprocess a source file
 agents/search_identifiers.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.i
 .PHONY : agents/search_identifiers.c.i
 
 agents/search_identifiers.s: agents/search_identifiers.c.s
@@ -193,7 +193,7 @@ agents/search_identifiers.s: agents/search_identifiers.c.s
 
 # target to generate assembly for a file
 agents/search_identifiers.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.s
 .PHONY : agents/search_identifiers.c.s
 
 agents/search_input_arcs.o: agents/search_input_arcs.c.o
@@ -202,7 +202,7 @@ agents/search_input_arcs.o: agents/search_input_arcs.c.o
 
 # target to build an object file
 agents/search_input_arcs.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o
 .PHONY : agents/search_input_arcs.c.o
 
 agents/search_input_arcs.i: agents/search_input_arcs.c.i
@@ -211,7 +211,7 @@ agents/search_input_arcs.i: agents/search_input_arcs.c.i
 
 # target to preprocess a source file
 agents/search_input_arcs.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.i
 .PHONY : agents/search_input_arcs.c.i
 
 agents/search_input_arcs.s: agents/search_input_arcs.c.s
@@ -220,7 +220,7 @@ agents/search_input_arcs.s: agents/search_input_arcs.c.s
 
 # target to generate assembly for a file
 agents/search_input_arcs.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.s
 .PHONY : agents/search_input_arcs.c.s
 
 agents/search_output_arcs.o: agents/search_output_arcs.c.o
@@ -229,7 +229,7 @@ agents/search_output_arcs.o: agents/search_output_arcs.c.o
 
 # target to build an object file
 agents/search_output_arcs.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o
 .PHONY : agents/search_output_arcs.c.o
 
 agents/search_output_arcs.i: agents/search_output_arcs.c.i
@@ -238,7 +238,7 @@ agents/search_output_arcs.i: agents/search_output_arcs.c.i
 
 # target to preprocess a source file
 agents/search_output_arcs.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.i
 .PHONY : agents/search_output_arcs.c.i
 
 agents/search_output_arcs.s: agents/search_output_arcs.c.s
@@ -247,7 +247,7 @@ agents/search_output_arcs.s: agents/search_output_arcs.c.s
 
 # target to generate assembly for a file
 agents/search_output_arcs.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.s
 .PHONY : agents/search_output_arcs.c.s
 
 agents/search_semantic_neighborhood.o: agents/search_semantic_neighborhood.c.o
@@ -256,7 +256,7 @@ agents/search_semantic_neighborhood.o: agents/search_semantic_neighborhood.c.o
 
 # target to build an object file
 agents/search_semantic_neighborhood.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o
 .PHONY : agents/search_semantic_neighborhood.c.o
 
 agents/search_semantic_neighborhood.i: agents/search_semantic_neighborhood.c.i
@@ -265,7 +265,7 @@ agents/search_semantic_neighborhood.i: agents/search_semantic_neighborhood.c.i
 
 # target to preprocess a source file
 agents/search_semantic_neighborhood.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.i
 .PHONY : agents/search_semantic_neighborhood.c.i
 
 agents/search_semantic_neighborhood.s: agents/search_semantic_neighborhood.c.s
@@ -274,7 +274,7 @@ agents/search_semantic_neighborhood.s: agents/search_semantic_neighborhood.c.s
 
 # target to generate assembly for a file
 agents/search_semantic_neighborhood.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.s
 .PHONY : agents/search_semantic_neighborhood.c.s
 
 agents/search_structure.o: agents/search_structure.c.o
@@ -283,7 +283,7 @@ agents/search_structure.o: agents/search_structure.c.o
 
 # target to build an object file
 agents/search_structure.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o
 .PHONY : agents/search_structure.c.o
 
 agents/search_structure.i: agents/search_structure.c.i
@@ -292,7 +292,7 @@ agents/search_structure.i: agents/search_structure.c.i
 
 # target to preprocess a source file
 agents/search_structure.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.i
 .PHONY : agents/search_structure.c.i
 
 agents/search_structure.s: agents/search_structure.c.s
@@ -301,7 +301,7 @@ agents/search_structure.s: agents/search_structure.c.s
 
 # target to generate assembly for a file
 agents/search_structure.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.s
 .PHONY : agents/search_structure.c.s
 
 search.o: search.c.o
@@ -310,7 +310,7 @@ search.o: search.c.o
 
 # target to build an object file
 search.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search.c.o
 .PHONY : search.c.o
 
 search.i: search.c.i
@@ -319,7 +319,7 @@ search.i: search.c.i
 
 # target to preprocess a source file
 search.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search.c.i
 .PHONY : search.c.i
 
 search.s: search.c.s
@@ -328,7 +328,7 @@ search.s: search.c.s
 
 # target to generate assembly for a file
 search.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search.c.s
 .PHONY : search.c.s
 
 search_keynodes.o: search_keynodes.c.o
@@ -337,7 +337,7 @@ search_keynodes.o: search_keynodes.c.o
 
 # target to build an object file
 search_keynodes.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o
 .PHONY : search_keynodes.c.o
 
 search_keynodes.i: search_keynodes.c.i
@@ -346,7 +346,7 @@ search_keynodes.i: search_keynodes.c.i
 
 # target to preprocess a source file
 search_keynodes.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.i
 .PHONY : search_keynodes.c.i
 
 search_keynodes.s: search_keynodes.c.s
@@ -355,7 +355,7 @@ search_keynodes.s: search_keynodes.c.s
 
 # target to generate assembly for a file
 search_keynodes.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.s
 .PHONY : search_keynodes.c.s
 
 search_utils.o: search_utils.c.o
@@ -364,7 +364,7 @@ search_utils.o: search_utils.c.o
 
 # target to build an object file
 search_utils.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o
 .PHONY : search_utils.c.o
 
 search_utils.i: search_utils.c.i
@@ -373,7 +373,7 @@ search_utils.i: search_utils.c.i
 
 # target to preprocess a source file
 search_utils.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_utils.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_utils.c.i
 .PHONY : search_utils.c.i
 
 search_utils.s: search_utils.c.s
@@ -382,7 +382,7 @@ search_utils.s: search_utils.c.s
 
 # target to generate assembly for a file
 search_utils.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_utils.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/search/CMakeFiles/search.dir/build.make sc-kpm/search/CMakeFiles/search.dir/search_utils.c.s
 .PHONY : search_utils.c.s
 
 # Help Target
@@ -433,6 +433,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

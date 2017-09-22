@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test_wrap.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_codegen.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_common.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_iterators.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_streams.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_struct.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_templates.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_wait.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/test.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/test_wrap.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/test_wrap.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_codegen.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_codegen.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_common.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_common.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_iterators.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_iterators.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_agent.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_sc_object.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_streams.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_streams.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_struct.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_struct.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_templates.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_templates.cpp.o"
+  "/root/ostis/sc-machine/sc-memory/test/wrap/units/test_wait.cpp" "/root/ostis/sc-machine/build/sc-memory/test/CMakeFiles/test_wrap.dir/wrap/units/test_wait.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -35,8 +35,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

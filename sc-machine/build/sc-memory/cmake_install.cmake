@@ -1,4 +1,4 @@
-# Install script for directory: /home/rusale/DV/ostis/sc-machine/sc-memory
+# Install script for directory: /root/ostis/sc-machine/sc-memory
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp/cmake_install.cmake")
-  include("/home/rusale/DV/ostis/sc-machine/build/sc-memory/test/cmake_install.cmake")
+  include("/root/ostis/sc-machine/build/sc-memory/cpp/cmake_install.cmake")
+  include("/root/ostis/sc-machine/build/sc-memory/test/cmake_install.cmake")
 
 endif()
 

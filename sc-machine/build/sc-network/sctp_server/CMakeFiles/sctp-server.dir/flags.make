@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -Wall   -fPIC
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DSC_PLATFORM_UNIX
 
-CXX_INCLUDES = -I/home/rusale/DV/ostis/sc-machine/thirdparty -I/home/rusale/DV/ostis/sc-machine -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/rusale/DV/ostis/sc-machine/sc-memory -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork 
+CXX_INCLUDES = -I/root/ostis/sc-machine/thirdparty -I/root/ostis/sc-machine -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/root/ostis/sc-machine/sc-memory -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork 
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/nl/CMakeFiles/nl.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/CMakeFiles/nl.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/CMakeFiles/nl.dir/rule
 .PHONY : sc-kpm/nl/CMakeFiles/nl.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ nl: sc-kpm/nl/CMakeFiles/nl.dir/rule
 
 # fast build rule for target.
 nl/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/build
 .PHONY : nl/fast
 
 # Convenience name for target.
 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/rule
 .PHONY : sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ nl-GenerateCode: sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/rule
 
 # fast build rule for target.
 nl-GenerateCode/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build.make sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build.make sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build
 .PHONY : nl-GenerateCode/fast
 
 hash/sha256.o: hash/sha256.cpp.o
@@ -190,7 +190,7 @@ hash/sha256.o: hash/sha256.cpp.o
 
 # target to build an object file
 hash/sha256.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o
 .PHONY : hash/sha256.cpp.o
 
 hash/sha256.i: hash/sha256.cpp.i
@@ -199,7 +199,7 @@ hash/sha256.i: hash/sha256.cpp.i
 
 # target to preprocess a source file
 hash/sha256.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.i
 .PHONY : hash/sha256.cpp.i
 
 hash/sha256.s: hash/sha256.cpp.s
@@ -208,7 +208,7 @@ hash/sha256.s: hash/sha256.cpp.s
 
 # target to generate assembly for a file
 hash/sha256.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.s
 .PHONY : hash/sha256.cpp.s
 
 nl.o: nl.cpp.o
@@ -217,7 +217,7 @@ nl.o: nl.cpp.o
 
 # target to build an object file
 nl.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o
 .PHONY : nl.cpp.o
 
 nl.i: nl.cpp.i
@@ -226,7 +226,7 @@ nl.i: nl.cpp.i
 
 # target to preprocess a source file
 nl.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.i
 .PHONY : nl.cpp.i
 
 nl.s: nl.cpp.s
@@ -235,7 +235,7 @@ nl.s: nl.cpp.s
 
 # target to generate assembly for a file
 nl.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.s
 .PHONY : nl.cpp.s
 
 nlApiAi.o: nlApiAi.cpp.o
@@ -244,7 +244,7 @@ nlApiAi.o: nlApiAi.cpp.o
 
 # target to build an object file
 nlApiAi.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o
 .PHONY : nlApiAi.cpp.o
 
 nlApiAi.i: nlApiAi.cpp.i
@@ -253,7 +253,7 @@ nlApiAi.i: nlApiAi.cpp.i
 
 # target to preprocess a source file
 nlApiAi.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.i
 .PHONY : nlApiAi.cpp.i
 
 nlApiAi.s: nlApiAi.cpp.s
@@ -262,7 +262,7 @@ nlApiAi.s: nlApiAi.cpp.s
 
 # target to generate assembly for a file
 nlApiAi.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.s
 .PHONY : nlApiAi.cpp.s
 
 nlDialogue.o: nlDialogue.cpp.o
@@ -271,7 +271,7 @@ nlDialogue.o: nlDialogue.cpp.o
 
 # target to build an object file
 nlDialogue.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o
 .PHONY : nlDialogue.cpp.o
 
 nlDialogue.i: nlDialogue.cpp.i
@@ -280,7 +280,7 @@ nlDialogue.i: nlDialogue.cpp.i
 
 # target to preprocess a source file
 nlDialogue.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.i
 .PHONY : nlDialogue.cpp.i
 
 nlDialogue.s: nlDialogue.cpp.s
@@ -289,7 +289,7 @@ nlDialogue.s: nlDialogue.cpp.s
 
 # target to generate assembly for a file
 nlDialogue.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.s
 .PHONY : nlDialogue.cpp.s
 
 nlIvona.o: nlIvona.cpp.o
@@ -298,7 +298,7 @@ nlIvona.o: nlIvona.cpp.o
 
 # target to build an object file
 nlIvona.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o
 .PHONY : nlIvona.cpp.o
 
 nlIvona.i: nlIvona.cpp.i
@@ -307,7 +307,7 @@ nlIvona.i: nlIvona.cpp.i
 
 # target to preprocess a source file
 nlIvona.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.i
 .PHONY : nlIvona.cpp.i
 
 nlIvona.s: nlIvona.cpp.s
@@ -316,7 +316,7 @@ nlIvona.s: nlIvona.cpp.s
 
 # target to generate assembly for a file
 nlIvona.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.s
 .PHONY : nlIvona.cpp.s
 
 nlKeynodes.o: nlKeynodes.cpp.o
@@ -325,7 +325,7 @@ nlKeynodes.o: nlKeynodes.cpp.o
 
 # target to build an object file
 nlKeynodes.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o
 .PHONY : nlKeynodes.cpp.o
 
 nlKeynodes.i: nlKeynodes.cpp.i
@@ -334,7 +334,7 @@ nlKeynodes.i: nlKeynodes.cpp.i
 
 # target to preprocess a source file
 nlKeynodes.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.i
 .PHONY : nlKeynodes.cpp.i
 
 nlKeynodes.s: nlKeynodes.cpp.s
@@ -343,7 +343,7 @@ nlKeynodes.s: nlKeynodes.cpp.s
 
 # target to generate assembly for a file
 nlKeynodes.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/nl/CMakeFiles/nl.dir/build.make sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.s
 .PHONY : nlKeynodes.cpp.s
 
 # Help Target
@@ -389,6 +389,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

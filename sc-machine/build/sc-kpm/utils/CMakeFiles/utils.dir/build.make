@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-kpm/utils/CMakeFiles/utils.dir/depend.make
@@ -59,16 +59,16 @@ include sc-kpm/utils/CMakeFiles/utils.dir/flags.make
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o: sc-kpm/utils/CMakeFiles/utils.dir/flags.make
 sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o: ../sc-kpm/utils/utils_keynodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils_keynodes.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils_keynodes.c.o   -c /root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/utils.dir/utils_keynodes.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c > CMakeFiles/utils.dir/utils_keynodes.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c > CMakeFiles/utils.dir/utils_keynodes.c.i
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/utils.dir/utils_keynodes.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c -o CMakeFiles/utils.dir/utils_keynodes.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c -o CMakeFiles/utils.dir/utils_keynodes.c.s
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o.requires:
 
@@ -83,16 +83,16 @@ sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o.provides.build: sc-kpm/util
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o: sc-kpm/utils/CMakeFiles/utils.dir/flags.make
 sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o: ../sc-kpm/utils/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils.c.o   -c /root/ostis/sc-machine/sc-kpm/utils/utils.c
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/utils.dir/utils.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.c > CMakeFiles/utils.dir/utils.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/utils/utils.c > CMakeFiles/utils.dir/utils.c.i
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/utils.dir/utils.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.c -o CMakeFiles/utils.dir/utils.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/utils/utils.c -o CMakeFiles/utils.dir/utils.c.s
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o.requires:
 
@@ -107,16 +107,16 @@ sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o.provides.build: sc-kpm/utils/CMakeFi
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o: sc-kpm/utils/CMakeFiles/utils.dir/flags.make
 sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o: ../sc-kpm/utils/utils_collect_identifiers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils_collect_identifiers.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils_collect_identifiers.c.o   -c /root/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/utils.dir/utils_collect_identifiers.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c > CMakeFiles/utils.dir/utils_collect_identifiers.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c > CMakeFiles/utils.dir/utils_collect_identifiers.c.i
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/utils.dir/utils_collect_identifiers.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c -o CMakeFiles/utils.dir/utils_collect_identifiers.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c -o CMakeFiles/utils.dir/utils_collect_identifiers.c.s
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o.requires:
 
@@ -131,16 +131,16 @@ sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o.provides.build: 
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o: sc-kpm/utils/CMakeFiles/utils.dir/flags.make
 sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o: ../sc-kpm/utils/utils_garbage_deletion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils_garbage_deletion.c.o   -c /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/utils.dir/utils_garbage_deletion.c.o   -c /root/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/utils.dir/utils_garbage_deletion.c.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c > CMakeFiles/utils.dir/utils_garbage_deletion.c.i
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c > CMakeFiles/utils.dir/utils_garbage_deletion.c.i
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/utils.dir/utils_garbage_deletion.c.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c -o CMakeFiles/utils.dir/utils_garbage_deletion.c.s
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c -o CMakeFiles/utils.dir/utils_garbage_deletion.c.s
 
 sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o.requires:
 
@@ -171,8 +171,8 @@ utils_EXTERNAL_OBJECTS =
 ../bin/extensions/libutils.so: ../bin/libsc-kpm-common.so
 ../bin/extensions/libutils.so: ../bin/libsc-memory.so
 ../bin/extensions/libutils.so: sc-kpm/utils/CMakeFiles/utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../../../bin/extensions/libutils.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library ../../../bin/extensions/libutils.so"
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-kpm/utils/CMakeFiles/utils.dir/build: ../bin/extensions/libutils.so
@@ -187,10 +187,10 @@ sc-kpm/utils/CMakeFiles/utils.dir/requires: sc-kpm/utils/CMakeFiles/utils.dir/ut
 .PHONY : sc-kpm/utils/CMakeFiles/utils.dir/requires
 
 sc-kpm/utils/CMakeFiles/utils.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
 .PHONY : sc-kpm/utils/CMakeFiles/utils.dir/clean
 
 sc-kpm/utils/CMakeFiles/utils.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/utils /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils /home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/utils /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/utils /root/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/utils/CMakeFiles/utils.dir/depend
 

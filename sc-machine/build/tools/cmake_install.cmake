@@ -1,4 +1,4 @@
-# Install script for directory: /home/rusale/DV/ostis/sc-machine/tools
+# Install script for directory: /root/ostis/sc-machine/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rusale/DV/ostis/sc-machine/build/tools/builder/cmake_install.cmake")
-  include("/home/rusale/DV/ostis/sc-machine/build/tools/codegen/cmake_install.cmake")
+  include("/root/ostis/sc-machine/build/tools/builder/cmake_install.cmake")
+  include("/root/ostis/sc-machine/build/tools/codegen/cmake_install.cmake")
 
 endif()
 

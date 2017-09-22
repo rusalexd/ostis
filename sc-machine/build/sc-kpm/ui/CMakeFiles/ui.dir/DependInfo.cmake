@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/ui.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiCommands.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiKeynodes.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTranslators.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiTypes.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/ui/uiUtils.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCgJsonTranslator.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCgJsonTranslator.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2SCnJsonTranslator.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2SCnJsonTranslator.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/translators/uiSc2ScsJsonTranslator.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiSc2ScsJsonTranslator.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/translators/uiTranslatorFromSc.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/translators/uiTranslatorFromSc.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/ui.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/ui.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/uiCommands.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiCommands.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/uiKeynodes.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiKeynodes.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/uiTranslators.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiTranslators.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/uiTypes.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiTypes.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/ui/uiUtils.cpp" "/root/ostis/sc-machine/build/sc-kpm/ui/CMakeFiles/ui.dir/uiUtils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -36,8 +36,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -42,13 +42,13 @@ sc-store/sc_types.h
 sc-store/sc_stream.h
 ../sc-memory/sc-store/sc_stream.h
 
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_filesystem.c
+/root/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_filesystem.c
 sc_fm_engine_private.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_engine_private.h
+/root/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_fm_engine_private.h
 sc_stream_file.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_stream_file.h
+/root/ostis/sc-machine/sc-fm/sc_fm_filesystem/sc_stream_file.h
 ../sc_memory.h
-/home/rusale/DV/ostis/sc-machine/sc-fm/sc_memory.h
+/root/ostis/sc-machine/sc-fm/sc_memory.h
 glib.h
 -
 glib/gstdio.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/depend.make
@@ -59,16 +59,16 @@ include sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o: ../sc-memory/cpp/sc_memory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_memory.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_memory.cpp > CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_memory.cpp > CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_memory.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_memory.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o.requires:
 
@@ -83,16 +83,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_memory.cpp.o.provides.build: sc-me
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o: ../sc-memory/cpp/sc_addr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_addr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_addr.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_addr.cpp > CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_addr.cpp > CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_addr.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_addr.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o.requires:
 
@@ -107,16 +107,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_addr.cpp.o.provides.build: sc-memo
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o: ../sc-memory/cpp/sc_event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_event.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_event.cpp > CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_event.cpp > CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_event.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_event.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o.requires:
 
@@ -131,16 +131,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_event.cpp.o.provides.build: sc-mem
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o: ../sc-memory/cpp/sc_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_utils.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_utils.cpp > CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_utils.cpp > CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_utils.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_utils.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o.requires:
 
@@ -155,16 +155,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_utils.cpp.o.provides.build: sc-mem
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o: ../sc-memory/cpp/sc_iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_iterator.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_iterator.cpp > CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_iterator.cpp > CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_iterator.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_iterator.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o.requires:
 
@@ -179,16 +179,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_iterator.cpp.o.provides.build: sc-
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o: ../sc-memory/cpp/sc_stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_stream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_stream.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_stream.cpp > CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_stream.cpp > CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_stream.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_stream.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o.requires:
 
@@ -203,16 +203,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_stream.cpp.o.provides.build: sc-me
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o: ../sc-memory/cpp/sc_template.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_template.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_template.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_template.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o.requires:
 
@@ -227,16 +227,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template.cpp.o.provides.build: sc-
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o: ../sc-memory/cpp/sc_template_build.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_build.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_template_build.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_build.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_template_build.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_build.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_template_build.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o.requires:
 
@@ -251,16 +251,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_build.cpp.o.provides.buil
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o: ../sc-memory/cpp/sc_template_gen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_gen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_template_gen.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_gen.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_template_gen.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_gen.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_template_gen.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o.requires:
 
@@ -275,16 +275,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_gen.cpp.o.provides.build:
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o: ../sc-memory/cpp/sc_template_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_template_search.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_search.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_template_search.cpp > CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_template_search.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_template_search.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o.requires:
 
@@ -299,16 +299,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_template_search.cpp.o.provides.bui
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o: ../sc-memory/cpp/sc_object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_object.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_object.cpp > CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_object.cpp > CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_object.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_object.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o.requires:
 
@@ -323,16 +323,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_object.cpp.o.provides.build: sc-me
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o: ../sc-memory/cpp/sc_module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_module.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_module.cpp > CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_module.cpp > CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_module.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_module.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o.requires:
 
@@ -347,16 +347,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_module.cpp.o.provides.build: sc-me
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o: ../sc-memory/cpp/sc_wait.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_wait.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_wait.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_wait.cpp > CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_wait.cpp > CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_wait.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_wait.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o.requires:
 
@@ -371,16 +371,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_wait.cpp.o.provides.build: sc-memo
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o: ../sc-memory/cpp/sc_struct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_struct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_struct.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_struct.cpp > CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_struct.cpp > CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_struct.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_struct.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o.requires:
 
@@ -395,16 +395,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_struct.cpp.o.provides.build: sc-me
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o: ../sc-memory/cpp/sc_types.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/sc_types.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_types.cpp > CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/sc_types.cpp > CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/sc_types.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/sc_types.cpp -o CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o.requires:
 
@@ -419,16 +419,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/sc_types.cpp.o.provides.build: sc-mem
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o: ../sc-memory/cpp/kpm/sc_agent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/kpm/sc_agent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/kpm/sc_agent.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/kpm/sc_agent.cpp > CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/kpm/sc_agent.cpp > CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/kpm/sc_agent.cpp -o CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/kpm/sc_agent.cpp -o CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o.requires:
 
@@ -443,16 +443,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/kpm/sc_agent.cpp.o.provides.build: sc
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o: ../sc-memory/cpp/utils/sc_log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/utils/sc_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/utils/sc_log.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/utils/sc_log.cpp > CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/utils/sc_log.cpp > CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/utils/sc_log.cpp -o CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/utils/sc_log.cpp -o CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o.requires:
 
@@ -467,16 +467,16 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_log.cpp.o.provides.build: sc
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.o: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/flags.make
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.o: ../sc-memory/cpp/utils/sc_message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/utils/sc_message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.o -c /root/ostis/sc-machine/sc-memory/cpp/utils/sc_message.cpp
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/utils/sc_message.cpp > CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.i
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-memory/cpp/utils/sc_message.cpp > CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.i
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-memory/cpp/utils/sc_message.cpp -o CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.s
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-memory/cpp/utils/sc_message.cpp -o CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.s
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/utils/sc_message.cpp.o.requires:
 
@@ -534,8 +534,8 @@ sc__memory__cpp_EXTERNAL_OBJECTS =
 ../bin/libsc-memory-cpp.so: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/build.make
 ../bin/libsc-memory-cpp.so: ../bin/libsc-memory.so
 ../bin/libsc-memory-cpp.so: sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library ../../../bin/libsc-memory-cpp.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-memory-cpp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library ../../../bin/libsc-memory-cpp.so"
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc-memory-cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/build: ../bin/libsc-memory-cpp.so
@@ -564,10 +564,10 @@ sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/requires: sc-memory/cpp/CMakeFiles/sc
 .PHONY : sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/requires
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp && $(CMAKE_COMMAND) -P CMakeFiles/sc-memory-cpp.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-memory/cpp && $(CMAKE_COMMAND) -P CMakeFiles/sc-memory-cpp.dir/cmake_clean.cmake
 .PHONY : sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/clean
 
 sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-memory/cpp /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp /home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-memory/cpp /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-memory/cpp /root/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/depend
 

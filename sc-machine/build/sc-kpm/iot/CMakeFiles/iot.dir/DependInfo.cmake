@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iot.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotActions.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iot.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotActions.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotContent.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotTV.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o"
+  "/root/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp" "/root/ostis/sc-machine/build/sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -37,9 +37,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/cpp/CMakeFiles/sc-memory-cpp.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

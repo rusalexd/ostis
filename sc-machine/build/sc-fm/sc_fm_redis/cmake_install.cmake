@@ -1,4 +1,4 @@
-# Install script for directory: /home/rusale/DV/ostis/sc-machine/sc-fm/sc_fm_redis
+# Install script for directory: /root/ostis/sc-machine/sc-fm/sc_fm_redis
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

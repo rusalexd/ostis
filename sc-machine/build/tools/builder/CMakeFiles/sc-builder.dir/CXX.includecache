@@ -94,23 +94,23 @@ sc-store/sc_config.h
 sc-store/sc_types.h
 ../sc-memory/sc-store/sc_types.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/base64/base64.cpp
+/root/ostis/sc-machine/tools/builder/src/base64/base64.cpp
 base64.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/base64/base64.h
+/root/ostis/sc-machine/tools/builder/src/base64/base64.h
 iostream
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/base64/base64.h
+/root/ostis/sc-machine/tools/builder/src/base64/base64.h
 string
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/builder.cpp
+/root/ostis/sc-machine/tools/builder/src/builder.cpp
 builder.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/builder.h
+/root/ostis/sc-machine/tools/builder/src/builder.h
 utils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.h
+/root/ostis/sc-machine/tools/builder/src/utils.h
 translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.h
+/root/ostis/sc-machine/tools/builder/src/translator.h
 boost/filesystem.hpp
 -
 boost/algorithm/string.hpp
@@ -120,35 +120,35 @@ fstream
 assert.h
 -
 scs_translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/scs_translator.h
+/root/ostis/sc-machine/tools/builder/src/scs_translator.h
 gwf_translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/gwf_translator.h
+/root/ostis/sc-machine/tools/builder/src/gwf_translator.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/builder.h
+/root/ostis/sc-machine/tools/builder/src/builder.h
 types.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/types.h
+/root/ostis/sc-machine/tools/builder/src/types.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/sc_memory_headers.h
+/root/ostis/sc-machine/tools/builder/src/sc_memory_headers.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/sc_helper.h
+/root/ostis/sc-machine/tools/builder/src/sc_helper.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.cpp
+/root/ostis/sc-machine/tools/builder/src/exception.cpp
 exception.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.h
+/root/ostis/sc-machine/tools/builder/src/exception.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.h
+/root/ostis/sc-machine/tools/builder/src/exception.h
 types.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/types.h
+/root/ostis/sc-machine/tools/builder/src/types.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/gwf_translator.cpp
+/root/ostis/sc-machine/tools/builder/src/gwf_translator.cpp
 gwf_translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/gwf_translator.h
+/root/ostis/sc-machine/tools/builder/src/gwf_translator.h
 tinyxml/tinyxml2.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.h
+/root/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.h
 base64/base64.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/base64/base64.h
+/root/ostis/sc-machine/tools/builder/src/base64/base64.h
 utils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.h
+/root/ostis/sc-machine/tools/builder/src/utils.h
 fstream
 -
 iostream
@@ -156,45 +156,45 @@ iostream
 assert.h
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/gwf_translator.h
+/root/ostis/sc-machine/tools/builder/src/gwf_translator.h
 translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.h
+/root/ostis/sc-machine/tools/builder/src/translator.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/main.cpp
+/root/ostis/sc-machine/tools/builder/src/main.cpp
 builder.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/builder.h
+/root/ostis/sc-machine/tools/builder/src/builder.h
 iostream
 -
 boost/program_options.hpp
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.h
+/root/ostis/sc-machine/tools/builder/src/parser/scsLexer.h
 antlr3.h
 -
 ../parseutils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.h
+/root/ostis/sc-machine/tools/builder/src/parseutils.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.h
+/root/ostis/sc-machine/tools/builder/src/parser/scsParser.h
 antlr3.h
 -
 ../parseutils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.h
+/root/ostis/sc-machine/tools/builder/src/parseutils.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.cpp
+/root/ostis/sc-machine/tools/builder/src/parseutils.cpp
 antlr3.h
 -
 parseutils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.h
+/root/ostis/sc-machine/tools/builder/src/parseutils.h
 exception.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.h
+/root/ostis/sc-machine/tools/builder/src/exception.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.h
+/root/ostis/sc-machine/tools/builder/src/parseutils.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/scs_translator.cpp
+/root/ostis/sc-machine/tools/builder/src/scs_translator.cpp
 scs_translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/scs_translator.h
+/root/ostis/sc-machine/tools/builder/src/scs_translator.h
 utils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.h
+/root/ostis/sc-machine/tools/builder/src/utils.h
 fstream
 -
 iostream
@@ -206,17 +206,17 @@ boost/filesystem.hpp
 boost/algorithm/string/replace.hpp
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/scs_translator.h
+/root/ostis/sc-machine/tools/builder/src/scs_translator.h
 translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.h
+/root/ostis/sc-machine/tools/builder/src/translator.h
 parser/scsLexer.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.h
+/root/ostis/sc-machine/tools/builder/src/parser/scsLexer.h
 parser/scsParser.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.h
+/root/ostis/sc-machine/tools/builder/src/parser/scsParser.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp
+/root/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.cpp
 tinyxml2.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.h
+/root/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.h
 new
 -
 stddef.h
@@ -224,7 +224,7 @@ stddef.h
 cstddef
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.h
+/root/ostis/sc-machine/tools/builder/src/tinyxml/tinyxml2.h
 ctype.h
 -
 limits.h
@@ -254,23 +254,23 @@ android/log.h
 assert.h
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.cpp
+/root/ostis/sc-machine/tools/builder/src/translator.cpp
 translator.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.h
+/root/ostis/sc-machine/tools/builder/src/translator.h
 utils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.h
+/root/ostis/sc-machine/tools/builder/src/utils.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/translator.h
+/root/ostis/sc-machine/tools/builder/src/translator.h
 types.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/types.h
+/root/ostis/sc-machine/tools/builder/src/types.h
 exception.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/exception.h
+/root/ostis/sc-machine/tools/builder/src/exception.h
 sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/sc_memory_headers.h
+/root/ostis/sc-machine/tools/builder/src/sc_memory_headers.h
 sc_helper.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/sc_helper.h
+/root/ostis/sc-machine/tools/builder/src/sc_helper.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/types.h
+/root/ostis/sc-machine/tools/builder/src/types.h
 string
 -
 list
@@ -294,21 +294,21 @@ exception
 assert.h
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.cpp
+/root/ostis/sc-machine/tools/builder/src/utils.cpp
 utils.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.h
+/root/ostis/sc-machine/tools/builder/src/utils.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/utils.h
+/root/ostis/sc-machine/tools/builder/src/utils.h
 types.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/types.h
+/root/ostis/sc-machine/tools/builder/src/types.h
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/version.cpp
+/root/ostis/sc-machine/tools/builder/src/version.cpp
 version.h
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/version.h
+/root/ostis/sc-machine/tools/builder/src/version.h
 sstream
 -
 
-/home/rusale/DV/ostis/sc-machine/tools/builder/src/version.h
+/root/ostis/sc-machine/tools/builder/src/version.h
 string
 -
 

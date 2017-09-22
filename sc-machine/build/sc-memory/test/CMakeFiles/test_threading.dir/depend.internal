@@ -18,7 +18,7 @@ sc-memory/test/CMakeFiles/test_threading.dir/test_threading.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-memory/test/test_threading.cpp
+ /root/ostis/sc-machine/sc-memory/test/test_threading.cpp
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h

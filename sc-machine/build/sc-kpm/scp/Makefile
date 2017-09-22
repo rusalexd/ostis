@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-kpm/scp/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-kpm/scp/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-kpm/scp/CMakeFiles/scp.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/CMakeFiles/scp.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-kpm/scp/CMakeFiles/scp.dir/rule
 .PHONY : sc-kpm/scp/CMakeFiles/scp.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ scp: sc-kpm/scp/CMakeFiles/scp.dir/rule
 
 # fast build rule for target.
 scp/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/build
 .PHONY : scp/fast
 
 scp_debugger.o: scp_debugger.c.o
@@ -175,7 +175,7 @@ scp_debugger.o: scp_debugger.c.o
 
 # target to build an object file
 scp_debugger.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.o
 .PHONY : scp_debugger.c.o
 
 scp_debugger.i: scp_debugger.c.i
@@ -184,7 +184,7 @@ scp_debugger.i: scp_debugger.c.i
 
 # target to preprocess a source file
 scp_debugger.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.i
 .PHONY : scp_debugger.c.i
 
 scp_debugger.s: scp_debugger.c.s
@@ -193,7 +193,7 @@ scp_debugger.s: scp_debugger.c.s
 
 # target to generate assembly for a file
 scp_debugger.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_debugger.c.s
 .PHONY : scp_debugger.c.s
 
 scp_interpreter.o: scp_interpreter.c.o
@@ -202,7 +202,7 @@ scp_interpreter.o: scp_interpreter.c.o
 
 # target to build an object file
 scp_interpreter.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.o
 .PHONY : scp_interpreter.c.o
 
 scp_interpreter.i: scp_interpreter.c.i
@@ -211,7 +211,7 @@ scp_interpreter.i: scp_interpreter.c.i
 
 # target to preprocess a source file
 scp_interpreter.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.i
 .PHONY : scp_interpreter.c.i
 
 scp_interpreter.s: scp_interpreter.c.s
@@ -220,7 +220,7 @@ scp_interpreter.s: scp_interpreter.c.s
 
 # target to generate assembly for a file
 scp_interpreter.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter.c.s
 .PHONY : scp_interpreter.c.s
 
 scp_interpreter_utils.o: scp_interpreter_utils.c.o
@@ -229,7 +229,7 @@ scp_interpreter_utils.o: scp_interpreter_utils.c.o
 
 # target to build an object file
 scp_interpreter_utils.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.o
 .PHONY : scp_interpreter_utils.c.o
 
 scp_interpreter_utils.i: scp_interpreter_utils.c.i
@@ -238,7 +238,7 @@ scp_interpreter_utils.i: scp_interpreter_utils.c.i
 
 # target to preprocess a source file
 scp_interpreter_utils.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.i
 .PHONY : scp_interpreter_utils.c.i
 
 scp_interpreter_utils.s: scp_interpreter_utils.c.s
@@ -247,7 +247,7 @@ scp_interpreter_utils.s: scp_interpreter_utils.c.s
 
 # target to generate assembly for a file
 scp_interpreter_utils.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_interpreter_utils.c.s
 .PHONY : scp_interpreter_utils.c.s
 
 scp_keynodes.o: scp_keynodes.c.o
@@ -256,7 +256,7 @@ scp_keynodes.o: scp_keynodes.c.o
 
 # target to build an object file
 scp_keynodes.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.o
 .PHONY : scp_keynodes.c.o
 
 scp_keynodes.i: scp_keynodes.c.i
@@ -265,7 +265,7 @@ scp_keynodes.i: scp_keynodes.c.i
 
 # target to preprocess a source file
 scp_keynodes.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.i
 .PHONY : scp_keynodes.c.i
 
 scp_keynodes.s: scp_keynodes.c.s
@@ -274,7 +274,7 @@ scp_keynodes.s: scp_keynodes.c.s
 
 # target to generate assembly for a file
 scp_keynodes.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_keynodes.c.s
 .PHONY : scp_keynodes.c.s
 
 scp_lib/scp_eraseElStr3.o: scp_lib/scp_eraseElStr3.c.o
@@ -283,7 +283,7 @@ scp_lib/scp_eraseElStr3.o: scp_lib/scp_eraseElStr3.c.o
 
 # target to build an object file
 scp_lib/scp_eraseElStr3.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.o
 .PHONY : scp_lib/scp_eraseElStr3.c.o
 
 scp_lib/scp_eraseElStr3.i: scp_lib/scp_eraseElStr3.c.i
@@ -292,7 +292,7 @@ scp_lib/scp_eraseElStr3.i: scp_lib/scp_eraseElStr3.c.i
 
 # target to preprocess a source file
 scp_lib/scp_eraseElStr3.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.i
 .PHONY : scp_lib/scp_eraseElStr3.c.i
 
 scp_lib/scp_eraseElStr3.s: scp_lib/scp_eraseElStr3.c.s
@@ -301,7 +301,7 @@ scp_lib/scp_eraseElStr3.s: scp_lib/scp_eraseElStr3.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_eraseElStr3.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr3.c.s
 .PHONY : scp_lib/scp_eraseElStr3.c.s
 
 scp_lib/scp_eraseElStr5.o: scp_lib/scp_eraseElStr5.c.o
@@ -310,7 +310,7 @@ scp_lib/scp_eraseElStr5.o: scp_lib/scp_eraseElStr5.c.o
 
 # target to build an object file
 scp_lib/scp_eraseElStr5.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.o
 .PHONY : scp_lib/scp_eraseElStr5.c.o
 
 scp_lib/scp_eraseElStr5.i: scp_lib/scp_eraseElStr5.c.i
@@ -319,7 +319,7 @@ scp_lib/scp_eraseElStr5.i: scp_lib/scp_eraseElStr5.c.i
 
 # target to preprocess a source file
 scp_lib/scp_eraseElStr5.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.i
 .PHONY : scp_lib/scp_eraseElStr5.c.i
 
 scp_lib/scp_eraseElStr5.s: scp_lib/scp_eraseElStr5.c.s
@@ -328,7 +328,7 @@ scp_lib/scp_eraseElStr5.s: scp_lib/scp_eraseElStr5.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_eraseElStr5.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseElStr5.c.s
 .PHONY : scp_lib/scp_eraseElStr5.c.s
 
 scp_lib/scp_eraseSetStr3.o: scp_lib/scp_eraseSetStr3.c.o
@@ -337,7 +337,7 @@ scp_lib/scp_eraseSetStr3.o: scp_lib/scp_eraseSetStr3.c.o
 
 # target to build an object file
 scp_lib/scp_eraseSetStr3.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.o
 .PHONY : scp_lib/scp_eraseSetStr3.c.o
 
 scp_lib/scp_eraseSetStr3.i: scp_lib/scp_eraseSetStr3.c.i
@@ -346,7 +346,7 @@ scp_lib/scp_eraseSetStr3.i: scp_lib/scp_eraseSetStr3.c.i
 
 # target to preprocess a source file
 scp_lib/scp_eraseSetStr3.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.i
 .PHONY : scp_lib/scp_eraseSetStr3.c.i
 
 scp_lib/scp_eraseSetStr3.s: scp_lib/scp_eraseSetStr3.c.s
@@ -355,7 +355,7 @@ scp_lib/scp_eraseSetStr3.s: scp_lib/scp_eraseSetStr3.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_eraseSetStr3.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr3.c.s
 .PHONY : scp_lib/scp_eraseSetStr3.c.s
 
 scp_lib/scp_eraseSetStr5.o: scp_lib/scp_eraseSetStr5.c.o
@@ -364,7 +364,7 @@ scp_lib/scp_eraseSetStr5.o: scp_lib/scp_eraseSetStr5.c.o
 
 # target to build an object file
 scp_lib/scp_eraseSetStr5.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.o
 .PHONY : scp_lib/scp_eraseSetStr5.c.o
 
 scp_lib/scp_eraseSetStr5.i: scp_lib/scp_eraseSetStr5.c.i
@@ -373,7 +373,7 @@ scp_lib/scp_eraseSetStr5.i: scp_lib/scp_eraseSetStr5.c.i
 
 # target to preprocess a source file
 scp_lib/scp_eraseSetStr5.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.i
 .PHONY : scp_lib/scp_eraseSetStr5.c.i
 
 scp_lib/scp_eraseSetStr5.s: scp_lib/scp_eraseSetStr5.c.s
@@ -382,7 +382,7 @@ scp_lib/scp_eraseSetStr5.s: scp_lib/scp_eraseSetStr5.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_eraseSetStr5.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_eraseSetStr5.c.s
 .PHONY : scp_lib/scp_eraseSetStr5.c.s
 
 scp_lib/scp_functions.o: scp_lib/scp_functions.c.o
@@ -391,7 +391,7 @@ scp_lib/scp_functions.o: scp_lib/scp_functions.c.o
 
 # target to build an object file
 scp_lib/scp_functions.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.o
 .PHONY : scp_lib/scp_functions.c.o
 
 scp_lib/scp_functions.i: scp_lib/scp_functions.c.i
@@ -400,7 +400,7 @@ scp_lib/scp_functions.i: scp_lib/scp_functions.c.i
 
 # target to preprocess a source file
 scp_lib/scp_functions.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.i
 .PHONY : scp_lib/scp_functions.c.i
 
 scp_lib/scp_functions.s: scp_lib/scp_functions.c.s
@@ -409,7 +409,7 @@ scp_lib/scp_functions.s: scp_lib/scp_functions.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_functions.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_functions.c.s
 .PHONY : scp_lib/scp_functions.c.s
 
 scp_lib/scp_genElStr3.o: scp_lib/scp_genElStr3.c.o
@@ -418,7 +418,7 @@ scp_lib/scp_genElStr3.o: scp_lib/scp_genElStr3.c.o
 
 # target to build an object file
 scp_lib/scp_genElStr3.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.o
 .PHONY : scp_lib/scp_genElStr3.c.o
 
 scp_lib/scp_genElStr3.i: scp_lib/scp_genElStr3.c.i
@@ -427,7 +427,7 @@ scp_lib/scp_genElStr3.i: scp_lib/scp_genElStr3.c.i
 
 # target to preprocess a source file
 scp_lib/scp_genElStr3.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.i
 .PHONY : scp_lib/scp_genElStr3.c.i
 
 scp_lib/scp_genElStr3.s: scp_lib/scp_genElStr3.c.s
@@ -436,7 +436,7 @@ scp_lib/scp_genElStr3.s: scp_lib/scp_genElStr3.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_genElStr3.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr3.c.s
 .PHONY : scp_lib/scp_genElStr3.c.s
 
 scp_lib/scp_genElStr5.o: scp_lib/scp_genElStr5.c.o
@@ -445,7 +445,7 @@ scp_lib/scp_genElStr5.o: scp_lib/scp_genElStr5.c.o
 
 # target to build an object file
 scp_lib/scp_genElStr5.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.o
 .PHONY : scp_lib/scp_genElStr5.c.o
 
 scp_lib/scp_genElStr5.i: scp_lib/scp_genElStr5.c.i
@@ -454,7 +454,7 @@ scp_lib/scp_genElStr5.i: scp_lib/scp_genElStr5.c.i
 
 # target to preprocess a source file
 scp_lib/scp_genElStr5.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.i
 .PHONY : scp_lib/scp_genElStr5.c.i
 
 scp_lib/scp_genElStr5.s: scp_lib/scp_genElStr5.c.s
@@ -463,7 +463,7 @@ scp_lib/scp_genElStr5.s: scp_lib/scp_genElStr5.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_genElStr5.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_genElStr5.c.s
 .PHONY : scp_lib/scp_genElStr5.c.s
 
 scp_lib/scp_iterator3.o: scp_lib/scp_iterator3.c.o
@@ -472,7 +472,7 @@ scp_lib/scp_iterator3.o: scp_lib/scp_iterator3.c.o
 
 # target to build an object file
 scp_lib/scp_iterator3.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.o
 .PHONY : scp_lib/scp_iterator3.c.o
 
 scp_lib/scp_iterator3.i: scp_lib/scp_iterator3.c.i
@@ -481,7 +481,7 @@ scp_lib/scp_iterator3.i: scp_lib/scp_iterator3.c.i
 
 # target to preprocess a source file
 scp_lib/scp_iterator3.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.i
 .PHONY : scp_lib/scp_iterator3.c.i
 
 scp_lib/scp_iterator3.s: scp_lib/scp_iterator3.c.s
@@ -490,7 +490,7 @@ scp_lib/scp_iterator3.s: scp_lib/scp_iterator3.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_iterator3.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator3.c.s
 .PHONY : scp_lib/scp_iterator3.c.s
 
 scp_lib/scp_iterator5.o: scp_lib/scp_iterator5.c.o
@@ -499,7 +499,7 @@ scp_lib/scp_iterator5.o: scp_lib/scp_iterator5.c.o
 
 # target to build an object file
 scp_lib/scp_iterator5.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.o
 .PHONY : scp_lib/scp_iterator5.c.o
 
 scp_lib/scp_iterator5.i: scp_lib/scp_iterator5.c.i
@@ -508,7 +508,7 @@ scp_lib/scp_iterator5.i: scp_lib/scp_iterator5.c.i
 
 # target to preprocess a source file
 scp_lib/scp_iterator5.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.i
 .PHONY : scp_lib/scp_iterator5.c.i
 
 scp_lib/scp_iterator5.s: scp_lib/scp_iterator5.c.s
@@ -517,7 +517,7 @@ scp_lib/scp_iterator5.s: scp_lib/scp_iterator5.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_iterator5.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_iterator5.c.s
 .PHONY : scp_lib/scp_iterator5.c.s
 
 scp_lib/scp_searchElStr3.o: scp_lib/scp_searchElStr3.c.o
@@ -526,7 +526,7 @@ scp_lib/scp_searchElStr3.o: scp_lib/scp_searchElStr3.c.o
 
 # target to build an object file
 scp_lib/scp_searchElStr3.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.o
 .PHONY : scp_lib/scp_searchElStr3.c.o
 
 scp_lib/scp_searchElStr3.i: scp_lib/scp_searchElStr3.c.i
@@ -535,7 +535,7 @@ scp_lib/scp_searchElStr3.i: scp_lib/scp_searchElStr3.c.i
 
 # target to preprocess a source file
 scp_lib/scp_searchElStr3.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.i
 .PHONY : scp_lib/scp_searchElStr3.c.i
 
 scp_lib/scp_searchElStr3.s: scp_lib/scp_searchElStr3.c.s
@@ -544,7 +544,7 @@ scp_lib/scp_searchElStr3.s: scp_lib/scp_searchElStr3.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_searchElStr3.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr3.c.s
 .PHONY : scp_lib/scp_searchElStr3.c.s
 
 scp_lib/scp_searchElStr5.o: scp_lib/scp_searchElStr5.c.o
@@ -553,7 +553,7 @@ scp_lib/scp_searchElStr5.o: scp_lib/scp_searchElStr5.c.o
 
 # target to build an object file
 scp_lib/scp_searchElStr5.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.o
 .PHONY : scp_lib/scp_searchElStr5.c.o
 
 scp_lib/scp_searchElStr5.i: scp_lib/scp_searchElStr5.c.i
@@ -562,7 +562,7 @@ scp_lib/scp_searchElStr5.i: scp_lib/scp_searchElStr5.c.i
 
 # target to preprocess a source file
 scp_lib/scp_searchElStr5.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.i
 .PHONY : scp_lib/scp_searchElStr5.c.i
 
 scp_lib/scp_searchElStr5.s: scp_lib/scp_searchElStr5.c.s
@@ -571,7 +571,7 @@ scp_lib/scp_searchElStr5.s: scp_lib/scp_searchElStr5.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_searchElStr5.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchElStr5.c.s
 .PHONY : scp_lib/scp_searchElStr5.c.s
 
 scp_lib/scp_searchSetStr3.o: scp_lib/scp_searchSetStr3.c.o
@@ -580,7 +580,7 @@ scp_lib/scp_searchSetStr3.o: scp_lib/scp_searchSetStr3.c.o
 
 # target to build an object file
 scp_lib/scp_searchSetStr3.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.o
 .PHONY : scp_lib/scp_searchSetStr3.c.o
 
 scp_lib/scp_searchSetStr3.i: scp_lib/scp_searchSetStr3.c.i
@@ -589,7 +589,7 @@ scp_lib/scp_searchSetStr3.i: scp_lib/scp_searchSetStr3.c.i
 
 # target to preprocess a source file
 scp_lib/scp_searchSetStr3.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.i
 .PHONY : scp_lib/scp_searchSetStr3.c.i
 
 scp_lib/scp_searchSetStr3.s: scp_lib/scp_searchSetStr3.c.s
@@ -598,7 +598,7 @@ scp_lib/scp_searchSetStr3.s: scp_lib/scp_searchSetStr3.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_searchSetStr3.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr3.c.s
 .PHONY : scp_lib/scp_searchSetStr3.c.s
 
 scp_lib/scp_searchSetStr5.o: scp_lib/scp_searchSetStr5.c.o
@@ -607,7 +607,7 @@ scp_lib/scp_searchSetStr5.o: scp_lib/scp_searchSetStr5.c.o
 
 # target to build an object file
 scp_lib/scp_searchSetStr5.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.o
 .PHONY : scp_lib/scp_searchSetStr5.c.o
 
 scp_lib/scp_searchSetStr5.i: scp_lib/scp_searchSetStr5.c.i
@@ -616,7 +616,7 @@ scp_lib/scp_searchSetStr5.i: scp_lib/scp_searchSetStr5.c.i
 
 # target to preprocess a source file
 scp_lib/scp_searchSetStr5.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.i
 .PHONY : scp_lib/scp_searchSetStr5.c.i
 
 scp_lib/scp_searchSetStr5.s: scp_lib/scp_searchSetStr5.c.s
@@ -625,7 +625,7 @@ scp_lib/scp_searchSetStr5.s: scp_lib/scp_searchSetStr5.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_searchSetStr5.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_searchSetStr5.c.s
 .PHONY : scp_lib/scp_searchSetStr5.c.s
 
 scp_lib/scp_system_operators/sc_system_gen.o: scp_lib/scp_system_operators/sc_system_gen.cpp.o
@@ -634,7 +634,7 @@ scp_lib/scp_system_operators/sc_system_gen.o: scp_lib/scp_system_operators/sc_sy
 
 # target to build an object file
 scp_lib/scp_system_operators/sc_system_gen.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.o
 .PHONY : scp_lib/scp_system_operators/sc_system_gen.cpp.o
 
 scp_lib/scp_system_operators/sc_system_gen.i: scp_lib/scp_system_operators/sc_system_gen.cpp.i
@@ -643,7 +643,7 @@ scp_lib/scp_system_operators/sc_system_gen.i: scp_lib/scp_system_operators/sc_sy
 
 # target to preprocess a source file
 scp_lib/scp_system_operators/sc_system_gen.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.i
 .PHONY : scp_lib/scp_system_operators/sc_system_gen.cpp.i
 
 scp_lib/scp_system_operators/sc_system_gen.s: scp_lib/scp_system_operators/sc_system_gen.cpp.s
@@ -652,7 +652,7 @@ scp_lib/scp_system_operators/sc_system_gen.s: scp_lib/scp_system_operators/sc_sy
 
 # target to generate assembly for a file
 scp_lib/scp_system_operators/sc_system_gen.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_gen.cpp.s
 .PHONY : scp_lib/scp_system_operators/sc_system_gen.cpp.s
 
 scp_lib/scp_system_operators/sc_system_operators.o: scp_lib/scp_system_operators/sc_system_operators.cpp.o
@@ -661,7 +661,7 @@ scp_lib/scp_system_operators/sc_system_operators.o: scp_lib/scp_system_operators
 
 # target to build an object file
 scp_lib/scp_system_operators/sc_system_operators.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.o
 .PHONY : scp_lib/scp_system_operators/sc_system_operators.cpp.o
 
 scp_lib/scp_system_operators/sc_system_operators.i: scp_lib/scp_system_operators/sc_system_operators.cpp.i
@@ -670,7 +670,7 @@ scp_lib/scp_system_operators/sc_system_operators.i: scp_lib/scp_system_operators
 
 # target to preprocess a source file
 scp_lib/scp_system_operators/sc_system_operators.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.i
 .PHONY : scp_lib/scp_system_operators/sc_system_operators.cpp.i
 
 scp_lib/scp_system_operators/sc_system_operators.s: scp_lib/scp_system_operators/sc_system_operators.cpp.s
@@ -679,7 +679,7 @@ scp_lib/scp_system_operators/sc_system_operators.s: scp_lib/scp_system_operators
 
 # target to generate assembly for a file
 scp_lib/scp_system_operators/sc_system_operators.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_operators.cpp.s
 .PHONY : scp_lib/scp_system_operators/sc_system_operators.cpp.s
 
 scp_lib/scp_system_operators/sc_system_search.o: scp_lib/scp_system_operators/sc_system_search.cpp.o
@@ -688,7 +688,7 @@ scp_lib/scp_system_operators/sc_system_search.o: scp_lib/scp_system_operators/sc
 
 # target to build an object file
 scp_lib/scp_system_operators/sc_system_search.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.o
 .PHONY : scp_lib/scp_system_operators/sc_system_search.cpp.o
 
 scp_lib/scp_system_operators/sc_system_search.i: scp_lib/scp_system_operators/sc_system_search.cpp.i
@@ -697,7 +697,7 @@ scp_lib/scp_system_operators/sc_system_search.i: scp_lib/scp_system_operators/sc
 
 # target to preprocess a source file
 scp_lib/scp_system_operators/sc_system_search.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.i
 .PHONY : scp_lib/scp_system_operators/sc_system_search.cpp.i
 
 scp_lib/scp_system_operators/sc_system_search.s: scp_lib/scp_system_operators/sc_system_search.cpp.s
@@ -706,7 +706,7 @@ scp_lib/scp_system_operators/sc_system_search.s: scp_lib/scp_system_operators/sc
 
 # target to generate assembly for a file
 scp_lib/scp_system_operators/sc_system_search.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/sc_system_search.cpp.s
 .PHONY : scp_lib/scp_system_operators/sc_system_search.cpp.s
 
 scp_lib/scp_system_operators/scp_sys.o: scp_lib/scp_system_operators/scp_sys.c.o
@@ -715,7 +715,7 @@ scp_lib/scp_system_operators/scp_sys.o: scp_lib/scp_system_operators/scp_sys.c.o
 
 # target to build an object file
 scp_lib/scp_system_operators/scp_sys.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.o
 .PHONY : scp_lib/scp_system_operators/scp_sys.c.o
 
 scp_lib/scp_system_operators/scp_sys.i: scp_lib/scp_system_operators/scp_sys.c.i
@@ -724,7 +724,7 @@ scp_lib/scp_system_operators/scp_sys.i: scp_lib/scp_system_operators/scp_sys.c.i
 
 # target to preprocess a source file
 scp_lib/scp_system_operators/scp_sys.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.i
 .PHONY : scp_lib/scp_system_operators/scp_sys.c.i
 
 scp_lib/scp_system_operators/scp_sys.s: scp_lib/scp_system_operators/scp_sys.c.s
@@ -733,7 +733,7 @@ scp_lib/scp_system_operators/scp_sys.s: scp_lib/scp_system_operators/scp_sys.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_system_operators/scp_sys.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys.c.s
 .PHONY : scp_lib/scp_system_operators/scp_sys.c.s
 
 scp_lib/scp_system_operators/scp_sys_gen.o: scp_lib/scp_system_operators/scp_sys_gen.cpp.o
@@ -742,7 +742,7 @@ scp_lib/scp_system_operators/scp_sys_gen.o: scp_lib/scp_system_operators/scp_sys
 
 # target to build an object file
 scp_lib/scp_system_operators/scp_sys_gen.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.o
 .PHONY : scp_lib/scp_system_operators/scp_sys_gen.cpp.o
 
 scp_lib/scp_system_operators/scp_sys_gen.i: scp_lib/scp_system_operators/scp_sys_gen.cpp.i
@@ -751,7 +751,7 @@ scp_lib/scp_system_operators/scp_sys_gen.i: scp_lib/scp_system_operators/scp_sys
 
 # target to preprocess a source file
 scp_lib/scp_system_operators/scp_sys_gen.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.i
 .PHONY : scp_lib/scp_system_operators/scp_sys_gen.cpp.i
 
 scp_lib/scp_system_operators/scp_sys_gen.s: scp_lib/scp_system_operators/scp_sys_gen.cpp.s
@@ -760,7 +760,7 @@ scp_lib/scp_system_operators/scp_sys_gen.s: scp_lib/scp_system_operators/scp_sys
 
 # target to generate assembly for a file
 scp_lib/scp_system_operators/scp_sys_gen.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_gen.cpp.s
 .PHONY : scp_lib/scp_system_operators/scp_sys_gen.cpp.s
 
 scp_lib/scp_system_operators/scp_sys_search.o: scp_lib/scp_system_operators/scp_sys_search.cpp.o
@@ -769,7 +769,7 @@ scp_lib/scp_system_operators/scp_sys_search.o: scp_lib/scp_system_operators/scp_
 
 # target to build an object file
 scp_lib/scp_system_operators/scp_sys_search.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.o
 .PHONY : scp_lib/scp_system_operators/scp_sys_search.cpp.o
 
 scp_lib/scp_system_operators/scp_sys_search.i: scp_lib/scp_system_operators/scp_sys_search.cpp.i
@@ -778,7 +778,7 @@ scp_lib/scp_system_operators/scp_sys_search.i: scp_lib/scp_system_operators/scp_
 
 # target to preprocess a source file
 scp_lib/scp_system_operators/scp_sys_search.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.i
 .PHONY : scp_lib/scp_system_operators/scp_sys_search.cpp.i
 
 scp_lib/scp_system_operators/scp_sys_search.s: scp_lib/scp_system_operators/scp_sys_search.cpp.s
@@ -787,7 +787,7 @@ scp_lib/scp_system_operators/scp_sys_search.s: scp_lib/scp_system_operators/scp_
 
 # target to generate assembly for a file
 scp_lib/scp_system_operators/scp_sys_search.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_system_operators/scp_sys_search.cpp.s
 .PHONY : scp_lib/scp_system_operators/scp_sys_search.cpp.s
 
 scp_lib/scp_types.o: scp_lib/scp_types.c.o
@@ -796,7 +796,7 @@ scp_lib/scp_types.o: scp_lib/scp_types.c.o
 
 # target to build an object file
 scp_lib/scp_types.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.o
 .PHONY : scp_lib/scp_types.c.o
 
 scp_lib/scp_types.i: scp_lib/scp_types.c.i
@@ -805,7 +805,7 @@ scp_lib/scp_types.i: scp_lib/scp_types.c.i
 
 # target to preprocess a source file
 scp_lib/scp_types.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.i
 .PHONY : scp_lib/scp_types.c.i
 
 scp_lib/scp_types.s: scp_lib/scp_types.c.s
@@ -814,7 +814,7 @@ scp_lib/scp_types.s: scp_lib/scp_types.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_types.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_types.c.s
 .PHONY : scp_lib/scp_types.c.s
 
 scp_lib/scp_utils.o: scp_lib/scp_utils.c.o
@@ -823,7 +823,7 @@ scp_lib/scp_utils.o: scp_lib/scp_utils.c.o
 
 # target to build an object file
 scp_lib/scp_utils.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.o
 .PHONY : scp_lib/scp_utils.c.o
 
 scp_lib/scp_utils.i: scp_lib/scp_utils.c.i
@@ -832,7 +832,7 @@ scp_lib/scp_utils.i: scp_lib/scp_utils.c.i
 
 # target to preprocess a source file
 scp_lib/scp_utils.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.i
 .PHONY : scp_lib/scp_utils.c.i
 
 scp_lib/scp_utils.s: scp_lib/scp_utils.c.s
@@ -841,7 +841,7 @@ scp_lib/scp_utils.s: scp_lib/scp_utils.c.s
 
 # target to generate assembly for a file
 scp_lib/scp_utils.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_lib/scp_utils.c.s
 .PHONY : scp_lib/scp_utils.c.s
 
 scp_operator_interpreter_agents.o: scp_operator_interpreter_agents.c.o
@@ -850,7 +850,7 @@ scp_operator_interpreter_agents.o: scp_operator_interpreter_agents.c.o
 
 # target to build an object file
 scp_operator_interpreter_agents.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.o
 .PHONY : scp_operator_interpreter_agents.c.o
 
 scp_operator_interpreter_agents.i: scp_operator_interpreter_agents.c.i
@@ -859,7 +859,7 @@ scp_operator_interpreter_agents.i: scp_operator_interpreter_agents.c.i
 
 # target to preprocess a source file
 scp_operator_interpreter_agents.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.i
 .PHONY : scp_operator_interpreter_agents.c.i
 
 scp_operator_interpreter_agents.s: scp_operator_interpreter_agents.c.s
@@ -868,7 +868,7 @@ scp_operator_interpreter_agents.s: scp_operator_interpreter_agents.c.s
 
 # target to generate assembly for a file
 scp_operator_interpreter_agents.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_agents.c.s
 .PHONY : scp_operator_interpreter_agents.c.s
 
 scp_operator_interpreter_functions.o: scp_operator_interpreter_functions.c.o
@@ -877,7 +877,7 @@ scp_operator_interpreter_functions.o: scp_operator_interpreter_functions.c.o
 
 # target to build an object file
 scp_operator_interpreter_functions.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.o
 .PHONY : scp_operator_interpreter_functions.c.o
 
 scp_operator_interpreter_functions.i: scp_operator_interpreter_functions.c.i
@@ -886,7 +886,7 @@ scp_operator_interpreter_functions.i: scp_operator_interpreter_functions.c.i
 
 # target to preprocess a source file
 scp_operator_interpreter_functions.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.i
 .PHONY : scp_operator_interpreter_functions.c.i
 
 scp_operator_interpreter_functions.s: scp_operator_interpreter_functions.c.s
@@ -895,7 +895,7 @@ scp_operator_interpreter_functions.s: scp_operator_interpreter_functions.c.s
 
 # target to generate assembly for a file
 scp_operator_interpreter_functions.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_interpreter_functions.c.s
 .PHONY : scp_operator_interpreter_functions.c.s
 
 scp_operator_keynodes.o: scp_operator_keynodes.c.o
@@ -904,7 +904,7 @@ scp_operator_keynodes.o: scp_operator_keynodes.c.o
 
 # target to build an object file
 scp_operator_keynodes.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.o
 .PHONY : scp_operator_keynodes.c.o
 
 scp_operator_keynodes.i: scp_operator_keynodes.c.i
@@ -913,7 +913,7 @@ scp_operator_keynodes.i: scp_operator_keynodes.c.i
 
 # target to preprocess a source file
 scp_operator_keynodes.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.i
 .PHONY : scp_operator_keynodes.c.i
 
 scp_operator_keynodes.s: scp_operator_keynodes.c.s
@@ -922,7 +922,7 @@ scp_operator_keynodes.s: scp_operator_keynodes.c.s
 
 # target to generate assembly for a file
 scp_operator_keynodes.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_keynodes.c.s
 .PHONY : scp_operator_keynodes.c.s
 
 scp_operator_syncronizer.o: scp_operator_syncronizer.c.o
@@ -931,7 +931,7 @@ scp_operator_syncronizer.o: scp_operator_syncronizer.c.o
 
 # target to build an object file
 scp_operator_syncronizer.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.o
 .PHONY : scp_operator_syncronizer.c.o
 
 scp_operator_syncronizer.i: scp_operator_syncronizer.c.i
@@ -940,7 +940,7 @@ scp_operator_syncronizer.i: scp_operator_syncronizer.c.i
 
 # target to preprocess a source file
 scp_operator_syncronizer.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.i
 .PHONY : scp_operator_syncronizer.c.i
 
 scp_operator_syncronizer.s: scp_operator_syncronizer.c.s
@@ -949,7 +949,7 @@ scp_operator_syncronizer.s: scp_operator_syncronizer.c.s
 
 # target to generate assembly for a file
 scp_operator_syncronizer.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_operator_syncronizer.c.s
 .PHONY : scp_operator_syncronizer.c.s
 
 scp_procedure_preprocessor.o: scp_procedure_preprocessor.c.o
@@ -958,7 +958,7 @@ scp_procedure_preprocessor.o: scp_procedure_preprocessor.c.o
 
 # target to build an object file
 scp_procedure_preprocessor.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.o
 .PHONY : scp_procedure_preprocessor.c.o
 
 scp_procedure_preprocessor.i: scp_procedure_preprocessor.c.i
@@ -967,7 +967,7 @@ scp_procedure_preprocessor.i: scp_procedure_preprocessor.c.i
 
 # target to preprocess a source file
 scp_procedure_preprocessor.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.i
 .PHONY : scp_procedure_preprocessor.c.i
 
 scp_procedure_preprocessor.s: scp_procedure_preprocessor.c.s
@@ -976,7 +976,7 @@ scp_procedure_preprocessor.s: scp_procedure_preprocessor.c.s
 
 # target to generate assembly for a file
 scp_procedure_preprocessor.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_preprocessor.c.s
 .PHONY : scp_procedure_preprocessor.c.s
 
 scp_procedure_verifier.o: scp_procedure_verifier.c.o
@@ -985,7 +985,7 @@ scp_procedure_verifier.o: scp_procedure_verifier.c.o
 
 # target to build an object file
 scp_procedure_verifier.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.o
 .PHONY : scp_procedure_verifier.c.o
 
 scp_procedure_verifier.i: scp_procedure_verifier.c.i
@@ -994,7 +994,7 @@ scp_procedure_verifier.i: scp_procedure_verifier.c.i
 
 # target to preprocess a source file
 scp_procedure_verifier.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.i
 .PHONY : scp_procedure_verifier.c.i
 
 scp_procedure_verifier.s: scp_procedure_verifier.c.s
@@ -1003,7 +1003,7 @@ scp_procedure_verifier.s: scp_procedure_verifier.c.s
 
 # target to generate assembly for a file
 scp_procedure_verifier.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_procedure_verifier.c.s
 .PHONY : scp_procedure_verifier.c.s
 
 scp_process_creator.o: scp_process_creator.c.o
@@ -1012,7 +1012,7 @@ scp_process_creator.o: scp_process_creator.c.o
 
 # target to build an object file
 scp_process_creator.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.o
 .PHONY : scp_process_creator.c.o
 
 scp_process_creator.i: scp_process_creator.c.i
@@ -1021,7 +1021,7 @@ scp_process_creator.i: scp_process_creator.c.i
 
 # target to preprocess a source file
 scp_process_creator.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.i
 .PHONY : scp_process_creator.c.i
 
 scp_process_creator.s: scp_process_creator.c.s
@@ -1030,7 +1030,7 @@ scp_process_creator.s: scp_process_creator.c.s
 
 # target to generate assembly for a file
 scp_process_creator.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_creator.c.s
 .PHONY : scp_process_creator.c.s
 
 scp_process_destroyer.o: scp_process_destroyer.c.o
@@ -1039,7 +1039,7 @@ scp_process_destroyer.o: scp_process_destroyer.c.o
 
 # target to build an object file
 scp_process_destroyer.c.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.o
 .PHONY : scp_process_destroyer.c.o
 
 scp_process_destroyer.i: scp_process_destroyer.c.i
@@ -1048,7 +1048,7 @@ scp_process_destroyer.i: scp_process_destroyer.c.i
 
 # target to preprocess a source file
 scp_process_destroyer.c.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.i
 .PHONY : scp_process_destroyer.c.i
 
 scp_process_destroyer.s: scp_process_destroyer.c.s
@@ -1057,7 +1057,7 @@ scp_process_destroyer.s: scp_process_destroyer.c.s
 
 # target to generate assembly for a file
 scp_process_destroyer.c.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-kpm/scp/CMakeFiles/scp.dir/build.make sc-kpm/scp/CMakeFiles/scp.dir/scp_process_destroyer.c.s
 .PHONY : scp_process_destroyer.c.s
 
 # Help Target
@@ -1183,6 +1183,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-network/sctp_client/CMakeFiles/sctp-client.dir/depend.make
@@ -59,16 +59,16 @@ include sc-network/sctp_client/CMakeFiles/sctp-client.dir/flags.make
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.o: sc-network/sctp_client/CMakeFiles/sctp-client.dir/flags.make
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.o: ../sc-network/sctp_client/sctpClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-client.dir/sctpClient.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-client.dir/sctpClient.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-client.dir/sctpClient.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp > CMakeFiles/sctp-client.dir/sctpClient.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp > CMakeFiles/sctp-client.dir/sctpClient.cpp.i
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-client.dir/sctpClient.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp -o CMakeFiles/sctp-client.dir/sctpClient.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_client/sctpClient.cpp -o CMakeFiles/sctp-client.dir/sctpClient.cpp.s
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.o.requires:
 
@@ -83,16 +83,16 @@ sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctpClient.cpp.o.provides.buil
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o: sc-network/sctp_client/CMakeFiles/sctp-client.dir/flags.make
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o: ../sc-network/sctp_client/sockets/glibSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp > CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp > CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.i
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp -o CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_client/sockets/glibSocket.cpp -o CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.s
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o.requires:
 
@@ -107,16 +107,16 @@ sc-network/sctp_client/CMakeFiles/sctp-client.dir/sockets/glibSocket.cpp.o.provi
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.o: sc-network/sctp_client/CMakeFiles/sctp-client.dir/flags.make
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.o: sc-network/sctp_client/sctp-client_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.o -c /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.o -c /root/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp > CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp > CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.i
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp -o CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/build/sc-network/sctp_client/sctp-client_automoc.cpp -o CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.s
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/sctp-client_automoc.cpp.o.requires:
 
@@ -145,8 +145,8 @@ sctp__client_EXTERNAL_OBJECTS =
 ../bin/libsctp-client.so: ../bin/libsc-memory-cpp.so
 ../bin/libsctp-client.so: ../bin/libsc-memory.so
 ../bin/libsctp-client.so: sc-network/sctp_client/CMakeFiles/sctp-client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../../bin/libsctp-client.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sctp-client.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../../bin/libsctp-client.so"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sctp-client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/build: ../bin/libsctp-client.so
@@ -160,10 +160,10 @@ sc-network/sctp_client/CMakeFiles/sctp-client.dir/requires: sc-network/sctp_clie
 .PHONY : sc-network/sctp_client/CMakeFiles/sctp-client.dir/requires
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client && $(CMAKE_COMMAND) -P CMakeFiles/sctp-client.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-network/sctp_client && $(CMAKE_COMMAND) -P CMakeFiles/sctp-client.dir/cmake_clean.cmake
 .PHONY : sc-network/sctp_client/CMakeFiles/sctp-client.dir/clean
 
 sc-network/sctp_client/CMakeFiles/sctp-client.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-network/sctp_client /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_client/CMakeFiles/sctp-client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-network/sctp_client /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-network/sctp_client /root/ostis/sc-machine/build/sc-network/sctp_client/CMakeFiles/sctp-client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-network/sctp_client/CMakeFiles/sctp-client.dir/depend
 

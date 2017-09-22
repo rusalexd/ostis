@@ -20,8 +20,8 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_identifiers.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.c
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.h
 sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o
  ../sc-kpm/search/search.h
  ../sc-kpm/search/search_defines.h
@@ -42,8 +42,8 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_input_arcs.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.c
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.h
 sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o
  ../sc-kpm/search/search.h
  ../sc-kpm/search/search_defines.h
@@ -64,8 +64,8 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_output_arcs.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.c
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.h
 sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o
  ../sc-kpm/search/search.h
  ../sc-kpm/search/search_defines.h
@@ -86,8 +86,8 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_semantic_neighborhood.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.c
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.h
 sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o
  ../sc-kpm/search/search.h
  ../sc-kpm/search/search_defines.h
@@ -108,8 +108,8 @@ sc-kpm/search/CMakeFiles/search.dir/agents/search_structure.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_structure.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_structure.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_structure.c
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_structure.h
 sc-kpm/search/CMakeFiles/search.dir/search.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -126,15 +126,15 @@ sc-kpm/search/CMakeFiles/search.dir/search.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/agents/search_structure.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_agents.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_identifiers.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_input_arcs.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_output_arcs.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_semantic_neighborhood.h
+ /root/ostis/sc-machine/sc-kpm/search/agents/search_structure.h
+ /root/ostis/sc-machine/sc-kpm/search/search.c
+ /root/ostis/sc-machine/sc-kpm/search/search.h
+ /root/ostis/sc-machine/sc-kpm/search/search_agents.h
+ /root/ostis/sc-machine/sc-kpm/search/search_keynodes.h
 sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o
  ../sc-memory/sc-store/sc_config.h
  ../sc-memory/sc-store/sc_defines.h
@@ -151,11 +151,11 @@ sc-kpm/search/CMakeFiles/search.dir/search_keynodes.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_common_types.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_keynodes.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_common_types.h
+ /root/ostis/sc-machine/sc-kpm/common/sc_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/search/search.h
+ /root/ostis/sc-machine/sc-kpm/search/search_keynodes.c
+ /root/ostis/sc-machine/sc-kpm/search/search_keynodes.h
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -248,8 +248,8 @@ sc-kpm/search/CMakeFiles/search.dir/search_utils.c.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_defines.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_keynodes.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_utils.c
- /home/rusale/DV/ostis/sc-machine/sc-kpm/search/search_utils.h
+ /root/ostis/sc-machine/sc-kpm/search/search.h
+ /root/ostis/sc-machine/sc-kpm/search/search_defines.h
+ /root/ostis/sc-machine/sc-kpm/search/search_keynodes.h
+ /root/ostis/sc-machine/sc-kpm/search/search_utils.c
+ /root/ostis/sc-machine/sc-kpm/search/search_utils.h

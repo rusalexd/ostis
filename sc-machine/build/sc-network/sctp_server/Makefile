@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/progress.marks
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rusale/DV/ostis/sc-machine/build/CMakeFiles 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles /root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/progress.marks
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ostis/sc-machine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/clean
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/preinstall
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/CMakeFiles/sctp-server.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/CMakeFiles/sctp-server.dir/rule
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ sctp-server: sc-network/sctp_server/CMakeFiles/sctp-server.dir/rule
 
 # fast build rule for target.
 sctp-server/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/build
 .PHONY : sctp-server/fast
 
 # Convenience name for target.
 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/rule:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/rule
+	cd /root/ostis/sc-machine/build && $(MAKE) -f CMakeFiles/Makefile2 sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/rule
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ sctp-server_automoc: sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/r
 
 # fast build rule for target.
 sctp-server_automoc/fast:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server_automoc.dir/build
 .PHONY : sctp-server_automoc/fast
 
 main.o: main.cpp.o
@@ -190,7 +190,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -199,7 +199,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -208,7 +208,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 sctp-server_automoc.o: sctp-server_automoc.cpp.o
@@ -217,7 +217,7 @@ sctp-server_automoc.o: sctp-server_automoc.cpp.o
 
 # target to build an object file
 sctp-server_automoc.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o
 .PHONY : sctp-server_automoc.cpp.o
 
 sctp-server_automoc.i: sctp-server_automoc.cpp.i
@@ -226,7 +226,7 @@ sctp-server_automoc.i: sctp-server_automoc.cpp.i
 
 # target to preprocess a source file
 sctp-server_automoc.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.i
 .PHONY : sctp-server_automoc.cpp.i
 
 sctp-server_automoc.s: sctp-server_automoc.cpp.s
@@ -235,7 +235,7 @@ sctp-server_automoc.s: sctp-server_automoc.cpp.s
 
 # target to generate assembly for a file
 sctp-server_automoc.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.s
 .PHONY : sctp-server_automoc.cpp.s
 
 sctpClient.o: sctpClient.cpp.o
@@ -244,7 +244,7 @@ sctpClient.o: sctpClient.cpp.o
 
 # target to build an object file
 sctpClient.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o
 .PHONY : sctpClient.cpp.o
 
 sctpClient.i: sctpClient.cpp.i
@@ -253,7 +253,7 @@ sctpClient.i: sctpClient.cpp.i
 
 # target to preprocess a source file
 sctpClient.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.i
 .PHONY : sctpClient.cpp.i
 
 sctpClient.s: sctpClient.cpp.s
@@ -262,7 +262,7 @@ sctpClient.s: sctpClient.cpp.s
 
 # target to generate assembly for a file
 sctpClient.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.s
 .PHONY : sctpClient.cpp.s
 
 sctpCommand.o: sctpCommand.cpp.o
@@ -271,7 +271,7 @@ sctpCommand.o: sctpCommand.cpp.o
 
 # target to build an object file
 sctpCommand.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o
 .PHONY : sctpCommand.cpp.o
 
 sctpCommand.i: sctpCommand.cpp.i
@@ -280,7 +280,7 @@ sctpCommand.i: sctpCommand.cpp.i
 
 # target to preprocess a source file
 sctpCommand.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.i
 .PHONY : sctpCommand.cpp.i
 
 sctpCommand.s: sctpCommand.cpp.s
@@ -289,7 +289,7 @@ sctpCommand.s: sctpCommand.cpp.s
 
 # target to generate assembly for a file
 sctpCommand.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.s
 .PHONY : sctpCommand.cpp.s
 
 sctpEventManager.o: sctpEventManager.cpp.o
@@ -298,7 +298,7 @@ sctpEventManager.o: sctpEventManager.cpp.o
 
 # target to build an object file
 sctpEventManager.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o
 .PHONY : sctpEventManager.cpp.o
 
 sctpEventManager.i: sctpEventManager.cpp.i
@@ -307,7 +307,7 @@ sctpEventManager.i: sctpEventManager.cpp.i
 
 # target to preprocess a source file
 sctpEventManager.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.i
 .PHONY : sctpEventManager.cpp.i
 
 sctpEventManager.s: sctpEventManager.cpp.s
@@ -316,7 +316,7 @@ sctpEventManager.s: sctpEventManager.cpp.s
 
 # target to generate assembly for a file
 sctpEventManager.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.s
 .PHONY : sctpEventManager.cpp.s
 
 sctpServer.o: sctpServer.cpp.o
@@ -325,7 +325,7 @@ sctpServer.o: sctpServer.cpp.o
 
 # target to build an object file
 sctpServer.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o
 .PHONY : sctpServer.cpp.o
 
 sctpServer.i: sctpServer.cpp.i
@@ -334,7 +334,7 @@ sctpServer.i: sctpServer.cpp.i
 
 # target to preprocess a source file
 sctpServer.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.i
 .PHONY : sctpServer.cpp.i
 
 sctpServer.s: sctpServer.cpp.s
@@ -343,7 +343,7 @@ sctpServer.s: sctpServer.cpp.s
 
 # target to generate assembly for a file
 sctpServer.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.s
 .PHONY : sctpServer.cpp.s
 
 sctpStatistic.o: sctpStatistic.cpp.o
@@ -352,7 +352,7 @@ sctpStatistic.o: sctpStatistic.cpp.o
 
 # target to build an object file
 sctpStatistic.cpp.o:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o
 .PHONY : sctpStatistic.cpp.o
 
 sctpStatistic.i: sctpStatistic.cpp.i
@@ -361,7 +361,7 @@ sctpStatistic.i: sctpStatistic.cpp.i
 
 # target to preprocess a source file
 sctpStatistic.cpp.i:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.i
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.i
 .PHONY : sctpStatistic.cpp.i
 
 sctpStatistic.s: sctpStatistic.cpp.s
@@ -370,7 +370,7 @@ sctpStatistic.s: sctpStatistic.cpp.s
 
 # target to generate assembly for a file
 sctpStatistic.cpp.s:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.s
+	cd /root/ostis/sc-machine/build && $(MAKE) -f sc-network/sctp_server/CMakeFiles/sctp-server.dir/build.make sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.s
 .PHONY : sctpStatistic.cpp.s
 
 # Help Target
@@ -419,6 +419,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

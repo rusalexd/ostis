@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-kpm/nl/CMakeFiles/nl.dir/depend.make
@@ -59,16 +59,16 @@ include sc-kpm/nl/CMakeFiles/nl.dir/flags.make
 
 sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o: sc-kpm/nl/CMakeFiles/nl.dir/flags.make
 sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o: ../sc-kpm/nl/nl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nl.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nl.cpp.o -c /root/ostis/sc-machine/sc-kpm/nl/nl.cpp
 
 sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nl.dir/nl.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.cpp > CMakeFiles/nl.dir/nl.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/nl/nl.cpp > CMakeFiles/nl.dir/nl.cpp.i
 
 sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nl.dir/nl.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nl.cpp -o CMakeFiles/nl.dir/nl.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/nl/nl.cpp -o CMakeFiles/nl.dir/nl.cpp.s
 
 sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o.requires:
 
@@ -83,16 +83,16 @@ sc-kpm/nl/CMakeFiles/nl.dir/nl.cpp.o.provides.build: sc-kpm/nl/CMakeFiles/nl.dir
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o: sc-kpm/nl/CMakeFiles/nl.dir/flags.make
 sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o: ../sc-kpm/nl/nlApiAi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlApiAi.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlApiAi.cpp.o -c /root/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nl.dir/nlApiAi.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp > CMakeFiles/nl.dir/nlApiAi.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp > CMakeFiles/nl.dir/nlApiAi.cpp.i
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nl.dir/nlApiAi.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp -o CMakeFiles/nl.dir/nlApiAi.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/nl/nlApiAi.cpp -o CMakeFiles/nl.dir/nlApiAi.cpp.s
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o.requires:
 
@@ -107,16 +107,16 @@ sc-kpm/nl/CMakeFiles/nl.dir/nlApiAi.cpp.o.provides.build: sc-kpm/nl/CMakeFiles/n
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o: sc-kpm/nl/CMakeFiles/nl.dir/flags.make
 sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o: ../sc-kpm/nl/nlDialogue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlDialogue.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlDialogue.cpp.o -c /root/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nl.dir/nlDialogue.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp > CMakeFiles/nl.dir/nlDialogue.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp > CMakeFiles/nl.dir/nlDialogue.cpp.i
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nl.dir/nlDialogue.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp -o CMakeFiles/nl.dir/nlDialogue.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/nl/nlDialogue.cpp -o CMakeFiles/nl.dir/nlDialogue.cpp.s
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o.requires:
 
@@ -131,16 +131,16 @@ sc-kpm/nl/CMakeFiles/nl.dir/nlDialogue.cpp.o.provides.build: sc-kpm/nl/CMakeFile
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o: sc-kpm/nl/CMakeFiles/nl.dir/flags.make
 sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o: ../sc-kpm/nl/nlIvona.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlIvona.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlIvona.cpp.o -c /root/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nl.dir/nlIvona.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp > CMakeFiles/nl.dir/nlIvona.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp > CMakeFiles/nl.dir/nlIvona.cpp.i
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nl.dir/nlIvona.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp -o CMakeFiles/nl.dir/nlIvona.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/nl/nlIvona.cpp -o CMakeFiles/nl.dir/nlIvona.cpp.s
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o.requires:
 
@@ -155,16 +155,16 @@ sc-kpm/nl/CMakeFiles/nl.dir/nlIvona.cpp.o.provides.build: sc-kpm/nl/CMakeFiles/n
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o: sc-kpm/nl/CMakeFiles/nl.dir/flags.make
 sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o: ../sc-kpm/nl/nlKeynodes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlKeynodes.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/nlKeynodes.cpp.o -c /root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nl.dir/nlKeynodes.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp > CMakeFiles/nl.dir/nlKeynodes.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp > CMakeFiles/nl.dir/nlKeynodes.cpp.i
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nl.dir/nlKeynodes.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp -o CMakeFiles/nl.dir/nlKeynodes.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/nl/nlKeynodes.cpp -o CMakeFiles/nl.dir/nlKeynodes.cpp.s
 
 sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o.requires:
 
@@ -179,16 +179,16 @@ sc-kpm/nl/CMakeFiles/nl.dir/nlKeynodes.cpp.o.provides.build: sc-kpm/nl/CMakeFile
 
 sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o: sc-kpm/nl/CMakeFiles/nl.dir/flags.make
 sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o: ../sc-kpm/nl/hash/sha256.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/hash/sha256.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nl.dir/hash/sha256.cpp.o -c /root/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp
 
 sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nl.dir/hash/sha256.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp > CMakeFiles/nl.dir/hash/sha256.cpp.i
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp > CMakeFiles/nl.dir/hash/sha256.cpp.i
 
 sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nl.dir/hash/sha256.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp -o CMakeFiles/nl.dir/hash/sha256.cpp.s
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-kpm/nl/hash/sha256.cpp -o CMakeFiles/nl.dir/hash/sha256.cpp.s
 
 sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cpp.o.requires:
 
@@ -224,8 +224,8 @@ nl_EXTERNAL_OBJECTS =
 ../bin/extensions/libnl.so: ../bin/libsc-kpm-common.so
 ../bin/extensions/libnl.so: ../bin/libsc-memory.so
 ../bin/extensions/libnl.so: sc-kpm/nl/CMakeFiles/nl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../../../bin/extensions/libnl.so"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nl.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library ../../../bin/extensions/libnl.so"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-kpm/nl/CMakeFiles/nl.dir/build: ../bin/extensions/libnl.so
@@ -242,10 +242,10 @@ sc-kpm/nl/CMakeFiles/nl.dir/requires: sc-kpm/nl/CMakeFiles/nl.dir/hash/sha256.cp
 .PHONY : sc-kpm/nl/CMakeFiles/nl.dir/requires
 
 sc-kpm/nl/CMakeFiles/nl.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && $(CMAKE_COMMAND) -P CMakeFiles/nl.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && $(CMAKE_COMMAND) -P CMakeFiles/nl.dir/cmake_clean.cmake
 .PHONY : sc-kpm/nl/CMakeFiles/nl.dir/clean
 
 sc-kpm/nl/CMakeFiles/nl.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/nl /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/nl /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/nl /root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/nl/CMakeFiles/nl.dir/depend
 

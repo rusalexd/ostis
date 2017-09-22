@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Utility rule file for nl-GenerateCode.
 
@@ -57,8 +57,8 @@ sc-kpm/nl/CMakeFiles/nl-GenerateCode: sc-kpm/nl/nl.gen_cache.missed
 
 
 sc-kpm/nl/nl.gen_cache.missed:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nl.gen_cache.missed"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && ../../../bin/sc-code-generator --target nl --source /home/rusale/DV/ostis/sc-machine/sc-kpm/nl --output /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/nl_gen --build_dir /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl --flags '-I/home/rusale/DV/ostis/sc-machine/thirdparty;-I/home/rusale/DV/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/home/rusale/DV/ostis/sc-machine/sc-kpm/nl;-I/home/rusale/DV/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/home/rusale/DV/ostis/sc-machine/thirdparty;-I/home/rusale/DV/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/home/rusale/DV/ostis/sc-machine/sc-kpm/nl;-I/home/rusale/DV/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;'
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nl.gen_cache.missed"
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && ../../../bin/sc-code-generator --target nl --source /root/ostis/sc-machine/sc-kpm/nl --output /root/ostis/sc-machine/build/sc-kpm/nl/nl_gen --build_dir /root/ostis/sc-machine/build/sc-kpm/nl --flags '-I/root/ostis/sc-machine/thirdparty;-I/root/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/root/ostis/sc-machine/sc-kpm/nl;-I/root/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/root/ostis/sc-machine/thirdparty;-I/root/ostis/sc-machine;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/root/ostis/sc-machine/sc-kpm/nl;-I/root/ostis/sc-machine/sc-memory;-I/usr/include/glib-2.0;-I/usr/lib/i386-linux-gnu/glib-2.0/include;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;'
 
 nl-GenerateCode: sc-kpm/nl/CMakeFiles/nl-GenerateCode
 nl-GenerateCode: sc-kpm/nl/nl.gen_cache.missed
@@ -72,10 +72,10 @@ sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build: nl-GenerateCode
 .PHONY : sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/build
 
 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl && $(CMAKE_COMMAND) -P CMakeFiles/nl-GenerateCode.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-kpm/nl && $(CMAKE_COMMAND) -P CMakeFiles/nl-GenerateCode.dir/cmake_clean.cmake
 .PHONY : sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/clean
 
 sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-kpm/nl /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl /home/rusale/DV/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-kpm/nl /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-kpm/nl /root/ostis/sc-machine/build/sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-kpm/nl/CMakeFiles/nl-GenerateCode.dir/depend
 

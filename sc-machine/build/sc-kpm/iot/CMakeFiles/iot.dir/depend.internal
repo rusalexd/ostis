@@ -32,17 +32,17 @@ sc-kpm/iot/CMakeFiles/iot.dir/iot.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iot.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iot.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotActions.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotCommands.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iot.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iot.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotAbout.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotActions.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotCommands.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotContent.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotEnergy.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotSpeech.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTV.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
  sc-kpm/iot/iot_gen/iot.generated.hpp
  sc-kpm/iot/iot_gen/iotAbout.generated.hpp
  sc-kpm/iot/iot_gen/iotActions.generated.hpp
@@ -80,11 +80,11 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotAbout.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotAbout.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotAbout.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
  sc-kpm/iot/iot_gen/iotAbout.generated.hpp
  sc-kpm/iot/iot_gen/iotKeynodes.generated.hpp
 sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o
@@ -117,11 +117,11 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotActions.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotActions.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotActions.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotActions.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotActions.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
  /usr/include/glib-2.0/glib.h
  /usr/include/glib-2.0/glib/deprecated/gallocator.h
  /usr/include/glib-2.0/glib/deprecated/gcache.h
@@ -229,15 +229,15 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotCommands.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotAbout.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotCommands.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotAbout.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotCommands.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotCommands.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotContent.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotEnergy.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotSpeech.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTV.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
  sc-kpm/iot/iot_gen/iotAbout.generated.hpp
  sc-kpm/iot/iot_gen/iotContent.generated.hpp
  sc-kpm/iot/iot_gen/iotEnergy.generated.hpp
@@ -273,11 +273,11 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotContent.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotContent.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotContent.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotContent.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
  sc-kpm/iot/iot_gen/iotContent.generated.hpp
  sc-kpm/iot/iot_gen/iotKeynodes.generated.hpp
 sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o
@@ -310,10 +310,10 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotEnergy.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotEnergy.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotEnergy.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotEnergy.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
  sc-kpm/iot/iot_gen/iotEnergy.generated.hpp
  sc-kpm/iot/iot_gen/iotKeynodes.generated.hpp
 sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o
@@ -342,8 +342,8 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotKeynodes.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
  sc-kpm/iot/iot_gen/iotKeynodes.generated.hpp
 sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o
  ../sc-memory/cpp/generated/sc_agent.generated.hpp
@@ -375,11 +375,11 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotSpeech.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotSpeech.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotSpeech.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotSpeech.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
  sc-kpm/iot/iot_gen/iotKeynodes.generated.hpp
  sc-kpm/iot/iot_gen/iotSpeech.generated.hpp
 sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o
@@ -411,11 +411,11 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotTV.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTV.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTV.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTV.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
  sc-kpm/iot/iot_gen/iotKeynodes.generated.hpp
  sc-kpm/iot/iot_gen/iotTV.generated.hpp
 sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o
@@ -445,8 +445,8 @@ sc-kpm/iot/CMakeFiles/iot.dir/iotUtils.cpp.o
  ../sc-memory/sc_memory.h
  ../sc-memory/sc_memory_headers.h
  ../sc-memory/sc_memory_version.h
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp
- /home/rusale/DV/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotKeynodes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotTypes.hpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotUtils.cpp
+ /root/ostis/sc-machine/sc-kpm/iot/iotUtils.hpp
  sc-kpm/iot/iot_gen/iotKeynodes.generated.hpp

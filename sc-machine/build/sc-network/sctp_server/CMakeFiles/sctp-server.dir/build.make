@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Include any dependencies generated for this target.
 include sc-network/sctp_server/CMakeFiles/sctp-server.dir/depend.make
@@ -59,16 +59,16 @@ include sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o: sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o: ../sc-network/sctp_server/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/main.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/main.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_server/main.cpp
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-server.dir/main.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/main.cpp > CMakeFiles/sctp-server.dir/main.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_server/main.cpp > CMakeFiles/sctp-server.dir/main.cpp.i
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-server.dir/main.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/main.cpp -o CMakeFiles/sctp-server.dir/main.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_server/main.cpp -o CMakeFiles/sctp-server.dir/main.cpp.s
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/main.cpp.o.provides.build: sc-
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o: sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o: ../sc-network/sctp_server/sctpClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpClient.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpClient.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-server.dir/sctpClient.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp > CMakeFiles/sctp-server.dir/sctpClient.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp > CMakeFiles/sctp-server.dir/sctpClient.cpp.i
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-server.dir/sctpClient.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp -o CMakeFiles/sctp-server.dir/sctpClient.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_server/sctpClient.cpp -o CMakeFiles/sctp-server.dir/sctpClient.cpp.s
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o.requires:
 
@@ -107,16 +107,16 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpClient.cpp.o.provides.buil
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o: sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o: ../sc-network/sctp_server/sctpCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpCommand.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpCommand.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-server.dir/sctpCommand.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp > CMakeFiles/sctp-server.dir/sctpCommand.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp > CMakeFiles/sctp-server.dir/sctpCommand.cpp.i
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-server.dir/sctpCommand.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp -o CMakeFiles/sctp-server.dir/sctpCommand.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_server/sctpCommand.cpp -o CMakeFiles/sctp-server.dir/sctpCommand.cpp.s
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o.requires:
 
@@ -131,16 +131,16 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpCommand.cpp.o.provides.bui
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o: sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o: ../sc-network/sctp_server/sctpServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpServer.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpServer.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-server.dir/sctpServer.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp > CMakeFiles/sctp-server.dir/sctpServer.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp > CMakeFiles/sctp-server.dir/sctpServer.cpp.i
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-server.dir/sctpServer.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp -o CMakeFiles/sctp-server.dir/sctpServer.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_server/sctpServer.cpp -o CMakeFiles/sctp-server.dir/sctpServer.cpp.s
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o.requires:
 
@@ -155,16 +155,16 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpServer.cpp.o.provides.buil
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o: sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o: ../sc-network/sctp_server/sctpStatistic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-server.dir/sctpStatistic.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp > CMakeFiles/sctp-server.dir/sctpStatistic.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp > CMakeFiles/sctp-server.dir/sctpStatistic.cpp.i
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-server.dir/sctpStatistic.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp -o CMakeFiles/sctp-server.dir/sctpStatistic.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_server/sctpStatistic.cpp -o CMakeFiles/sctp-server.dir/sctpStatistic.cpp.s
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o.requires:
 
@@ -179,16 +179,16 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpStatistic.cpp.o.provides.b
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o: sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o: ../sc-network/sctp_server/sctpEventManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o -c /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o -c /root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-server.dir/sctpEventManager.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp > CMakeFiles/sctp-server.dir/sctpEventManager.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp > CMakeFiles/sctp-server.dir/sctpEventManager.cpp.i
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-server.dir/sctpEventManager.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp -o CMakeFiles/sctp-server.dir/sctpEventManager.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/sc-network/sctp_server/sctpEventManager.cpp -o CMakeFiles/sctp-server.dir/sctpEventManager.cpp.s
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o.requires:
 
@@ -203,16 +203,16 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctpEventManager.cpp.o.provide
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o: sc-network/sctp_server/CMakeFiles/sctp-server.dir/flags.make
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o: sc-network/sctp_server/sctp-server_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o -c /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o -c /root/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.i"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp > CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.i
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp > CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.i
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.s"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp -o CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.s
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ostis/sc-machine/build/sc-network/sctp_server/sctp-server_automoc.cpp -o CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.s
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/sctp-server_automoc.cpp.o.requires:
 
@@ -250,8 +250,8 @@ sctp__server_EXTERNAL_OBJECTS =
 ../bin/sctp-server: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.5.1
 ../bin/sctp-server: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 ../bin/sctp-server: sc-network/sctp_server/CMakeFiles/sctp-server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rusale/DV/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../bin/sctp-server"
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sctp-server.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ostis/sc-machine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../bin/sctp-server"
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sctp-server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/build: ../bin/sctp-server
@@ -269,10 +269,10 @@ sc-network/sctp_server/CMakeFiles/sctp-server.dir/requires: sc-network/sctp_serv
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server.dir/requires
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server && $(CMAKE_COMMAND) -P CMakeFiles/sctp-server.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/sc-network/sctp_server && $(CMAKE_COMMAND) -P CMakeFiles/sctp-server.dir/cmake_clean.cmake
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server.dir/clean
 
 sc-network/sctp_server/CMakeFiles/sctp-server.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/sc-network/sctp_server /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server /home/rusale/DV/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/sc-network/sctp_server /root/ostis/sc-machine/build /root/ostis/sc-machine/build/sc-network/sctp_server /root/ostis/sc-machine/build/sc-network/sctp_server/CMakeFiles/sctp-server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sc-network/sctp_server/CMakeFiles/sctp-server.dir/depend
 

@@ -114,15 +114,15 @@ sc-store/sc_config.h
 sc-store/sc_types.h
 ../sc-memory/sc-store/sc_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/test.cpp
+/root/ostis/sc-machine/sc-memory/test/test.cpp
 stdio.h
 -
 sc-memory/sc_memory_headers.h
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/sc-memory/sc_memory_headers.h
+/root/ostis/sc-machine/sc-memory/test/sc-memory/sc_memory_headers.h
 sc-memory/sc-store/sc_store.h
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/sc-memory/sc-store/sc_store.h
+/root/ostis/sc-machine/sc-memory/test/sc-memory/sc-store/sc_store.h
 sc-memory/sc_helper.h
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/sc-memory/sc_helper.h
+/root/ostis/sc-machine/sc-memory/test/sc-memory/sc_helper.h
 iostream
 -
 sstream

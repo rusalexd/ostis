@@ -258,111 +258,111 @@ sc-store/sc_config.h
 sc-store/sc_types.h
 ../sc-memory/sc-store/sc_types.h
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.cpp
 test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/cpp/sc_types.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_types.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_types.hpp
 sc-memory/cpp/sc_memory.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_memory.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_memory.hpp
 sc-memory/cpp/sc_debug.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_debug.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_debug.hpp
 iostream
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test_wrap.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test_wrap.cpp
 test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/cpp/sc_utils.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_utils.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_utils.hpp
 sc-memory/cpp/sc_debug.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_debug.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/sc-memory/cpp/sc_debug.hpp
 cstdlib
 -
 iostream
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_codegen.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_codegen.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 test_sc_object.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
 test_sc_agent.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_common.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_common.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_iterators.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_iterators.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/cpp/sc_stream.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_stream.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_stream.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 test_sc_agent.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
 sc-memory/cpp/sc_stream.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_stream.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_stream.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.hpp
 sc-memory/cpp/sc_addr.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_addr.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_addr.hpp
 sc-memory/cpp/sc_object.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_object.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_object.hpp
 sc-memory/cpp/kpm/sc_agent.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/kpm/sc_agent.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/kpm/sc_agent.hpp
 atomic
 -
 ctime
 -
 glib.h
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/glib.h
+/root/ostis/sc-machine/sc-memory/test/wrap/units/glib.h
 test_sc_agent.generated.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.generated.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_agent.generated.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.cpp
 test_sc_object.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.hpp
 sc-memory/cpp/sc_addr.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_addr.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_addr.hpp
 sc-memory/cpp/sc_object.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_object.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_object.hpp
 test_sc_object.generated.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.generated.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_sc_object.generated.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_streams.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_streams.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/cpp/sc_stream.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_stream.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_stream.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_struct.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_struct.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/cpp/sc_struct.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_struct.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_struct.hpp
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_templates.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_templates.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/cpp/sc_struct.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_struct.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_struct.hpp
 glib.h
 -
 
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/test_wait.cpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/test_wait.cpp
 ../test.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/test.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/test.hpp
 sc-memory/cpp/sc_wait.hpp
-/home/rusale/DV/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_wait.hpp
+/root/ostis/sc-machine/sc-memory/test/wrap/units/sc-memory/cpp/sc_wait.hpp
 
 /usr/include/glib-2.0/glib.h
 glib/galloca.h

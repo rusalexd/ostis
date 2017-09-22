@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o"
-  "/home/rusale/DV/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c" "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o"
+  "/root/ostis/sc-machine/sc-kpm/utils/utils.c" "/root/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils.c.o"
+  "/root/ostis/sc-machine/sc-kpm/utils/utils_collect_identifiers.c" "/root/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils_collect_identifiers.c.o"
+  "/root/ostis/sc-machine/sc-kpm/utils/utils_garbage_deletion.c" "/root/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils_garbage_deletion.c.o"
+  "/root/ostis/sc-machine/sc-kpm/utils/utils_keynodes.c" "/root/ostis/sc-machine/build/sc-kpm/utils/CMakeFiles/utils.dir/utils_keynodes.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -30,8 +30,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rusale/DV/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
-  "/home/rusale/DV/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-kpm/common/CMakeFiles/sc-kpm-common.dir/DependInfo.cmake"
+  "/root/ostis/sc-machine/build/sc-memory/CMakeFiles/sc-memory.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rusale/DV/ostis/sc-machine
+CMAKE_SOURCE_DIR = /root/ostis/sc-machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rusale/DV/ostis/sc-machine/build
+CMAKE_BINARY_DIR = /root/ostis/sc-machine/build
 
 # Utility rule file for GenerateParser.
 
@@ -67,10 +67,10 @@ tools/builder/CMakeFiles/GenerateParser.dir/build: GenerateParser
 .PHONY : tools/builder/CMakeFiles/GenerateParser.dir/build
 
 tools/builder/CMakeFiles/GenerateParser.dir/clean:
-	cd /home/rusale/DV/ostis/sc-machine/build/tools/builder && $(CMAKE_COMMAND) -P CMakeFiles/GenerateParser.dir/cmake_clean.cmake
+	cd /root/ostis/sc-machine/build/tools/builder && $(CMAKE_COMMAND) -P CMakeFiles/GenerateParser.dir/cmake_clean.cmake
 .PHONY : tools/builder/CMakeFiles/GenerateParser.dir/clean
 
 tools/builder/CMakeFiles/GenerateParser.dir/depend:
-	cd /home/rusale/DV/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rusale/DV/ostis/sc-machine /home/rusale/DV/ostis/sc-machine/tools/builder /home/rusale/DV/ostis/sc-machine/build /home/rusale/DV/ostis/sc-machine/build/tools/builder /home/rusale/DV/ostis/sc-machine/build/tools/builder/CMakeFiles/GenerateParser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ostis/sc-machine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ostis/sc-machine /root/ostis/sc-machine/tools/builder /root/ostis/sc-machine/build /root/ostis/sc-machine/build/tools/builder /root/ostis/sc-machine/build/tools/builder/CMakeFiles/GenerateParser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tools/builder/CMakeFiles/GenerateParser.dir/depend
 
