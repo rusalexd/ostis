@@ -1,0 +1,20 @@
+function proc_of_generate_answer_construction_for_breakpoint(_scp_program) {
+  return _answer;
+  generate([assign, node, constant, _answer]);
+  generate(_answer, [assign, pos_const_perm, _arc], _scp_program);
+    generate(_answer, [assign, pos_const_perm, _arc], nrel_breakpoints);
+  search(
+    _scp_program, 
+    [assign, _arc1], 
+    [assign, _breakpoints], 
+    [assign, _arc2], 
+    nrel_breakpoints,
+    [], _answer, _answer, _answer, []
+  );
+  search(
+    _breakpoints, 
+    [assign, pos_const_perm, _arc], 
+    [assign, _breakpoint],
+    [], _answer, _answer
+  );
+}

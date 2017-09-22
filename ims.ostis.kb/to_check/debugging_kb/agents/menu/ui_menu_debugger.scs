@@ -1,0 +1,16 @@
+ui_menu_debugger
+<- ui_user_command_class_noatom;
+=> nrel_main_idtf:
+	[Параметры отладчика] (* <- lang_ru;; *);
+	[Debugger options] (* <- lang_en;; *);;
+ui_menu_debugger <= nrel_ui_commands_decomposition:
+{
+  ui_menu_finding_paused_operators;
+  ui_menu_unpausing_paused_operator;
+  ui_menu_adding_breakpoint;
+  ui_menu_removing_breakpoint;
+  ui_menu_view_operator;
+  ui_menu_finding_operators_of_scp_program;
+  ui_menu_transition_to_next_operator;
+  ui_menu_finding_program_process
+};;

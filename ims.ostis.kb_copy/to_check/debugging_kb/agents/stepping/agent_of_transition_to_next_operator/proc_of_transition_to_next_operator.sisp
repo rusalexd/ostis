@@ -1,0 +1,10 @@
+function proc_of_transition_to_next_operator(_operator) {
+  return _answer;
+  proc_of_find_all_transitions_for_operator(_operator, [assign, _next_operators]);
+  while(search(_next_operators, [assign, pos_const_perm, _arc], [assign, _next_operator])) {
+    proc_of_adding_breakpoint_in_process(_next_operator);
+    erase([erase, _arc]);
+  }
+  proc_of_unpausing_paused_operator(_operator, [assign, _answer]);
+  proc_of_removing_breakpoint_in_process(_operator);
+}

@@ -1,0 +1,15 @@
+function proc_of_adding_breakpoint_in_process(_operator) {
+  /*generate([assign, node, constant, _potential_scp_processes]);
+  search(
+    [assign, _potential_scp_process], 
+    [assign, pos_const_perm, _arc], 
+    _operator,
+    _potential_scp_processes, [], []
+  );
+  while(search(_potential_scp_processes, [assign, _arc], [assign, _potential_scp_process])) {
+    if(search(scp_process, [assign, _tmp_arc], _potential_scp_process))
+      var_assign([assign, _scp_process], _potential_scp_process);
+    erase([erase, _arc]);
+  }*/
+  generate(breakpoint, [assign, pos_const_perm, _arc], _operator);
+}

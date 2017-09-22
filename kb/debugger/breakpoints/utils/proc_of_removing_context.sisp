@@ -1,0 +1,40 @@
+function proc_of_removing_context(_scp_program) {
+  if(
+    search(
+      _scp_program, 
+      [assign, _arc1], 
+      [assign, _scp_process], 
+      [assign, _arc2], 
+      nrel_template_of_scp_process_creation
+    )
+  ) {
+    erase([erase, _scp_process]);
+    search(
+      _scp_program, 
+      [assign, _arc1], 
+      [assign, _var_set], 
+      [assign, _arc2], 
+      nrel_scp_program_var
+    );
+    erase([erase, _var_set]);
+    search(
+      _scp_program, 
+      [assign, _arc1], 
+      [assign, _const_set], 
+      [assign, _arc2], 
+      nrel_scp_program_const
+    );
+    erase([erase, _const_set]);
+    search(
+      _scp_program, 
+      [assign, _arc1], 
+      [assign, _copied_const_set], 
+      [assign, _arc2], 
+      nrel_scp_program_copied_const
+    );
+    erase([erase, _copied_const_set]);
+    search(prepared_scp_program, [assign, _arc], _scp_program);
+    erase([erase, _arc]);
+    generate(correct_scp_program, [assign, pos_const_perm, _arc], _scp_program);
+  }
+}

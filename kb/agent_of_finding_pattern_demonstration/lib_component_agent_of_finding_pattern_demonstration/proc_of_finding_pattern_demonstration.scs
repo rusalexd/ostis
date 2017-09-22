@@ -1,0 +1,51 @@
+scp_program -> proc_of_finding_pattern_demonstration (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _pattern;;
+        -> rrel_2: rrel_out: _results;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator62175 (*
+            <- sys_search;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _pattern;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _results;;
+            => nrel_goto: test_operator_yea;;
+        *);;
+        -> test_operator_yea (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _results;;
+            => nrel_then: ..operator27863;;
+            => nrel_else: ..operator17233;;
+        *);;
+        ->..operator27863 (*
+            <- searchSetStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _pattern;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: rrel_const: rrel_node: _node;;
+            -> rrel_set_3: rrel_fixed: rrel_scp_var: _results;;
+            => nrel_goto: ..operator47337;;
+        *);;
+        ->..operator47337 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: [Find!];;
+            => nrel_goto: ..operator21063;;
+        *);;
+        ->..operator17233 (*
+            <- genEl;;
+            -> rrel_1: rrel_scp_var: rrel_assign: rrel_node: rrel_const: _results;;
+            => nrel_goto: ..operator9889;;
+        *);;
+        ->..operator9889 (*
+            <- print;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: [Nothing!];;
+            => nrel_goto: ..operator21063;;
+        *);;
+        ->..operator21063 (*
+            <- return;;
+        *);;
+    *);;
+*);;
+
+proc_of_finding_pattern_demonstration => nrel_main_idtf: [Программа нахождения конструкций по шаблону] (*<-lang_ru;;*);;
+
+test_operator_yea => nrel_main_idtf: [Вот этот оператор] (*<-lang_ru;;*);;
+nrel_breakpoints => nrel_main_idtf: [точки останова*] (*<-lang_ru;;*);;

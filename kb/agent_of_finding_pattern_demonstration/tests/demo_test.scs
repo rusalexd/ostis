@@ -1,0 +1,6 @@
+demo_test => nrel_main_idtf: [Демонстрационный шаблон поиска] (*<-lang_ru;;*);;
+demo_test = [*
+  section_unified_semantic_model_of_machine_that_interpret_programs_of_base_programming_language _=> nrel_summary:: _summary;;
+  _translation _=> nrel_sc_text_translation:: _summary;;
+  _translation _-> rrel_example:: _description;;
+*];;

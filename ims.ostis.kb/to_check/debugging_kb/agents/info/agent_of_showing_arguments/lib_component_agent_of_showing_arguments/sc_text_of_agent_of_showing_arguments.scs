@@ -1,0 +1,6 @@
+sc_text_of_agent_of_showing_arguments
+-> rrel_key_sc_element:
+	agent_of_showing_arguments;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_showing_arguments = [*^"file://agent_of_showing_arguments.scsi"*];;

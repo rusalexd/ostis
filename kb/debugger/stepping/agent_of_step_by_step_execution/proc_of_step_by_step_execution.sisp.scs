@@ -1,0 +1,58 @@
+scp_program -> proc_of_step_by_step_execution (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _scp_program;;
+        -> rrel_2: rrel_in: _parameter;;
+        -> rrel_3: rrel_out: _result;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator0 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_finding_first_operator_of_scp_program;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _scp_program;;
+                -> rrel_2: rrel_scp_var: rrel_assign: _operator;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator1;;
+        *);;
+        ->..operator1 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument0;;
+            => nrel_goto: ..operator2;;
+        *);;
+        ->..operator2 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: proc_of_adding_breakpoint;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _operator;;
+                -> rrel_2: rrel_fixed: rrel_scp_var: _scp_program;;
+                -> rrel_3: rrel_scp_var: rrel_assign: _result;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument1;;
+            => nrel_goto: ..operator3;;
+        *);;
+        ->..operator3 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument1;;
+            => nrel_goto: ..operator4;;
+        *);;
+        ->..operator4 (*
+            <- call;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _scp_program;;
+            -> rrel_2: ... (*
+                -> rrel_1: rrel_fixed: rrel_scp_var: _parameter;;
+                -> rrel_2: rrel_scp_var: rrel_assign: _result;;
+            *);;
+            -> rrel_3: rrel_assign: rrel_scp_var: _argument2;;
+            => nrel_goto: ..operator5;;
+        *);;
+        ->..operator5 (*
+            <- waitReturn;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _argument2;;
+            => nrel_goto: ..operator6;;
+        *);;
+        ->..operator6 (*
+            <- return;;
+        *);;
+    *);;
+*);;

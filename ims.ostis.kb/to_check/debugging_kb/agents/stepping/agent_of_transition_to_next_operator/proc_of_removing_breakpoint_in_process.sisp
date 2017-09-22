@@ -1,0 +1,5 @@
+function proc_of_removing_breakpoint_in_process(_operator) {
+  search(breakpoints, [assign, pos_const_perm, _arc], _operator);
+  if (_arc) 
+    erase([erase, _arc]);
+}

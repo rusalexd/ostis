@@ -1,0 +1,28 @@
+function proc_of_find_all_transitions_for_operator(_operator) {
+  return _next_operators;
+  generate([assign, constant, node, _next_operators]);
+  search(
+    _operator, 
+    [assign, _arc1], 
+    [assign, _next_operator], 
+    [assign, _arc2],
+    nrel_goto,
+    [], [], _next_operators, [], []
+  );
+  search(
+    _operator, 
+    [assign, _arc1], 
+    [assign, _next_operator], 
+    [assign, _arc2],
+    nrel_then,
+    [], [], _next_operators, [], []
+  );
+  search(
+    _operator, 
+    [assign, _arc1], 
+    [assign, _next_operator], 
+    [assign, _arc2],
+    nrel_else,
+    [], [], _next_operators, [], []
+  );
+}

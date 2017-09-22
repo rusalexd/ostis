@@ -1,0 +1,66 @@
+nrel_id
+=> nrel_main_idtf:
+	[идентификатор*]
+	(*
+	<- lang_ru;;
+	*);
+	[id*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_operator
+=> nrel_main_idtf:
+	[оператор*]
+	(*
+	<- lang_ru;;
+	*);
+	[operator*]
+	(*
+	<- lang_en;;
+	*);;
+
+
+nrel_telephone
+=> nrel_main_idtf:
+	[телефон*]
+	(*
+	<- lang_ru;;
+	*);
+	[phone*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_website
+=> nrel_main_idtf:
+	[сайт*]
+	(*
+	<- lang_ru;;
+	*);
+	[website*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_brand
+=> nrel_main_idtf:
+	[брэнд*]
+	(*
+	<- lang_ru;;
+	*);
+	[brand*]
+	(*
+	<- lang_en;;
+	*);;
+
+  concept_refill
+  => nrel_main_idtf:
+  [заправка]
+  (*
+  <- lang_ru;;
+  *);
+  [refill]
+  (*
+  <- lang_en;;
+  *);;

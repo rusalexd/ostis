@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall    CMakeFiles/sc-memory-test.dir/test.cpp.o  -o ../../../bin/sc-memory-test -rdynamic ../../../bin/libsc-memory.so -lglib-2.0 -lgmodule-2.0 -lglib-2.0 -lgmodule-2.0 -Wl,-rpath,/home/rusale/DV/ostis/sc-machine/bin 

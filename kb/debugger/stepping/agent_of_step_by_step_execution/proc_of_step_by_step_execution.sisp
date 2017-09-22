@@ -1,0 +1,6 @@
+function proc_of_step_by_step_execution(_scp_program, _parameter) {
+  return _result;
+  proc_of_finding_first_operator_of_scp_program(_scp_program, [assign, _operator]);
+  proc_of_adding_breakpoint(_operator, _scp_program, [assign, _result]);
+  _scp_program(_parameter, [assign, _result]);
+}

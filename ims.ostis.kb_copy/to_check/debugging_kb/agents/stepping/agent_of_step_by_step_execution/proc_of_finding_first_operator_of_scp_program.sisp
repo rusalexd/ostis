@@ -1,0 +1,5 @@
+function proc_of_finding_first_operator_of_scp_program(_scp_program) {
+  return _operator;
+  search(_scp_program, [assign, _arc1], [assign, _operators], [assign, _arc2], rrel_operators);
+  search(_operators, [assign, _arc1], [assign, _operator], [assign, _arc2], rrel_init);
+}

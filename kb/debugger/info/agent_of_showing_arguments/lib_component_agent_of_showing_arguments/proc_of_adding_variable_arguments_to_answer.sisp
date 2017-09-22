@@ -1,0 +1,33 @@
+function proc_of_adding_variable_arguments_to_answer(_operator, _answer) {
+  if(search(
+    _operator, 
+    [assign, _arc1], 
+    [assign, _operand], 
+    [assign, _arc2], 
+    rrel_scp_var, 
+    [], [], [assign, _var_operands], [], []
+  )) {
+    while(search(_var_operands, [assign, _arc], [assign, _operand])) {
+      erase([erase, _arc]);
+      generate(_answer, [assign, pos_const_perm, _arc], _operand);
+      search(
+        _operator, 
+        [assign, _arc1], 
+        _operand, 
+        [assign, _arc2], 
+        [assign, _rrel], 
+        [], _answer, [], _answer, _answer
+      );
+      search(
+        _operand, 
+        [assign, _arc1], 
+        [assign, _value], 
+        [assign, _arc2], 
+        nrel_scp_var_value,
+        [], _answer, _answer, _answer, []
+      );
+    }
+    generate(_answer, [assign, pos_const_perm, _arc], nrel_scp_var_value);
+    /*generate(_answer, [assign, pos_const_perm, _arc], rrel_scp_var);*/
+  }
+}

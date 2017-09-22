@@ -1,0 +1,74 @@
+scp_program -> proc_of_finding_program_process (*
+    -> rrel_params: ... (*
+        -> rrel_1: rrel_in: _scp_program;;
+        -> rrel_2: rrel_out: _answer;;
+    *);;
+    -> rrel_operators: ... (*
+        ->rrel_init: ..operator0 (*
+            <- genEl;;
+            -> rrel_1: rrel_scp_var: rrel_assign: rrel_node: rrel_const: _answer;;
+            => nrel_goto: ..operator1;;
+        *);;
+        ->..operator1 (*
+            <- sys_search;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: finding_scp_process_pattern;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _results;;
+            -> rrel_3: rrel_fixed: rrel_scp_const: finding_scp_process_params;;
+            => nrel_goto: ..operator2;;
+        *);;
+        ->..operator2 (*
+            <- ifVarAssign;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _results;;
+            => nrel_then: ..operator3;;
+            => nrel_else: ..operator9;;
+        *);;
+        ->..operator3 (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _results;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _result;;
+            => nrel_goto: ..operator4;;
+        *);;
+        ->..operator4 (*
+            <- searchElStr5;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: _scp_process_in_pattern;;
+            -> rrel_2: rrel_scp_var: rrel_assign: _arc1;;
+            -> rrel_3: rrel_scp_var: rrel_assign: _scp_process;;
+            -> rrel_4: rrel_scp_var: rrel_assign: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_var: _result;;
+            => nrel_goto: ..operator5;;
+        *);;
+        ->..operator5 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _scp_process;;
+            => nrel_goto: ..operator6;;
+        *);;
+        ->..operator6 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_const: scp_process;;
+            => nrel_goto: ..operator7;;
+        *);;
+        ->..operator7 (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: scp_process;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _scp_process;;
+            => nrel_goto: ..operator8;;
+        *);;
+        ->..operator8 (*
+            <- genElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+            -> rrel_2: rrel_scp_var: rrel_assign: rrel_pos_const_perm: _arc1;;
+            -> rrel_3: rrel_fixed: rrel_scp_var: _arc;;
+            => nrel_goto: ..operator9;;
+        *);;
+        ->..operator9 (*
+            <- return;;
+        *);;
+    *);;
+*);;
+ finding_scp_process_pattern = [* _node_in_pattern _-> rrel_1:: _scp_program_in_pattern;; _node_in_pattern _=> nrel_scp_process:: _scp_process_in_pattern;; *];; finding_scp_process_params -> ... (* -> rrel_1: rrel_scp_const: _scp_program_in_pattern;; -> rrel_2: rrel_scp_var: _scp_program;; *);; 

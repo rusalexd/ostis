@@ -1,0 +1,169 @@
+concept_building => nrel_main_idtf: [здание] (* <- lang_ru;; *);;
+
+nrel_location 
+=> nrel_main_idtf: [место проживания*] (* <- lang_ru;; *);
+<- sc_node_norole_relation;;
+
+building_of_residential_housing_of_male_basilian_monastery
+
+=> nrel_main_idtf:
+    [Здание мужского базилианского монастыря]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [(node["name"="Монастырь Св. Духа базилиан: жилой корпус"]["historic"="building"]["tourism"="attraction"];);];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Корпус мужского базилианского монастыря начал строиться в 1617 году и принадлежал ордену униатов. В 1795 году униатские монастыри были закрыты, а в здании разместилась Минская мужская гимназия и Присутственные места.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/male_mon.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
+
+building_of_residential_housing_of_female_basilian_monastery
+
+=> nrel_main_idtf:
+    [Здание женского базилианского монастыря]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [[out:json];(node["name"="Кляштар Св. Духа базыльянак"]["historic"="building"]["tourism"="attraction"];); out body; >; out skel qt;];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Строительство здания началось в 1641 году по фундации трокской кастелянши Зузаны Гансевской. Во время его строительства были использованы подвалы и стены тех жилых зданий, которые находились на этом месте ранее. В здании располагался монастырь Святого духа базилианок.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/female_mon.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
+
+building_of_minsk_railway_station
+
+=> nrel_main_idtf:
+    [Здание Минского железнодорожного вокзала]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [way["name"="ЖД Вокзал Минск-Пассажирский"]["building"="train_station"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Минск-Пассажирский — пассажирский железнодорожный терминал, расположенный в столице Белоруссии Минске. Главный железнодорожный вокзал города.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/minsk_rs.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);;
+
+building_of_Moniuszko_House
+
+=> nrel_main_idtf:
+    [Дом Монюшко]
+    (*
+    <- lang_ru;;
+    *);
+<-concept_building;
+<-concept_terrain_object;
+
+=> nrel_osm_query:
+    [node["name"="Дом Монюшко"]["tourism"="attraction"];];
+
+<- rrel_key_sc_element:
+    ...
+    (*
+    <-sc_definition;;
+    <=nrel_sc_text_translation:
+        ...
+        (*
+        -> rrel_example:
+            [Здание было построено в 1797 году. В 20-х годах XIXвека дом принадлежал Климкевичу, а в начале XXвека – М. Френкелю. Первоначально здание было двухэтажным. Третий этаж был пристроен в начале XXвека.]
+            (*
+            <- lang_ru;;
+            *);;
+        *);;
+        
+*);
+
+<- rrel_key_sc_element: ... (*
+    <- sc_illustration;;
+    <= nrel_sc_text_translation: ... 
+    (*
+        ->rrel_example: "file://content/dom_mon.jpg" 
+        (*
+            => nrel_format: format_jpg;;
+        *);;
+    *);;
+*);
+
+<= nrel_location: Moniuszko;;
+
+Moniuszko => nrel_main_idtf: [Станислав Монюшко] (* <- lang_ru;; *);;
+Moniuszko <- concept_male;;

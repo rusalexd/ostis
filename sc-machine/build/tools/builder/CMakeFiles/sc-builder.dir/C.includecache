@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.c
+scsLexer.h
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.h
+
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsLexer.h
+antlr3.h
+-
+../parseutils.h
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.h
+
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.c
+scsParser.h
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.h
+
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parser/scsParser.h
+antlr3.h
+-
+../parseutils.h
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.h
+
+/home/rusale/DV/ostis/sc-machine/tools/builder/src/parseutils.h
+

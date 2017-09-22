@@ -1,0 +1,25 @@
+ui_menu_finding_program_process <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_finding_program_process => nrel_main_idtf: [Найти процесс] (* <- lang_ru;; *);;
+
+ui_menu_finding_program_process => nrel_main_idtf: [Find a process] (* <- lang_en;; *);;
+
+ui_menu_finding_program_process => ui_nrel_command_template:
+	[*
+		question_finding_program_process _-> ._question_instance
+			(*
+                        //Place your arguments here.
+			//_-> rrel_1:: ui_arg_1;;
+                         _-> rrel_1:: ui_arg_1;; 
+
+			*);;
+		._question_instance _<- question;;
+	*];;
+
+ui_menu_finding_program_process => ui_nrel_command_lang_template: 
+	[Найти процесс для $ui_arg_1] 
+	(* <- lang_ru;; *);;
+
+ui_menu_finding_program_process => ui_nrel_command_lang_template: 
+	[Find a process for $ui_arg_1] 
+	(* <- lang_en;; *);;

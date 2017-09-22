@@ -1,0 +1,24 @@
+function proc_of_adding_constant_arguments_to_answer(_operator, _answer) {
+  if(search(
+    _operator, 
+    [assign, _arc1], 
+    [assign, _operand], 
+    [assign, _arc2], 
+    rrel_scp_const, 
+    [], [], [assign, _const_operands], [], []
+  )) {
+    generate(_answer, [assign, pos_const_perm, _arc], rrel_scp_const);
+    while(search(_const_operands, [assign, _arc], [assign, _operand])) {
+      erase([erase, _arc]);
+      generate(_answer, [assign, pos_const_perm, _arc], _operand);
+      search(
+        _operator, 
+        [assign, _arc1], 
+        _operand, 
+        [assign, _arc2], 
+        [assign, _rrel], 
+        [], _answer, [], _answer, _answer
+      );
+    }
+  }
+}
